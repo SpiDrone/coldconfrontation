@@ -19,4 +19,16 @@ authors="brend, MCreator"
 
 
 
+[[dependencies.coldconfrontation]]
+    modId="kleidersplayerrenderer"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.coldconfrontation]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
