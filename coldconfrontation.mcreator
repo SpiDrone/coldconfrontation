@@ -11,6 +11,24 @@
           "src/main/java/net/mcreator/coldconfrontation/ChangeLog.java"
         ]
       }
+    },
+    {
+      "name": "Sigma",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sigma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SigmaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
