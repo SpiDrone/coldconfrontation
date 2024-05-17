@@ -1,1 +1,18 @@
-{}
+{
+  "block.coldconfrontation.stripped_pine_wood": "Stripped Pine Wood",
+  "block.coldconfrontation.pine_pressure_plate": "Pine Pressure Plate",
+  "block.coldconfrontation.pine_door": "Pine Door",
+  "block.coldconfrontation.pine_log": "Pine Log",
+  "block.coldconfrontation.stripped_pine_log": "Stripped Pine Log",
+  "block.coldconfrontation.pine_fence": "Pine Fence",
+  "block.coldconfrontation.pine_slab": "Pine Slab",
+  "block.coldconfrontation.pine_stairs": "Pine Stairs",
+  "item_group.coldconfrontation.tab_cold_confrontation": "Cold Confrontation",
+  "block.coldconfrontation.pine_leaves": "Pine Leaves",
+  "block.coldconfrontation.pine_sapling": "Pine Sapling",
+  "block.coldconfrontation.pine_fence_gate": "Pine Fence Gate",
+  "block.coldconfrontation.pine_wood": "Pine Wood",
+  "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
+  "block.coldconfrontation.pine_planks": "Pine Planks",
+  "block.coldconfrontation.pine_button": "Pine Button"
+}

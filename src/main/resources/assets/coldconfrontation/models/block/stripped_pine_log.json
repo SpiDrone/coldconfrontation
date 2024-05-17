@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coldconfrontation:block/stripped_pine_log_top",
+    "up": "coldconfrontation:block/stripped_pine_log_top",
+    "north": "coldconfrontation:block/stripped_pine_log",
+    "east": "coldconfrontation:block/stripped_pine_log",
+    "south": "coldconfrontation:block/stripped_pine_log",
+    "west": "coldconfrontation:block/stripped_pine_log",
+    "particle": "coldconfrontation:block/stripped_pine_log_top"
+  },
+  "render_type": "solid"
+}

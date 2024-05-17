@@ -3,6 +3,7 @@
     {
       "name": "ChangeLog",
       "type": "code",
+      "sortid": 2,
       "compiles": true,
       "locked_code": true,
       "registry_name": "change_log",
@@ -15,6 +16,7 @@
     {
       "name": "Sigma",
       "type": "procedure",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sigma",
@@ -29,12 +31,316 @@
           }
         ]
       }
+    },
+    {
+      "name": "TabColdConfrontation",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tab_cold_confrontation",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PineLog",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/pine_log.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_log.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_log.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineLogBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PineWood",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/pine_wood.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_wood.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_wood.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineWoodBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "StrippedPineLog",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_pine_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/StrippedPineLogBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/stripped_pine_log.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/stripped_pine_log.json",
+          "src/main/resources/assets/coldconfrontation/models/block/stripped_pine_log.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "StrippedPineWood",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_pine_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/blockstates/stripped_pine_wood.json",
+          "src/main/resources/assets/coldconfrontation/models/block/stripped_pine_wood.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/StrippedPineWoodBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/stripped_pine_wood.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PinePlanks",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_planks.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_planks.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PinePlanksBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_planks.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PineStairs",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/pine_stairs.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_stairs.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_stairs_outer.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_stairs_inner.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineStairsBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PineSlab",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/pine_slab.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_slab.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_slab.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineSlabBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_slab_top.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PineFence",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_fence.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_inventory.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineFenceBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_post.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_fence.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_fence.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PineFenceGate",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_gate_open.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_fence_gate.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_fence_gate.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_gate_wall.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_gate_wall_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_gate.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineFenceGateBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PineDoor",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_door",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/PineDoorBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_right_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_left.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_door.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_left_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_left.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_right.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_right.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_door.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_right_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_left_open.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PineTrapdoor",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pine_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/pine_trapdoor.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_trapdoor_top.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineTrapdoorBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_trapdoor.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_trapdoor.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_trapdoor_open.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PinePressurePlate",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/PinePressurePlateBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_pressure_plate.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_pressure_plate_down.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_pressure_plate.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PineButton",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/pine_button.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_button.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_button_inventory.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_button.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineButtonBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_button_pressed.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PineLeaves",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_leaves.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_leaves.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineLeavesBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_leaves.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "PineSapling",
+      "type": "plant",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/pine_sapling.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_sapling.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_sapling.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineSaplingBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Wood"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.coldconfrontation.stripped_pine_wood": "Stripped Pine Wood",
+      "block.coldconfrontation.pine_pressure_plate": "Pine Pressure Plate",
+      "block.coldconfrontation.pine_door": "Pine Door",
+      "block.coldconfrontation.pine_log": "Pine Log",
+      "block.coldconfrontation.stripped_pine_log": "Stripped Pine Log",
+      "block.coldconfrontation.pine_fence": "Pine Fence",
+      "block.coldconfrontation.pine_slab": "Pine Slab",
+      "block.coldconfrontation.pine_stairs": "Pine Stairs",
+      "item_group.coldconfrontation.tab_cold_confrontation": "Cold Confrontation",
+      "block.coldconfrontation.pine_leaves": "Pine Leaves",
+      "block.coldconfrontation.pine_sapling": "Pine Sapling",
+      "block.coldconfrontation.pine_fence_gate": "Pine Fence Gate",
+      "block.coldconfrontation.pine_wood": "Pine Wood",
+      "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
+      "block.coldconfrontation.pine_planks": "Pine Planks",
+      "block.coldconfrontation.pine_button": "Pine Button"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -74,7 +380,12 @@
       },
       {
         "name": "Blocks",
-        "children": []
+        "children": [
+          {
+            "name": "Wood",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Items",

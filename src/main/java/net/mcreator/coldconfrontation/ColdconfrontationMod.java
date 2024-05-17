@@ -29,6 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.coldconfrontation.init.ColdconfrontationModTabs;
+import net.mcreator.coldconfrontation.init.ColdconfrontationModItems;
+import net.mcreator.coldconfrontation.init.ColdconfrontationModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +50,12 @@ public class ColdconfrontationMod {
 	public ColdconfrontationMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		ColdconfrontationModBlocks.REGISTRY.register(bus);
+
+		ColdconfrontationModItems.REGISTRY.register(bus);
+
+		ColdconfrontationModTabs.REGISTRY.register(bus);
 
 	}
 

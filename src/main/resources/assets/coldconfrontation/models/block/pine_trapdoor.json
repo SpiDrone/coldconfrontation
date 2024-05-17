@@ -1,0 +1,10 @@
+{
+  "parent": "coldconfrontation:custom/pine_trapdoor_bottom",
+  "textures": {
+    "all": "coldconfrontation:block/pine_trapdoor",
+    "particle": "coldconfrontation:block/pine_trapdoor",
+    "1": "coldconfrontation:block/pine_trapdoor_side",
+    "texture": "coldconfrontation:block/pine_trapdoor"
+  },
+  "render_type": "cutout"
+}

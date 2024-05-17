@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "pine_trapdoor",
+        "texture": "pine_trapdoor_side"
+      },
+      "name": "default"
+    }
+  }
+}

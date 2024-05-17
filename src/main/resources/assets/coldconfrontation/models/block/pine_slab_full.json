@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "coldconfrontation:block/pine_planks",
+    "top": "coldconfrontation:block/pine_planks",
+    "side": "coldconfrontation:block/pine_planks"
+  },
+  "render_type": "solid"
+}

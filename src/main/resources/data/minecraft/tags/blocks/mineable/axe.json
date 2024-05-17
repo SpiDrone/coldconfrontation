@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "coldconfrontation:pine_log",
+    "coldconfrontation:pine_wood",
+    "coldconfrontation:stripped_pine_log",
+    "coldconfrontation:stripped_pine_wood",
+    "coldconfrontation:pine_planks",
+    "coldconfrontation:pine_stairs",
+    "coldconfrontation:pine_slab",
+    "coldconfrontation:pine_fence",
+    "coldconfrontation:pine_fence_gate",
+    "coldconfrontation:pine_door",
+    "coldconfrontation:pine_trapdoor",
+    "coldconfrontation:pine_pressure_plate",
+    "coldconfrontation:pine_button"
+  ]
+}
