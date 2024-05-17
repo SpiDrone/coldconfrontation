@@ -1,5 +1,18 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ChangeLog",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "change_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/ChangeLog.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
