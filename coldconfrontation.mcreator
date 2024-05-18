@@ -318,14 +318,484 @@
         ]
       },
       "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "RecPineWood",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_pine_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/pine_wood.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecStrippedPineWood",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_stripped_pine_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/stripped_pine_wood.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TBPineLogs",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tb_pine_logs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/tags/blocks/pine_logs.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "RecPinePlanks",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_pine_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/pine_planks.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecPineStairs",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_pine_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/pine_stairs.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecPineSlab",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_pine_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/pine_slab.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecPineFence",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_pine_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/pine_fence.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecPineFenceGate",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_pine_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/pine_fence_gate.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecPineDoor",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_pine_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/pine_door.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecPineTrapdoor",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_pine_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/pine_trapdoor.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecPinePressurePlate",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_pine_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/pine_pressure_plate.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecPineButton",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_pine_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/pine_button.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TIPineLogs",
+      "type": "tag",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_pine_logs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/tags/items/pine_logs.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "TBWoodenFences",
+      "type": "tag",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tb_wooden_fences",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "TBFenceGates",
+      "type": "tag",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tb_fence_gates",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fence_gates.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "TBWoodenDoors",
+      "type": "tag",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tb_wooden_doors",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_doors.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "TBTrapdoors",
+      "type": "tag",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tb_trapdoors",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/trapdoors.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "TBWoodenPressurePlates",
+      "type": "tag",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tb_wooden_pressure_plates",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_pressure_plates.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "TBWoodenButtons",
+      "type": "tag",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tb_wooden_buttons",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_buttons.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "TBSaplings",
+      "type": "tag",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tb_saplings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/saplings.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "TILogsThatBurn",
+      "type": "tag",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_logs_that_burn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/logs_that_burn.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "TIPlanks",
+      "type": "tag",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "TIWoodenStairs",
+      "type": "tag",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_wooden_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_stairs.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "TIWoodenSlabs",
+      "type": "tag",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_wooden_slabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_slabs.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "TIWoodenFences",
+      "type": "tag",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_wooden_fences",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_fences.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "TIFenceGates",
+      "type": "tag",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_fence_gates",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/fence_gates.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "TIWoodenDoors",
+      "type": "tag",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_wooden_doors",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_doors.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "TIWoodenTrapdoors",
+      "type": "tag",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_wooden_trapdoors",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_trapdoors.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "TIWoodenPressurePlates",
+      "type": "tag",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_wooden_pressure_plates",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_pressure_plates.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "TIWoodenButtons",
+      "type": "tag",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_wooden_buttons",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_buttons.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "TISaplings",
+      "type": "tag",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ti_saplings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/saplings.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "ProcRightClickBlock",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proc_right_click_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/ProcRightClickBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.coldconfrontation.stripped_pine_wood": "Stripped Pine Wood",
       "block.coldconfrontation.pine_pressure_plate": "Pine Pressure Plate",
+      "block.coldconfrontation.stripped_pine_wood": "Stripped Pine Wood",
       "block.coldconfrontation.pine_door": "Pine Door",
       "block.coldconfrontation.pine_log": "Pine Log",
       "block.coldconfrontation.stripped_pine_log": "Stripped Pine Log",

@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spruce_palisade_roof",
+        "1": "spruce_palisade_top",
+        "2": "palisade_roof_detail",
+        "missing": ""
+      },
+      "name": "default"
+    },
+    "pine": {
+      "map": {
+        "0": "pine_palisade_roof",
+        "1": "pine_palisade_top",
+        "2": "palisade_roof_detail",
+        "missing": ""
+      },
+      "name": "pine"
+    }
+  }
+}

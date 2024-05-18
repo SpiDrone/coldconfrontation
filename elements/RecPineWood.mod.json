@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "pine_wood",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PineLog"
+      },
+      {
+        "value": "CUSTOM:PineLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PineLog"
+      },
+      {
+        "value": "CUSTOM:PineLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PineWood"
+    },
+    "name": "pine_wood",
+    "namespace": "mod"
+  }
+}

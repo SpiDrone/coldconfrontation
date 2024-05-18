@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_door",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PinePlanks"
+      },
+      {
+        "value": "CUSTOM:PinePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PinePlanks"
+      },
+      {
+        "value": "CUSTOM:PinePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PinePlanks"
+      },
+      {
+        "value": "CUSTOM:PinePlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PineDoor"
+    },
+    "name": "pine_door",
+    "namespace": "mod"
+  }
+}

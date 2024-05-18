@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "coldconfrontation:pine_log",
+    "coldconfrontation:pine_wood",
+    "coldconfrontation:stripped_pine_log",
+    "coldconfrontation:stripped_pine_wood"
+  ]
+}

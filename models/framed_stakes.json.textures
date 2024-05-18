@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "spruce_framed_stakes"
+      },
+      "name": "default"
+    },
+    "pine": {
+      "map": {
+        "1": "pine_framed_stakes"
+      },
+      "name": "pine"
+    }
+  }
+}

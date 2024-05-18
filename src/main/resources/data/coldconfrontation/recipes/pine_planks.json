@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pine_planks",
+  "category": "building",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "tag": "coldconfrontation:pine_logs"
+    }
+  },
+  "result": {
+    "item": "coldconfrontation:pine_planks",
+    "count": 4
+  }
+}

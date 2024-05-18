@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pine_wood",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "coldconfrontation:pine_log"
+    }
+  },
+  "result": {
+    "item": "coldconfrontation:pine_wood",
+    "count": 3
+  }
+}

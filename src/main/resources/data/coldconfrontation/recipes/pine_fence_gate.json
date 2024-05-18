@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "coldconfrontation:pine_planks"
+    }
+  },
+  "result": {
+    "item": "coldconfrontation:pine_fence_gate",
+    "count": 1
+  }
+}
