@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "coldconfrontation:decaying_tundra",
+  "features": "coldconfrontation:tundra_short_grass_patch",
+  "step": "vegetal_decoration"
+}

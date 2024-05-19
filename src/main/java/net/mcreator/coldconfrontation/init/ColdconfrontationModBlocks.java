@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.coldconfrontation.block.TundraShortGrassBlock;
 import net.mcreator.coldconfrontation.block.StrippedPineWoodBlock;
 import net.mcreator.coldconfrontation.block.StrippedPineLogBlock;
 import net.mcreator.coldconfrontation.block.PineWoodBlock;
@@ -25,6 +26,8 @@ import net.mcreator.coldconfrontation.block.PineFenceGateBlock;
 import net.mcreator.coldconfrontation.block.PineFenceBlock;
 import net.mcreator.coldconfrontation.block.PineDoorBlock;
 import net.mcreator.coldconfrontation.block.PineButtonBlock;
+import net.mcreator.coldconfrontation.block.PermafrostedTundraGrassBlock;
+import net.mcreator.coldconfrontation.block.PermafrostedSoilBlock;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
 public class ColdconfrontationModBlocks {
@@ -44,4 +47,7 @@ public class ColdconfrontationModBlocks {
 	public static final RegistryObject<Block> PINE_BUTTON = REGISTRY.register("pine_button", () -> new PineButtonBlock());
 	public static final RegistryObject<Block> PINE_LEAVES = REGISTRY.register("pine_leaves", () -> new PineLeavesBlock());
 	public static final RegistryObject<Block> PINE_SAPLING = REGISTRY.register("pine_sapling", () -> new PineSaplingBlock());
+	public static final RegistryObject<Block> PERMAFROSTED_SOIL = REGISTRY.register("permafrosted_soil", () -> new PermafrostedSoilBlock());
+	public static final RegistryObject<Block> PERMAFROSTED_TUNDRA_GRASS = REGISTRY.register("permafrosted_tundra_grass", () -> new PermafrostedTundraGrassBlock());
+	public static final RegistryObject<Block> TUNDRA_SHORT_GRASS = REGISTRY.register("tundra_short_grass", () -> new TundraShortGrassBlock());
 }

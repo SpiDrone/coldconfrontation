@@ -33,6 +33,9 @@ public class ColdconfrontationModTabs {
 				tabData.accept(ColdconfrontationModBlocks.PINE_BUTTON.get().asItem());
 				tabData.accept(ColdconfrontationModBlocks.PINE_LEAVES.get().asItem());
 				tabData.accept(ColdconfrontationModBlocks.PINE_SAPLING.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.PERMAFROSTED_SOIL.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.PERMAFROSTED_TUNDRA_GRASS.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.TUNDRA_SHORT_GRASS.get().asItem());
 			})
 
 					.build());

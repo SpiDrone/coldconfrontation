@@ -788,14 +788,109 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "PermafrostedSoil",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "permafrosted_soil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/permafrosted_soil.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PermafrostedSoilBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/permafrosted_soil.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/permafrosted_soil.json"
+        ]
+      },
+      "path": "~/Blocks/Earth"
+    },
+    {
+      "name": "PermafrostedTundraGrass",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "permafrosted_tundra_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/PermafrostedTundraGrassBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/permafrosted_tundra_grass.json",
+          "src/main/resources/assets/coldconfrontation/models/block/permafrosted_tundra_grass.json",
+          "src/main/resources/assets/coldconfrontation/models/item/permafrosted_tundra_grass.json"
+        ]
+      },
+      "path": "~/Blocks/Earth"
+    },
+    {
+      "name": "TundraShortGrass",
+      "type": "plant",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tundra_short_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/TundraShortGrassBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/tundra_short_grass.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/tundra_short_grass.json",
+          "src/main/resources/assets/coldconfrontation/models/item/tundra_short_grass.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "DecayingTundra",
+      "type": "biome",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decaying_tundra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/worldgen/biome/decaying_tundra.json"
+        ]
+      },
+      "path": "~/Biomes/Decaying Tundra"
+    },
+    {
+      "name": "TundraShortGrassPatch",
+      "type": "feature",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tundra_short_grass_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/tundra_short_grass_patch_biome_modifier.json",
+          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/tundra_short_grass_patch.json",
+          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/tundra_short_grass_patch.json"
+        ]
+      },
+      "path": "~/Features/Decaying Tundra"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.coldconfrontation.stripped_pine_wood": "Stripped Pine Wood",
       "block.coldconfrontation.pine_pressure_plate": "Pine Pressure Plate",
+      "block.coldconfrontation.stripped_pine_wood": "Stripped Pine Wood",
       "block.coldconfrontation.pine_door": "Pine Door",
       "block.coldconfrontation.pine_log": "Pine Log",
       "block.coldconfrontation.stripped_pine_log": "Stripped Pine Log",
@@ -803,13 +898,17 @@
       "block.coldconfrontation.pine_slab": "Pine Slab",
       "block.coldconfrontation.pine_stairs": "Pine Stairs",
       "item_group.coldconfrontation.tab_cold_confrontation": "Cold Confrontation",
+      "block.coldconfrontation.permafrosted_tundra_grass": "Permafrosted Tundra Grass",
       "block.coldconfrontation.pine_leaves": "Pine Leaves",
       "block.coldconfrontation.pine_sapling": "Pine Sapling",
+      "biome.coldconfrontation.decaying_tundra": "Decaying Tundra",
       "block.coldconfrontation.pine_fence_gate": "Pine Fence Gate",
       "block.coldconfrontation.pine_wood": "Pine Wood",
       "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
       "block.coldconfrontation.pine_planks": "Pine Planks",
-      "block.coldconfrontation.pine_button": "Pine Button"
+      "block.coldconfrontation.pine_button": "Pine Button",
+      "block.coldconfrontation.permafrosted_soil": "Permafrosted Soil",
+      "block.coldconfrontation.tundra_short_grass": "Tundra Short Grass"
     }
   },
   "foldersRoot": {
@@ -854,6 +953,14 @@
           {
             "name": "Wood",
             "children": []
+          },
+          {
+            "name": "Earth",
+            "children": []
+          },
+          {
+            "name": "Plants",
+            "children": []
           }
         ]
       },
@@ -867,11 +974,21 @@
       },
       {
         "name": "Biomes",
-        "children": []
+        "children": [
+          {
+            "name": "Decaying Tundra",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Features",
-        "children": []
+        "children": [
+          {
+            "name": "Decaying Tundra",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Structures",
