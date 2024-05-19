@@ -1,0 +1,10 @@
+{
+  "parent": "coldconfrontation:custom/palisade_edge",
+  "textures": {
+    "all": "coldconfrontation:block/pine_palisade",
+    "particle": "coldconfrontation:block/pine_palisade",
+    "0": "coldconfrontation:block/pine_palisade_top",
+    "1": "coldconfrontation:block/pine_palisade"
+  },
+  "render_type": "solid"
+}

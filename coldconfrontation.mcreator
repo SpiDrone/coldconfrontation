@@ -3,7 +3,7 @@
     {
       "name": "ChangeLog",
       "type": "code",
-      "sortid": 2,
+      "sortid": 27,
       "compiles": true,
       "locked_code": true,
       "registry_name": "change_log",
@@ -16,7 +16,7 @@
     {
       "name": "Sigma",
       "type": "procedure",
-      "sortid": 1,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sigma",
@@ -35,7 +35,7 @@
     {
       "name": "TabColdConfrontation",
       "type": "tab",
-      "sortid": 3,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tab_cold_confrontation",
@@ -46,7 +46,7 @@
     {
       "name": "PineLog",
       "type": "block",
-      "sortid": 4,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_log",
@@ -63,7 +63,7 @@
     {
       "name": "PineWood",
       "type": "block",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_wood",
@@ -80,7 +80,7 @@
     {
       "name": "StrippedPineLog",
       "type": "block",
-      "sortid": 6,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_pine_log",
@@ -97,7 +97,7 @@
     {
       "name": "StrippedPineWood",
       "type": "block",
-      "sortid": 7,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_pine_wood",
@@ -114,7 +114,7 @@
     {
       "name": "PinePlanks",
       "type": "block",
-      "sortid": 8,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_planks",
@@ -131,7 +131,7 @@
     {
       "name": "PineStairs",
       "type": "block",
-      "sortid": 9,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_stairs",
@@ -150,7 +150,7 @@
     {
       "name": "PineSlab",
       "type": "block",
-      "sortid": 10,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_slab",
@@ -169,7 +169,7 @@
     {
       "name": "PineFence",
       "type": "block",
-      "sortid": 11,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_fence",
@@ -188,7 +188,7 @@
     {
       "name": "PineFenceGate",
       "type": "block",
-      "sortid": 12,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_fence_gate",
@@ -208,7 +208,7 @@
     {
       "name": "PineDoor",
       "type": "block",
-      "sortid": 13,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_door",
@@ -232,7 +232,7 @@
     {
       "name": "PineTrapdoor",
       "type": "block",
-      "sortid": 14,
+      "sortid": 16,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pine_trapdoor",
@@ -251,7 +251,7 @@
     {
       "name": "PinePressurePlate",
       "type": "block",
-      "sortid": 15,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_pressure_plate",
@@ -269,7 +269,7 @@
     {
       "name": "PineButton",
       "type": "block",
-      "sortid": 16,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_button",
@@ -288,7 +288,7 @@
     {
       "name": "PineLeaves",
       "type": "block",
-      "sortid": 17,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_leaves",
@@ -305,7 +305,7 @@
     {
       "name": "PineSapling",
       "type": "plant",
-      "sortid": 18,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pine_sapling",
@@ -322,7 +322,7 @@
     {
       "name": "RecPineWood",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rec_pine_wood",
@@ -336,7 +336,7 @@
     {
       "name": "RecStrippedPineWood",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rec_stripped_pine_wood",
@@ -350,7 +350,7 @@
     {
       "name": "TBPineLogs",
       "type": "tag",
-      "sortid": 21,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tb_pine_logs",
@@ -364,7 +364,7 @@
     {
       "name": "RecPinePlanks",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rec_pine_planks",
@@ -378,7 +378,7 @@
     {
       "name": "RecPineStairs",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rec_pine_stairs",
@@ -392,7 +392,7 @@
     {
       "name": "RecPineSlab",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rec_pine_slab",
@@ -406,7 +406,7 @@
     {
       "name": "RecPineFence",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rec_pine_fence",
@@ -420,7 +420,7 @@
     {
       "name": "RecPineFenceGate",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rec_pine_fence_gate",
@@ -434,7 +434,7 @@
     {
       "name": "RecPineDoor",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rec_pine_door",
@@ -448,7 +448,7 @@
     {
       "name": "RecPineTrapdoor",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rec_pine_trapdoor",
@@ -462,7 +462,7 @@
     {
       "name": "RecPinePressurePlate",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rec_pine_pressure_plate",
@@ -476,7 +476,7 @@
     {
       "name": "RecPineButton",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rec_pine_button",
@@ -490,7 +490,7 @@
     {
       "name": "TIPineLogs",
       "type": "tag",
-      "sortid": 31,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_pine_logs",
@@ -504,7 +504,7 @@
     {
       "name": "TBWoodenFences",
       "type": "tag",
-      "sortid": 32,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tb_wooden_fences",
@@ -518,7 +518,7 @@
     {
       "name": "TBFenceGates",
       "type": "tag",
-      "sortid": 33,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tb_fence_gates",
@@ -532,7 +532,7 @@
     {
       "name": "TBWoodenDoors",
       "type": "tag",
-      "sortid": 34,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tb_wooden_doors",
@@ -546,7 +546,7 @@
     {
       "name": "TBTrapdoors",
       "type": "tag",
-      "sortid": 35,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tb_trapdoors",
@@ -560,7 +560,7 @@
     {
       "name": "TBWoodenPressurePlates",
       "type": "tag",
-      "sortid": 36,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tb_wooden_pressure_plates",
@@ -574,7 +574,7 @@
     {
       "name": "TBWoodenButtons",
       "type": "tag",
-      "sortid": 37,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tb_wooden_buttons",
@@ -588,7 +588,7 @@
     {
       "name": "TBSaplings",
       "type": "tag",
-      "sortid": 38,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tb_saplings",
@@ -602,7 +602,7 @@
     {
       "name": "TILogsThatBurn",
       "type": "tag",
-      "sortid": 39,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_logs_that_burn",
@@ -616,7 +616,7 @@
     {
       "name": "TIPlanks",
       "type": "tag",
-      "sortid": 40,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_planks",
@@ -630,7 +630,7 @@
     {
       "name": "TIWoodenStairs",
       "type": "tag",
-      "sortid": 41,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_wooden_stairs",
@@ -644,7 +644,7 @@
     {
       "name": "TIWoodenSlabs",
       "type": "tag",
-      "sortid": 42,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_wooden_slabs",
@@ -658,7 +658,7 @@
     {
       "name": "TIWoodenFences",
       "type": "tag",
-      "sortid": 43,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_wooden_fences",
@@ -672,7 +672,7 @@
     {
       "name": "TIFenceGates",
       "type": "tag",
-      "sortid": 44,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_fence_gates",
@@ -686,7 +686,7 @@
     {
       "name": "TIWoodenDoors",
       "type": "tag",
-      "sortid": 45,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_wooden_doors",
@@ -700,7 +700,7 @@
     {
       "name": "TIWoodenTrapdoors",
       "type": "tag",
-      "sortid": 46,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_wooden_trapdoors",
@@ -714,7 +714,7 @@
     {
       "name": "TIWoodenPressurePlates",
       "type": "tag",
-      "sortid": 47,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_wooden_pressure_plates",
@@ -728,7 +728,7 @@
     {
       "name": "TIWoodenButtons",
       "type": "tag",
-      "sortid": 48,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_wooden_buttons",
@@ -742,7 +742,7 @@
     {
       "name": "TISaplings",
       "type": "tag",
-      "sortid": 49,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ti_saplings",
@@ -756,7 +756,7 @@
     {
       "name": "ProcRightClickBlock",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proc_right_click_block",
@@ -792,14 +792,14 @@
     {
       "name": "PermafrostedSoil",
       "type": "block",
-      "sortid": 51,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "permafrosted_soil",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/permafrosted_soil.json",
           "src/main/java/net/mcreator/coldconfrontation/block/PermafrostedSoilBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/permafrosted_soil.json",
           "src/main/resources/assets/coldconfrontation/models/item/permafrosted_soil.json",
           "src/main/resources/assets/coldconfrontation/blockstates/permafrosted_soil.json"
         ]
@@ -809,16 +809,16 @@
     {
       "name": "PermafrostedTundraGrass",
       "type": "block",
-      "sortid": 52,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "permafrosted_tundra_grass",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/coldconfrontation/block/PermafrostedTundraGrassBlock.java",
-          "src/main/resources/assets/coldconfrontation/blockstates/permafrosted_tundra_grass.json",
           "src/main/resources/assets/coldconfrontation/models/block/permafrosted_tundra_grass.json",
-          "src/main/resources/assets/coldconfrontation/models/item/permafrosted_tundra_grass.json"
+          "src/main/resources/assets/coldconfrontation/models/item/permafrosted_tundra_grass.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/permafrosted_tundra_grass.json"
         ]
       },
       "path": "~/Blocks/Earth"
@@ -826,16 +826,16 @@
     {
       "name": "TundraShortGrass",
       "type": "plant",
-      "sortid": 53,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tundra_short_grass",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/coldconfrontation/block/TundraShortGrassBlock.java",
           "src/main/resources/assets/coldconfrontation/models/block/tundra_short_grass.json",
           "src/main/resources/assets/coldconfrontation/blockstates/tundra_short_grass.json",
-          "src/main/resources/assets/coldconfrontation/models/item/tundra_short_grass.json"
+          "src/main/resources/assets/coldconfrontation/models/item/tundra_short_grass.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/TundraShortGrassBlock.java"
         ]
       },
       "path": "~/Blocks/Plants"
@@ -843,7 +843,7 @@
     {
       "name": "DirtBlocks",
       "type": "tag",
-      "sortid": 54,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_blocks",
@@ -857,7 +857,7 @@
     {
       "name": "DecayingTundra",
       "type": "biome",
-      "sortid": 55,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "decaying_tundra",
@@ -871,43 +871,262 @@
     {
       "name": "TundraShortGrassPatch",
       "type": "feature",
-      "sortid": 56,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tundra_short_grass_patch",
       "metadata": {
         "files": [
           "src/main/resources/data/coldconfrontation/forge/biome_modifier/tundra_short_grass_patch_biome_modifier.json",
-          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/tundra_short_grass_patch.json",
-          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/tundra_short_grass_patch.json"
+          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/tundra_short_grass_patch.json",
+          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/tundra_short_grass_patch.json"
         ]
       },
       "path": "~/Features/Decaying Tundra"
+    },
+    {
+      "name": "SprucePalisades",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spruce_palisades",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/blockstates/spruce_palisades.json",
+          "src/main/resources/assets/coldconfrontation/models/block/spruce_palisades.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/SprucePalisadesBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/spruce_palisades.json"
+        ]
+      },
+      "path": "~/Blocks/Palisades"
+    },
+    {
+      "name": "SprucePalisadeBlock",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_palisade_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/spruce_palisade_block.json",
+          "src/main/resources/assets/coldconfrontation/models/item/spruce_palisade_block.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/spruce_palisade_block.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/SprucePalisadeBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Palisades"
+    },
+    {
+      "name": "SprucePalisadeRoofStairs",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spruce_palisade_roof_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/spruce_palisade_roof_stairs.json",
+          "src/main/resources/assets/coldconfrontation/models/item/spruce_palisade_roof_stairs.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/spruce_palisade_roof_stairs.json",
+          "src/main/resources/assets/coldconfrontation/models/block/spruce_palisade_roof_stairs_outer.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/SprucePalisadeRoofStairsBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/spruce_palisade_roof_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Palisades"
+    },
+    {
+      "name": "ProcPalisadesUpdateNeighbor",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proc_palisades_update_neighbor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/ProcPalisadesUpdateNeighborProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SprucePalisadeRoofSlab",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spruce_palisade_roof_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/blockstates/spruce_palisade_roof_slab.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/SprucePalisadeRoofSlabBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/spruce_palisade_roof_slab.json",
+          "src/main/resources/assets/coldconfrontation/models/block/spruce_palisade_roof_slab.json",
+          "src/main/resources/assets/coldconfrontation/models/block/spruce_palisade_roof_slab_top.json",
+          "src/main/resources/assets/coldconfrontation/models/block/spruce_palisade_roof_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Palisades"
+    },
+    {
+      "name": "PinePalisades",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pine_palisades",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_palisades.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_palisades.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_palisades.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PinePalisadesBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Palisades"
+    },
+    {
+      "name": "PinePalisadeBlock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pine_palisade_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/PinePalisadeBlockBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_palisade_block.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_palisade_block.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_palisade_block.json"
+        ]
+      },
+      "path": "~/Blocks/Palisades"
+    },
+    {
+      "name": "PinePalisadeRoofStairs",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pine_palisade_roof_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/pine_palisade_roof_stairs_inner.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_palisade_roof_stairs.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PinePalisadeRoofStairsBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_palisade_roof_stairs.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_palisade_roof_stairs.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_palisade_roof_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Palisades"
+    },
+    {
+      "name": "PinePalisadeRoofSlab",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pine_palisade_roof_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/pine_palisade_roof_slab.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_palisade_roof_slab_full.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_palisade_roof_slab.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PinePalisadeRoofSlabBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_palisade_roof_slab.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_palisade_roof_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/Palisades"
+    },
+    {
+      "name": "FrostedOverworld",
+      "type": "dimension",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frosted_overworld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/world/dimension/FrostedOverworldDimension.java",
+          "src/main/resources/data/coldconfrontation/dimension/frosted_overworld.json",
+          "src/main/resources/data/coldconfrontation/dimension_type/frosted_overworld.json"
+        ]
+      }
+    },
+    {
+      "name": "Notes",
+      "type": "code",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "notes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/Notes.java"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "hasWorldSpawnChanged",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.coldconfrontation.pine_pressure_plate": "Pine Pressure Plate",
       "block.coldconfrontation.stripped_pine_wood": "Stripped Pine Wood",
       "block.coldconfrontation.pine_door": "Pine Door",
+      "block.coldconfrontation.pine_palisade_block": "Pine Palisade Block",
+      "block.coldconfrontation.pine_slab": "Pine Slab",
+      "block.coldconfrontation.pine_palisade_roof_stairs": "Pine Palisade Roof Stairs",
+      "block.coldconfrontation.permafrosted_tundra_grass": "Permafrosted Tundra Grass",
+      "block.coldconfrontation.pine_sapling": "Pine Sapling",
+      "block.coldconfrontation.pine_leaves": "Pine Leaves",
+      "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
+      "block.coldconfrontation.pine_palisade_roof_slab": "Pine Palisade Roof Slab",
+      "block.coldconfrontation.spruce_palisade_block": "Spruce Palisade Block",
+      "block.coldconfrontation.pine_palisades": "Pine Palisades",
+      "block.coldconfrontation.permafrosted_soil": "Permafrosted Soil",
+      "block.coldconfrontation.spruce_palisade_roof_stairs": "Spruce Palisade Roof Stairs",
+      "block.coldconfrontation.pine_pressure_plate": "Pine Pressure Plate",
       "block.coldconfrontation.pine_log": "Pine Log",
       "block.coldconfrontation.stripped_pine_log": "Stripped Pine Log",
       "block.coldconfrontation.pine_fence": "Pine Fence",
-      "block.coldconfrontation.pine_slab": "Pine Slab",
       "block.coldconfrontation.pine_stairs": "Pine Stairs",
       "item_group.coldconfrontation.tab_cold_confrontation": "Cold Confrontation",
-      "block.coldconfrontation.permafrosted_tundra_grass": "Permafrosted Tundra Grass",
-      "block.coldconfrontation.pine_leaves": "Pine Leaves",
-      "block.coldconfrontation.pine_sapling": "Pine Sapling",
+      "block.coldconfrontation.spruce_palisades": "Spruce Palisades",
       "biome.coldconfrontation.decaying_tundra": "Decaying Tundra",
       "block.coldconfrontation.pine_fence_gate": "Pine Fence Gate",
       "block.coldconfrontation.pine_wood": "Pine Wood",
-      "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
+      "block.coldconfrontation.spruce_palisade_roof_slab": "Spruce Palisade Roof Slab",
       "block.coldconfrontation.pine_planks": "Pine Planks",
       "block.coldconfrontation.pine_button": "Pine Button",
-      "block.coldconfrontation.permafrosted_soil": "Permafrosted Soil",
       "block.coldconfrontation.tundra_short_grass": "Tundra Short Grass"
     }
   },
@@ -960,6 +1179,10 @@
           },
           {
             "name": "Plants",
+            "children": []
+          },
+          {
+            "name": "Palisades",
             "children": []
           }
         ]

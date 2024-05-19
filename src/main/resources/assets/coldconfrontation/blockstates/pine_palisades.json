@@ -1,0 +1,47 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "coldconfrontation:block/pine_palisades"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "coldconfrontation:block/pine_palisades_edge_mirror",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "coldconfrontation:block/pine_palisades_edge",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "coldconfrontation:block/pine_palisades_edge",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "coldconfrontation:block/pine_palisades_edge_mirror",
+        "y": 90,
+        "uvlock": true
+      }
+    }
+  ]
+}

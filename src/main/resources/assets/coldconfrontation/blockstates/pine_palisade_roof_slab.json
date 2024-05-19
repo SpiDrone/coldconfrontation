@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "coldconfrontation:block/pine_palisade_roof_slab"
+    },
+    "type=top": {
+      "model": "coldconfrontation:block/pine_palisade_roof_slab_top"
+    },
+    "type=double": {
+      "model": "coldconfrontation:block/pine_palisade_roof_slab_full"
+    }
+  }
+}

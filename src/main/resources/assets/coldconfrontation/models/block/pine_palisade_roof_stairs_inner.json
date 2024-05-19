@@ -1,0 +1,12 @@
+{
+  "parent": "coldconfrontation:custom/palisade_roof_stairs_inner",
+  "textures": {
+    "all": "coldconfrontation:block/pine_palisade_roof",
+    "particle": "coldconfrontation:block/pine_palisade_roof",
+    "0": "coldconfrontation:block/pine_palisade_roof",
+    "1": "coldconfrontation:block/pine_palisade_top",
+    "2": "coldconfrontation:block/palisade_roof_detail",
+    "3": "coldconfrontation:block/pine_palisade"
+  },
+  "render_type": "cutout"
+}

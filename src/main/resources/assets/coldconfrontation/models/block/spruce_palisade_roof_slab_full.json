@@ -1,0 +1,11 @@
+{
+  "parent": "coldconfrontation:custom/palisade_roof_slab_double",
+  "textures": {
+    "all": "coldconfrontation:block/spruce_palisade_roof",
+    "particle": "coldconfrontation:block/spruce_palisade_roof",
+    "0": "coldconfrontation:block/spruce_palisade_roof",
+    "1": "coldconfrontation:block/spruce_palisade_top",
+    "2": "coldconfrontation:block/palisade_roof_detail"
+  },
+  "render_type": "cutout"
+}
