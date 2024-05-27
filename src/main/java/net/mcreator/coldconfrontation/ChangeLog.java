@@ -20,6 +20,10 @@ neither tetch, because he's cool and stuff
 //added frosted overworld (dimension) ~ skull
 //added a spare texture for permafrosted tundra grass for direct usage or reference ~ skull
 //added notes element to list required/much desired fixes ~ skull
+//changed permafrosted soil, tundra grass and short tundra grass textures (tetch)
+//added tall tundra grass (tetch)
+//changed grass gen in decaying tundra (tetch)
+//added mutaberry bush (only base tho, tetch)
 
 
 

@@ -2,14 +2,14 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "permafrosted_soil",
-    "textureTop": "permafrosted_tundra_grass_top",
-    "textureLeft": "permafrosted_tundra_grass",
-    "textureFront": "permafrosted_tundra_grass",
-    "textureRight": "permafrosted_tundra_grass",
-    "textureBack": "permafrosted_tundra_grass",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "mutaberry_bush_stage_4",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 12,
+    "customModelName": "Cross model",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -18,45 +18,45 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
         "my": 0.0,
         "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "Mx": 6.0,
+        "My": 8.0,
+        "Mz": 6.0,
         "subtract": false
       }
     ],
-    "name": "Permafrosted Tundra Grass",
+    "name": "Mutaberry Bush",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.5,
-    "resistance": 0.5,
+    "hardness": 0.0,
+    "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:TabColdConfrontation"
+      "value": "No creative tab entry"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "PLANTS"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -65,11 +65,11 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "ADOBE",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "NONE",
+    "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -77,30 +77,30 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
-    "isCustomSoundType": true,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "PLANT"
     },
     "breakSound": {
-      "value": "block.grass.break"
+      "value": ""
     },
     "fallSound": {
-      "value": "block.grass.fall"
+      "value": ""
     },
     "hitSound": {
-      "value": "block.grass.hit"
+      "value": ""
     },
     "placeSound": {
-      "value": "block.grass.place"
+      "value": ""
     },
     "stepSound": {
-      "value": "block.grass.step"
+      "value": ""
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

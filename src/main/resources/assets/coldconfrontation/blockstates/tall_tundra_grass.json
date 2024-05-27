@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "coldconfrontation:block/tall_tundra_grass"
+    },
+    "half=lower": {
+      "model": "coldconfrontation:block/tall_tundra_grass_bottom"
+    }
+  }
+}

@@ -816,9 +816,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/coldconfrontation/block/PermafrostedTundraGrassBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/permafrosted_tundra_grass.json",
           "src/main/resources/assets/coldconfrontation/models/block/permafrosted_tundra_grass.json",
-          "src/main/resources/assets/coldconfrontation/models/item/permafrosted_tundra_grass.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/permafrosted_tundra_grass.json"
+          "src/main/resources/assets/coldconfrontation/models/item/permafrosted_tundra_grass.json"
         ]
       },
       "path": "~/Blocks/Earth"
@@ -867,22 +867,6 @@
         ]
       },
       "path": "~/Biomes/Decaying Tundra"
-    },
-    {
-      "name": "TundraShortGrassPatch",
-      "type": "feature",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tundra_short_grass_patch",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/coldconfrontation/forge/biome_modifier/tundra_short_grass_patch_biome_modifier.json",
-          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/tundra_short_grass_patch.json",
-          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/tundra_short_grass_patch.json"
-        ]
-      },
-      "path": "~/Features/Decaying Tundra"
     },
     {
       "name": "SprucePalisades",
@@ -1087,6 +1071,89 @@
           "src/main/java/net/mcreator/coldconfrontation/Notes.java"
         ]
       }
+    },
+    {
+      "name": "TundraShortGrassGen",
+      "type": "feature",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tundra_short_grass_gen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/tundra_short_grass_gen_biome_modifier.json",
+          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/tundra_short_grass_gen.json",
+          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/tundra_short_grass_gen.json"
+        ]
+      },
+      "path": "~/Features/Decaying Tundra"
+    },
+    {
+      "name": "TallTundraGrassPatch",
+      "type": "feature",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_tundra_grass_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/tall_tundra_grass_patch_biome_modifier.json",
+          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/tall_tundra_grass_patch.json",
+          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/tall_tundra_grass_patch.json"
+        ]
+      },
+      "path": "~/Features/Decaying Tundra"
+    },
+    {
+      "name": "TallTundraGrass",
+      "type": "plant",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_tundra_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/tall_tundra_grass.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/tall_tundra_grass.json",
+          "src/main/resources/assets/coldconfrontation/models/block/tall_tundra_grass.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/TallTundraGrassBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/tall_tundra_grass_bottom.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "MutaberryBush",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutaberry_bush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/MutaberryBushBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/mutaberry_bush.json",
+          "src/main/resources/assets/coldconfrontation/models/block/mutaberry_bush.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/mutaberry_bush.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "MutaberryBushBlockstates",
+      "type": "blockstates",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutaberry_bush_blockstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/mutaberry_bush_blockstates_blockstate_1.json",
+          "src/main/resources/assets/coldconfrontation/models/block/mutaberry_bush_blockstates_blockstate_0.json",
+          "src/main/resources/assets/coldconfrontation/models/block/mutaberry_bush_blockstates_blockstate_2.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
     }
   ],
   "variable_elements": [
@@ -1127,6 +1194,8 @@
       "block.coldconfrontation.spruce_palisade_roof_slab": "Spruce Palisade Roof Slab",
       "block.coldconfrontation.pine_planks": "Pine Planks",
       "block.coldconfrontation.pine_button": "Pine Button",
+      "block.coldconfrontation.mutaberry_bush": "Mutaberry Bush",
+      "block.coldconfrontation.tall_tundra_grass": "Tall Tundra Grass",
       "block.coldconfrontation.tundra_short_grass": "Tundra Short Grass"
     }
   },
@@ -1189,7 +1258,12 @@
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "Mutaberry",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Tools and Armor",

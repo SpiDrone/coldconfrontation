@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.coldconfrontation.block.TundraShortGrassBlock;
+import net.mcreator.coldconfrontation.block.TallTundraGrassBlock;
 import net.mcreator.coldconfrontation.block.StrippedPineWoodBlock;
 import net.mcreator.coldconfrontation.block.StrippedPineLogBlock;
 import net.mcreator.coldconfrontation.block.SprucePalisadesBlock;
@@ -36,6 +37,7 @@ import net.mcreator.coldconfrontation.block.PineDoorBlock;
 import net.mcreator.coldconfrontation.block.PineButtonBlock;
 import net.mcreator.coldconfrontation.block.PermafrostedTundraGrassBlock;
 import net.mcreator.coldconfrontation.block.PermafrostedSoilBlock;
+import net.mcreator.coldconfrontation.block.MutaberryBushBlock;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
 public class ColdconfrontationModBlocks {
@@ -66,4 +68,6 @@ public class ColdconfrontationModBlocks {
 	public static final RegistryObject<Block> PINE_PALISADE_BLOCK = REGISTRY.register("pine_palisade_block", () -> new PinePalisadeBlockBlock());
 	public static final RegistryObject<Block> PINE_PALISADE_ROOF_STAIRS = REGISTRY.register("pine_palisade_roof_stairs", () -> new PinePalisadeRoofStairsBlock());
 	public static final RegistryObject<Block> PINE_PALISADE_ROOF_SLAB = REGISTRY.register("pine_palisade_roof_slab", () -> new PinePalisadeRoofSlabBlock());
+	public static final RegistryObject<Block> TALL_TUNDRA_GRASS = REGISTRY.register("tall_tundra_grass", () -> new TallTundraGrassBlock());
+	public static final RegistryObject<Block> MUTABERRY_BUSH = REGISTRY.register("mutaberry_bush", () -> new MutaberryBushBlock());
 }

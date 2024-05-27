@@ -43,6 +43,8 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> PINE_PALISADE_BLOCK = block(ColdconfrontationModBlocks.PINE_PALISADE_BLOCK);
 	public static final RegistryObject<Item> PINE_PALISADE_ROOF_STAIRS = block(ColdconfrontationModBlocks.PINE_PALISADE_ROOF_STAIRS);
 	public static final RegistryObject<Item> PINE_PALISADE_ROOF_SLAB = block(ColdconfrontationModBlocks.PINE_PALISADE_ROOF_SLAB);
+	public static final RegistryObject<Item> TALL_TUNDRA_GRASS = doubleBlock(ColdconfrontationModBlocks.TALL_TUNDRA_GRASS);
+	public static final RegistryObject<Item> MUTABERRY_BUSH = block(ColdconfrontationModBlocks.MUTABERRY_BUSH);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
