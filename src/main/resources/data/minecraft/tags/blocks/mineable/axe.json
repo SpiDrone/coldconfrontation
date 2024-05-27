@@ -13,14 +13,6 @@
     "coldconfrontation:pine_door",
     "coldconfrontation:pine_trapdoor",
     "coldconfrontation:pine_pressure_plate",
-    "coldconfrontation:pine_button",
-    "coldconfrontation:spruce_palisades",
-    "coldconfrontation:spruce_palisade_block",
-    "coldconfrontation:spruce_palisade_roof_stairs",
-    "coldconfrontation:spruce_palisade_roof_slab",
-    "coldconfrontation:pine_palisades",
-    "coldconfrontation:pine_palisade_block",
-    "coldconfrontation:pine_palisade_roof_stairs",
-    "coldconfrontation:pine_palisade_roof_slab"
+    "coldconfrontation:pine_button"
   ]
 }
