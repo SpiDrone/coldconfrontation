@@ -17,6 +17,11 @@ import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
 public class ColdconfrontationModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ColdconfrontationMod.MODID);
+	public static final RegistryObject<Item> PERMAFROSTED_TUNDRA_GRASS = block(ColdconfrontationModBlocks.PERMAFROSTED_TUNDRA_GRASS);
+	public static final RegistryObject<Item> PERMAFROSTED_SOIL = block(ColdconfrontationModBlocks.PERMAFROSTED_SOIL);
+	public static final RegistryObject<Item> TUNDRA_SHORT_GRASS = block(ColdconfrontationModBlocks.TUNDRA_SHORT_GRASS);
+	public static final RegistryObject<Item> PINE_LEAVES = block(ColdconfrontationModBlocks.PINE_LEAVES);
+	public static final RegistryObject<Item> PINE_SAPLING = block(ColdconfrontationModBlocks.PINE_SAPLING);
 	public static final RegistryObject<Item> PINE_LOG = block(ColdconfrontationModBlocks.PINE_LOG);
 	public static final RegistryObject<Item> PINE_WOOD = block(ColdconfrontationModBlocks.PINE_WOOD);
 	public static final RegistryObject<Item> STRIPPED_PINE_LOG = block(ColdconfrontationModBlocks.STRIPPED_PINE_LOG);
@@ -30,11 +35,14 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> PINE_TRAPDOOR = block(ColdconfrontationModBlocks.PINE_TRAPDOOR);
 	public static final RegistryObject<Item> PINE_PRESSURE_PLATE = block(ColdconfrontationModBlocks.PINE_PRESSURE_PLATE);
 	public static final RegistryObject<Item> PINE_BUTTON = block(ColdconfrontationModBlocks.PINE_BUTTON);
-	public static final RegistryObject<Item> PINE_LEAVES = block(ColdconfrontationModBlocks.PINE_LEAVES);
-	public static final RegistryObject<Item> PINE_SAPLING = block(ColdconfrontationModBlocks.PINE_SAPLING);
-	public static final RegistryObject<Item> PERMAFROSTED_SOIL = block(ColdconfrontationModBlocks.PERMAFROSTED_SOIL);
-	public static final RegistryObject<Item> PERMAFROSTED_TUNDRA_GRASS = block(ColdconfrontationModBlocks.PERMAFROSTED_TUNDRA_GRASS);
-	public static final RegistryObject<Item> TUNDRA_SHORT_GRASS = block(ColdconfrontationModBlocks.TUNDRA_SHORT_GRASS);
+	public static final RegistryObject<Item> SPRUCE_PALISADES = block(ColdconfrontationModBlocks.SPRUCE_PALISADES);
+	public static final RegistryObject<Item> SPRUCE_PALISADE_BLOCK = block(ColdconfrontationModBlocks.SPRUCE_PALISADE_BLOCK);
+	public static final RegistryObject<Item> SPRUCE_PALISADE_ROOF_STAIRS = block(ColdconfrontationModBlocks.SPRUCE_PALISADE_ROOF_STAIRS);
+	public static final RegistryObject<Item> SPRUCE_PALISADE_ROOF_SLAB = block(ColdconfrontationModBlocks.SPRUCE_PALISADE_ROOF_SLAB);
+	public static final RegistryObject<Item> PINE_PALISADES = block(ColdconfrontationModBlocks.PINE_PALISADES);
+	public static final RegistryObject<Item> PINE_PALISADE_BLOCK = block(ColdconfrontationModBlocks.PINE_PALISADE_BLOCK);
+	public static final RegistryObject<Item> PINE_PALISADE_ROOF_STAIRS = block(ColdconfrontationModBlocks.PINE_PALISADE_ROOF_STAIRS);
+	public static final RegistryObject<Item> PINE_PALISADE_ROOF_SLAB = block(ColdconfrontationModBlocks.PINE_PALISADE_ROOF_SLAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

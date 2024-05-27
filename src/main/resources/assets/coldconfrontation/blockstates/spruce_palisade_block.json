@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "coldconfrontation:block/spruce_palisade_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "coldconfrontation:block/spruce_palisade_block"
+    },
+    "axis=z": {
+      "model": "coldconfrontation:block/spruce_palisade_block",
+      "x": 90
+    }
+  }
+}

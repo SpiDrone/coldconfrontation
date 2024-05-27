@@ -16,6 +16,10 @@ neither tetch, because he's cool and stuff
 //added short tundra grass (tetch)
 //added decaying tundra biome (tetch)
 //added short tundra grass patch feature (tetch)
+//added palisade blocks ~ skull
+//added frosted overworld (dimension) ~ skull
+//added a spare texture for permafrosted tundra grass for direct usage or reference ~ skull
+//added notes element to list required/much desired fixes ~ skull
 
 
 

@@ -1,0 +1,10 @@
+{
+  "parent": "coldconfrontation:custom/palisade_core",
+  "textures": {
+    "all": "coldconfrontation:block/spruce_palisade",
+    "particle": "coldconfrontation:block/spruce_palisade",
+    "0": "coldconfrontation:block/spruce_palisade_top",
+    "1": "coldconfrontation:block/spruce_palisade"
+  },
+  "render_type": "solid"
+}

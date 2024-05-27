@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spruce_palisade_top",
+        "1": "spruce_palisade"
+      },
+      "name": "default"
+    },
+    "pine": {
+      "map": {
+        "0": "pine_palisade_top",
+        "1": "pine_palisade"
+      },
+      "name": "pine"
+    }
+  }
+}

@@ -3,10 +3,10 @@
   "textures": {
     "down": "coldconfrontation:block/permafrosted_soil",
     "up": "coldconfrontation:block/permafrosted_tundra_grass_top",
-    "north": "coldconfrontation:block/permafrosted_tundra_grass",
-    "east": "coldconfrontation:block/permafrosted_tundra_grass",
-    "south": "coldconfrontation:block/permafrosted_tundra_grass",
-    "west": "coldconfrontation:block/permafrosted_tundra_grass",
+    "north": "coldconfrontation:block/tundra_grass_spare_option",
+    "east": "coldconfrontation:block/tundra_grass_spare_option",
+    "south": "coldconfrontation:block/tundra_grass_spare_option",
+    "west": "coldconfrontation:block/tundra_grass_spare_option",
     "particle": "coldconfrontation:block/permafrosted_soil"
   },
   "render_type": "solid"

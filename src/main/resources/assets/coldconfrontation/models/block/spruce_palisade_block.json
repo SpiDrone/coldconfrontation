@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coldconfrontation:block/spruce_palisade_top",
+    "up": "coldconfrontation:block/spruce_palisade_top",
+    "north": "coldconfrontation:block/spruce_palisade",
+    "east": "coldconfrontation:block/spruce_palisade",
+    "south": "coldconfrontation:block/spruce_palisade",
+    "west": "coldconfrontation:block/spruce_palisade",
+    "particle": "coldconfrontation:block/spruce_palisade_top"
+  },
+  "render_type": "solid"
+}
