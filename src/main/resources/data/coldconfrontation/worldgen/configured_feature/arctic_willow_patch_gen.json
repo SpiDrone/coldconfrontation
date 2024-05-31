@@ -9,10 +9,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "coldconfrontation:tall_tundra_grass",
-              "Properties": {
-                "half": "lower"
-              }
+              "Name": "coldconfrontation:arctic_willow"
             }
           }
         }

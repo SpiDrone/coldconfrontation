@@ -838,7 +838,7 @@
           "src/main/java/net/mcreator/coldconfrontation/block/TundraShortGrassBlock.java"
         ]
       },
-      "path": "~/Blocks/Plants"
+      "path": "~/Blocks/Plants/Tundra Grass"
     },
     {
       "name": "DirtBlocks",
@@ -1120,40 +1120,260 @@
           "src/main/resources/assets/coldconfrontation/models/block/tall_tundra_grass_bottom.json"
         ]
       },
-      "path": "~/Blocks/Plants"
+      "path": "~/Blocks/Plants/Tundra Grass"
     },
     {
-      "name": "MutaberryBush",
+      "name": "SaskatoonBerryBush",
       "type": "block",
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mutaberry_bush",
+      "registry_name": "saskatoon_berry_bush",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/coldconfrontation/block/MutaberryBushBlock.java",
-          "src/main/resources/assets/coldconfrontation/models/item/mutaberry_bush.json",
-          "src/main/resources/assets/coldconfrontation/models/block/mutaberry_bush.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/mutaberry_bush.json"
+          "src/main/resources/assets/coldconfrontation/blockstates/saskatoon_berry_bush.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/SaskatoonBerryBushBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/saskatoon_berry_bush.json",
+          "src/main/resources/assets/coldconfrontation/models/block/saskatoon_berry_bush.json"
         ]
       },
-      "path": "~/Blocks/Plants"
+      "path": "~/Blocks/Plants/Saskatoon Berry"
     },
     {
-      "name": "MutaberryBushBlockstates",
+      "name": "SaskatoonBerryBushBlockstates",
       "type": "blockstates",
       "sortid": 72,
       "compiles": true,
-      "locked_code": false,
-      "registry_name": "mutaberry_bush_blockstates",
+      "locked_code": true,
+      "registry_name": "saskatoon_berry_bush_blockstates",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/mutaberry_bush_blockstates_blockstate_1.json",
-          "src/main/resources/assets/coldconfrontation/models/block/mutaberry_bush_blockstates_blockstate_0.json",
-          "src/main/resources/assets/coldconfrontation/models/block/mutaberry_bush_blockstates_blockstate_2.json"
+          "src/main/resources/assets/coldconfrontation/models/block/saskatoon_berry_bush_blockstates_blockstate_1.json",
+          "src/main/resources/assets/coldconfrontation/models/block/saskatoon_berry_bush_blockstates_blockstate_0.json",
+          "src/main/resources/assets/coldconfrontation/models/block/saskatoon_berry_bush_blockstates_blockstate_2.json"
         ]
       },
-      "path": "~/Blocks/Plants"
+      "path": "~/Blocks/Plants/Saskatoon Berry"
+    },
+    {
+      "name": "SaskatoonBerry",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saskatoon_berry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/saskatoon_berry.json",
+          "src/main/java/net/mcreator/coldconfrontation/item/SaskatoonBerryItem.java"
+        ]
+      },
+      "path": "~/Items/Saskatoon Berry"
+    },
+    {
+      "name": "SaskatoonBerryPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saskatoon_berry_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SaskatoonBerryPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Saskatoon Berry"
+    },
+    {
+      "name": "SaskatoonBerryRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saskatoon_berry_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SaskatoonBerryRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Saskatoon Berry"
+    },
+    {
+      "name": "SaskatoonBerryBushUpdateTick",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saskatoon_berry_bush_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SaskatoonBerryBushUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Plants/Saskatoon Berry"
+    },
+    {
+      "name": "SaskatoonBerryBushOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saskatoon_berry_bush_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SaskatoonBerryBushOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Plants/Saskatoon Berry"
+    },
+    {
+      "name": "ArcticWillow",
+      "type": "plant",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arctic_willow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/ArcticWillowBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/arctic_willow.json",
+          "src/main/resources/assets/coldconfrontation/models/block/arctic_willow.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/arctic_willow.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Arctic Willow"
+    },
+    {
+      "name": "ArcticWillowPatchGen",
+      "type": "feature",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arctic_willow_patch_gen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/arctic_willow_patch_gen.json",
+          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/arctic_willow_patch_gen.json",
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/arctic_willow_patch_gen_biome_modifier.json"
+        ]
+      },
+      "path": "~/Features/Decaying Tundra"
+    },
+    {
+      "name": "SaskatoonBerryBushPatch",
+      "type": "feature",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saskatoon_berry_bush_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/saskatoon_berry_bush_patch.json",
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/saskatoon_berry_bush_patch_biome_modifier.json",
+          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/saskatoon_berry_bush_patch.json"
+        ]
+      },
+      "path": "~/Features/Decaying Tundra"
+    },
+    {
+      "name": "SaskatoonBerryBushEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saskatoon_berry_bush_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SaskatoonBerryBushEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Plants/Saskatoon Berry"
     }
   ],
   "variable_elements": [
@@ -1173,12 +1393,13 @@
       "block.coldconfrontation.pine_slab": "Pine Slab",
       "block.coldconfrontation.pine_palisade_roof_stairs": "Pine Palisade Roof Stairs",
       "block.coldconfrontation.permafrosted_tundra_grass": "Permafrosted Tundra Grass",
-      "block.coldconfrontation.pine_sapling": "Pine Sapling",
       "block.coldconfrontation.pine_leaves": "Pine Leaves",
+      "block.coldconfrontation.pine_sapling": "Pine Sapling",
       "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
       "block.coldconfrontation.pine_palisade_roof_slab": "Pine Palisade Roof Slab",
       "block.coldconfrontation.spruce_palisade_block": "Spruce Palisade Block",
       "block.coldconfrontation.pine_palisades": "Pine Palisades",
+      "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
       "block.coldconfrontation.permafrosted_soil": "Permafrosted Soil",
       "block.coldconfrontation.spruce_palisade_roof_stairs": "Spruce Palisade Roof Stairs",
       "block.coldconfrontation.pine_pressure_plate": "Pine Pressure Plate",
@@ -1190,11 +1411,12 @@
       "block.coldconfrontation.spruce_palisades": "Spruce Palisades",
       "biome.coldconfrontation.decaying_tundra": "Decaying Tundra",
       "block.coldconfrontation.pine_fence_gate": "Pine Fence Gate",
+      "item.coldconfrontation.saskatoon_berry": "Saskatoon Berry",
+      "block.coldconfrontation.arctic_willow": "Arctic Willow",
       "block.coldconfrontation.pine_wood": "Pine Wood",
       "block.coldconfrontation.spruce_palisade_roof_slab": "Spruce Palisade Roof Slab",
       "block.coldconfrontation.pine_planks": "Pine Planks",
       "block.coldconfrontation.pine_button": "Pine Button",
-      "block.coldconfrontation.mutaberry_bush": "Mutaberry Bush",
       "block.coldconfrontation.tall_tundra_grass": "Tall Tundra Grass",
       "block.coldconfrontation.tundra_short_grass": "Tundra Short Grass"
     }
@@ -1248,7 +1470,20 @@
           },
           {
             "name": "Plants",
-            "children": []
+            "children": [
+              {
+                "name": "Tundra Grass",
+                "children": []
+              },
+              {
+                "name": "Saskatoon Berry",
+                "children": []
+              },
+              {
+                "name": "Arctic Willow",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Palisades",
@@ -1260,7 +1495,7 @@
         "name": "Items",
         "children": [
           {
-            "name": "Mutaberry",
+            "name": "Saskatoon Berry",
             "children": []
           }
         ]

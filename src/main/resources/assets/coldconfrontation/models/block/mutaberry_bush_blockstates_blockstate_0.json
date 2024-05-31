@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "coldconfrontation:block/mutaberry_bush_stage_1",
-    "particle": "coldconfrontation:block/mutaberry_bush_stage_4"
-  },
-  "render_type": "translucent"
-}

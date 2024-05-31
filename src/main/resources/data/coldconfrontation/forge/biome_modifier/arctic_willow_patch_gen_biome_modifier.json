@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "coldconfrontation:decaying_tundra",
+  "features": "coldconfrontation:arctic_willow_patch_gen",
+  "step": "vegetal_decoration"
+}

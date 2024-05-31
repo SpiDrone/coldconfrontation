@@ -7,13 +7,18 @@
         "type": "minecraft:simple_block",
         "config": {
           "to_place": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "coldconfrontation:tall_tundra_grass",
-              "Properties": {
-                "half": "lower"
+            "type": "minecraft:randomized_int_state_provider",
+            "source": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "coldconfrontation:saskatoon_berry_bush",
+                "Properties": {
+                  "waterlogged": "false"
+                }
               }
-            }
+            },
+            "property": "blockstate",
+            "values": 3
           }
         }
       },

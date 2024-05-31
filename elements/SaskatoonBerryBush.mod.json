@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "mutaberry_bush_stage_4",
+    "texture": "saskatoon_berry_bush_stage_0",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,13 +13,13 @@
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
-    "displayFluidOverlay": false,
+    "displayFluidOverlay": true,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": false,
+    "connectedSides": true,
     "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
@@ -27,20 +27,20 @@
         "mx": 0.0,
         "my": 0.0,
         "mz": 0.0,
-        "Mx": 6.0,
-        "My": 8.0,
-        "Mz": 6.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Mutaberry Bush",
+    "name": "Saskatoon Berry Bush",
     "specialInformation": {
       "fixedValue": []
     },
     "hardness": 0.0,
     "resistance": 0.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "No creative tab entry"
     },
@@ -59,7 +59,7 @@
       "value": "PLANTS"
     },
     "tickRate": 0,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -69,7 +69,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "XZ",
+    "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -77,31 +77,34 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "DESTROY",
+    "reactionToPushing": "NORMAL",
     "isNotColidable": true,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "GROUND"
     },
     "breakSound": {
-      "value": ""
+      "value": "block.sweet_berry_bush.break"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.crop.break"
     },
     "hitSound": {
-      "value": ""
+      "value": "entity.player.hurt_sweet_berry_bush"
     },
     "placeSound": {
-      "value": ""
+      "value": "block.sweet_berry_bush.place"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.fungus.step"
     },
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "isBonemealable": false,
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "SaskatoonBerryBushUpdateTick"
+    },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -119,6 +122,15 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "SaskatoonBerryBushOnBlockRightClicked"
+    },
+    "onTickUpdate": {
+      "name": "SaskatoonBerryBushUpdateTick"
+    },
+    "onEntityWalksOn": {
+      "name": "SaskatoonBerryBushEntityWalksOnTheBlock"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -2,10 +2,10 @@
   "_fv": 57,
   "_type": "blockstates",
   "definition": {
-    "block": "MutaberryBush",
+    "block": "SaskatoonBerryBush",
     "blockstateList": [
       {
-        "texture": "mutaberry_bush_stage_1",
+        "texture": "saskatoon_berry_bush_stage_2",
         "textureTop": "",
         "textureLeft": "",
         "textureFront": "",
@@ -18,7 +18,7 @@
         "boundingBoxes": []
       },
       {
-        "texture": "mutaberry_bush_stage_2",
+        "texture": "saskatoon_berry_bush_stage_3",
         "textureTop": "",
         "textureLeft": "",
         "textureFront": "",
@@ -31,7 +31,7 @@
         "boundingBoxes": []
       },
       {
-        "texture": "mutaberry_bush_stage_3",
+        "texture": "saskatoon_berry_bush_stage_4",
         "textureTop": "",
         "textureLeft": "",
         "textureFront": "",

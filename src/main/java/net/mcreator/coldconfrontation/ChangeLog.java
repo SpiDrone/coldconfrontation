@@ -24,6 +24,11 @@ neither tetch, because he's cool and stuff
 //added tall tundra grass (tetch)
 //changed grass gen in decaying tundra (tetch)
 //added mutaberry bush (only base tho, tetch)
+//removed mutaberry and mutaberry bush (tetch)
+//added saskatoon berry bush (tetch)
+//added saskatoon berry (tetch)
+//added arctic willow (tetch)
+//added saskatoon berry bush and arctic willow generation
 
 
 

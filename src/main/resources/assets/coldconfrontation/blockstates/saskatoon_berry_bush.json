@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "coldconfrontation:block/saskatoon_berry_bush"
+    },
+    "blockstate=1": {
+      "model": "coldconfrontation:block/saskatoon_berry_bush_blockstates_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "coldconfrontation:block/saskatoon_berry_bush_blockstates_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "coldconfrontation:block/saskatoon_berry_bush_blockstates_blockstate_2"
+    }
+  }
+}

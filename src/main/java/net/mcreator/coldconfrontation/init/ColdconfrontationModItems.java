@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.coldconfrontation.item.SaskatoonBerryItem;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
 public class ColdconfrontationModItems {
@@ -44,7 +45,9 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> PINE_PALISADE_ROOF_STAIRS = block(ColdconfrontationModBlocks.PINE_PALISADE_ROOF_STAIRS);
 	public static final RegistryObject<Item> PINE_PALISADE_ROOF_SLAB = block(ColdconfrontationModBlocks.PINE_PALISADE_ROOF_SLAB);
 	public static final RegistryObject<Item> TALL_TUNDRA_GRASS = doubleBlock(ColdconfrontationModBlocks.TALL_TUNDRA_GRASS);
-	public static final RegistryObject<Item> MUTABERRY_BUSH = block(ColdconfrontationModBlocks.MUTABERRY_BUSH);
+	public static final RegistryObject<Item> SASKATOON_BERRY_BUSH = block(ColdconfrontationModBlocks.SASKATOON_BERRY_BUSH);
+	public static final RegistryObject<Item> SASKATOON_BERRY = REGISTRY.register("saskatoon_berry", () -> new SaskatoonBerryItem());
+	public static final RegistryObject<Item> ARCTIC_WILLOW = block(ColdconfrontationModBlocks.ARCTIC_WILLOW);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -18,6 +18,7 @@ import net.mcreator.coldconfrontation.block.SprucePalisadesBlock;
 import net.mcreator.coldconfrontation.block.SprucePalisadeRoofStairsBlock;
 import net.mcreator.coldconfrontation.block.SprucePalisadeRoofSlabBlock;
 import net.mcreator.coldconfrontation.block.SprucePalisadeBlockBlock;
+import net.mcreator.coldconfrontation.block.SaskatoonBerryBushBlock;
 import net.mcreator.coldconfrontation.block.PineWoodBlock;
 import net.mcreator.coldconfrontation.block.PineTrapdoorBlock;
 import net.mcreator.coldconfrontation.block.PineStairsBlock;
@@ -37,7 +38,7 @@ import net.mcreator.coldconfrontation.block.PineDoorBlock;
 import net.mcreator.coldconfrontation.block.PineButtonBlock;
 import net.mcreator.coldconfrontation.block.PermafrostedTundraGrassBlock;
 import net.mcreator.coldconfrontation.block.PermafrostedSoilBlock;
-import net.mcreator.coldconfrontation.block.MutaberryBushBlock;
+import net.mcreator.coldconfrontation.block.ArcticWillowBlock;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
 public class ColdconfrontationModBlocks {
@@ -69,5 +70,6 @@ public class ColdconfrontationModBlocks {
 	public static final RegistryObject<Block> PINE_PALISADE_ROOF_STAIRS = REGISTRY.register("pine_palisade_roof_stairs", () -> new PinePalisadeRoofStairsBlock());
 	public static final RegistryObject<Block> PINE_PALISADE_ROOF_SLAB = REGISTRY.register("pine_palisade_roof_slab", () -> new PinePalisadeRoofSlabBlock());
 	public static final RegistryObject<Block> TALL_TUNDRA_GRASS = REGISTRY.register("tall_tundra_grass", () -> new TallTundraGrassBlock());
-	public static final RegistryObject<Block> MUTABERRY_BUSH = REGISTRY.register("mutaberry_bush", () -> new MutaberryBushBlock());
+	public static final RegistryObject<Block> SASKATOON_BERRY_BUSH = REGISTRY.register("saskatoon_berry_bush", () -> new SaskatoonBerryBushBlock());
+	public static final RegistryObject<Block> ARCTIC_WILLOW = REGISTRY.register("arctic_willow", () -> new ArcticWillowBlock());
 }

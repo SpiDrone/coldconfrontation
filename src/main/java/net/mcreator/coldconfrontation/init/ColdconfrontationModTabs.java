@@ -45,6 +45,8 @@ public class ColdconfrontationModTabs {
 				tabData.accept(ColdconfrontationModBlocks.PINE_PALISADE_ROOF_STAIRS.get().asItem());
 				tabData.accept(ColdconfrontationModBlocks.PINE_PALISADE_ROOF_SLAB.get().asItem());
 				tabData.accept(ColdconfrontationModBlocks.TALL_TUNDRA_GRASS.get().asItem());
+				tabData.accept(ColdconfrontationModItems.SASKATOON_BERRY.get());
+				tabData.accept(ColdconfrontationModBlocks.ARCTIC_WILLOW.get().asItem());
 			})
 
 					.build());
