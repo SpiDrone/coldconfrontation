@@ -21,6 +21,9 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> PERMAFROSTED_TUNDRA_GRASS = block(ColdconfrontationModBlocks.PERMAFROSTED_TUNDRA_GRASS);
 	public static final RegistryObject<Item> PERMAFROSTED_SOIL = block(ColdconfrontationModBlocks.PERMAFROSTED_SOIL);
 	public static final RegistryObject<Item> TUNDRA_SHORT_GRASS = block(ColdconfrontationModBlocks.TUNDRA_SHORT_GRASS);
+	public static final RegistryObject<Item> TALL_TUNDRA_GRASS = doubleBlock(ColdconfrontationModBlocks.TALL_TUNDRA_GRASS);
+	public static final RegistryObject<Item> ARCTIC_WILLOW = block(ColdconfrontationModBlocks.ARCTIC_WILLOW);
+	public static final RegistryObject<Item> SASKATOON_BERRY = REGISTRY.register("saskatoon_berry", () -> new SaskatoonBerryItem());
 	public static final RegistryObject<Item> PINE_LEAVES = block(ColdconfrontationModBlocks.PINE_LEAVES);
 	public static final RegistryObject<Item> PINE_SAPLING = block(ColdconfrontationModBlocks.PINE_SAPLING);
 	public static final RegistryObject<Item> PINE_LOG = block(ColdconfrontationModBlocks.PINE_LOG);
@@ -44,10 +47,6 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> PINE_PALISADE_BLOCK = block(ColdconfrontationModBlocks.PINE_PALISADE_BLOCK);
 	public static final RegistryObject<Item> PINE_PALISADE_ROOF_STAIRS = block(ColdconfrontationModBlocks.PINE_PALISADE_ROOF_STAIRS);
 	public static final RegistryObject<Item> PINE_PALISADE_ROOF_SLAB = block(ColdconfrontationModBlocks.PINE_PALISADE_ROOF_SLAB);
-	public static final RegistryObject<Item> TALL_TUNDRA_GRASS = doubleBlock(ColdconfrontationModBlocks.TALL_TUNDRA_GRASS);
-	public static final RegistryObject<Item> SASKATOON_BERRY_BUSH = block(ColdconfrontationModBlocks.SASKATOON_BERRY_BUSH);
-	public static final RegistryObject<Item> SASKATOON_BERRY = REGISTRY.register("saskatoon_berry", () -> new SaskatoonBerryItem());
-	public static final RegistryObject<Item> ARCTIC_WILLOW = block(ColdconfrontationModBlocks.ARCTIC_WILLOW);
 	public static final RegistryObject<Item> WINTERWOOD_WOOD = block(ColdconfrontationModBlocks.WINTERWOOD_WOOD);
 	public static final RegistryObject<Item> WINTERWOOD_LOG = block(ColdconfrontationModBlocks.WINTERWOOD_LOG);
 	public static final RegistryObject<Item> WINTERWOOD_PLANKS = block(ColdconfrontationModBlocks.WINTERWOOD_PLANKS);
@@ -61,6 +60,8 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> STRIPPED_WINTERWOOD_LOG = block(ColdconfrontationModBlocks.STRIPPED_WINTERWOOD_LOG);
 	public static final RegistryObject<Item> WINTERWOOD_DOOR = doubleBlock(ColdconfrontationModBlocks.WINTERWOOD_DOOR);
 	public static final RegistryObject<Item> WINTERWOOD_TRAPDOOR = block(ColdconfrontationModBlocks.WINTERWOOD_TRAPDOOR);
+	public static final RegistryObject<Item> WINTERWOOD_SAPPLING = block(ColdconfrontationModBlocks.WINTERWOOD_SAPPLING);
+	public static final RegistryObject<Item> SASKATOON_BERRY_BUSH = block(ColdconfrontationModBlocks.SASKATOON_BERRY_BUSH);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

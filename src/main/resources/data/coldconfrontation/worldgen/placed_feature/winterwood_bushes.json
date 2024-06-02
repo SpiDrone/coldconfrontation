@@ -1,18 +1,13 @@
 {
-  "feature": "coldconfrontation:tundra_short_grass_gen",
+  "feature": "coldconfrontation:winterwood_bushes",
   "placement": [
     {
-      "type": "minecraft:count_on_every_layer",
-      "count": 60
+      "type": "minecraft:rarity_filter",
+      "chance": 3
     },
     {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:would_survive",
-        "state": {
-          "Name": "coldconfrontation:tundra_short_grass"
-        }
-      }
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
     },
     {
       "type": "minecraft:block_predicate_filter",
@@ -25,7 +20,10 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "blocks": "coldconfrontation:permafrosted_tundra_grass",
+            "blocks": [
+              "coldconfrontation:permafrosted_tundra_grass",
+              "coldconfrontation:permafrosted_soil"
+            ],
             "offset": [
               0,
               -1,
@@ -37,10 +35,6 @@
     },
     {
       "type": "minecraft:in_square"
-    },
-    {
-      "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING"
     },
     {
       "type": "minecraft:biome"

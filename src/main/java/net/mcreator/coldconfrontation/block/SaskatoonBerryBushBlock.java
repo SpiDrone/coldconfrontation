@@ -42,6 +42,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.coldconfrontation.procedures.SaskatoonBerryBushUpdateTickProcedure;
+import net.mcreator.coldconfrontation.procedures.SaskatoonBerryBushOnBoneMealSuccessProcedure;
 import net.mcreator.coldconfrontation.procedures.SaskatoonBerryBushOnBlockRightClickedProcedure;
 import net.mcreator.coldconfrontation.procedures.SaskatoonBerryBushEntityWalksOnTheBlockProcedure;
 import net.mcreator.coldconfrontation.procedures.SaskatoonBerryBushBoneMealSuccessConditionProcedure;
@@ -175,7 +176,13 @@ public class SaskatoonBerryBushBlock extends Block implements SimpleWaterloggedB
 
 	@Override
 	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate, boolean clientSide) {
-		return true;
+		if (worldIn instanceof LevelAccessor world) {
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			return SaskatoonBerryBushBoneMealSuccessConditionProcedure.execute();
+		}
+		return false;
 	}
 
 	@Override
@@ -188,6 +195,6 @@ public class SaskatoonBerryBushBlock extends Block implements SimpleWaterloggedB
 
 	@Override
 	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		SaskatoonBerryBushUpdateTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+		SaskatoonBerryBushOnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
 	}
 }

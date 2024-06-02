@@ -102,11 +102,14 @@
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": true,
+    "isBonemealTargetCondition": {
+      "name": "SaskatoonBerryBushBoneMealSuccessCondition"
+    },
     "bonemealSuccessCondition": {
       "name": "SaskatoonBerryBushBoneMealSuccessCondition"
     },
     "onBonemealSuccess": {
-      "name": "SaskatoonBerryBushUpdateTick"
+      "name": "SaskatoonBerryBushOnBoneMealSuccess"
     },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

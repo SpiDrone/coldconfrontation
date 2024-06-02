@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "coldconfrontation:tundra_short_grass",
+    "coldconfrontation:tall_tundra_grass",
+    "coldconfrontation:saskatoon_berry_bush",
+    "coldconfrontation:arctic_willow"
+  ]
+}

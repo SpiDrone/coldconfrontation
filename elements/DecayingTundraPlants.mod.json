@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:TundraShortGrass"
+      },
+      {
+        "value": "CUSTOM:TallTundraGrass"
+      },
+      {
+        "value": "CUSTOM:SaskatoonBerryBush"
+      },
+      {
+        "value": "CUSTOM:ArcticWillow"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "decaying_tundra_plants",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "coldconfrontation:structure_feature",
+          "config": {
+            "structure": "coldconfrontation:ww_bush_1",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "coldconfrontation:structure_feature",
+          "config": {
+            "structure": "coldconfrontation:ww_bush_2",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "coldconfrontation:structure_feature",
+          "config": {
+            "structure": "coldconfrontation:ww_bush_3",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

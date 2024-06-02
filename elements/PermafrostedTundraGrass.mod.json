@@ -101,7 +101,13 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
-    "isBonemealable": false,
+    "isBonemealable": true,
+    "bonemealSuccessCondition": {
+      "name": "SaskatoonBerryBushBoneMealSuccessCondition"
+    },
+    "onBonemealSuccess": {
+      "name": "PermafrostedTundraGrassOnBoneMealSuccess"
+    },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

@@ -31,6 +31,8 @@ neither tetch, because he's cool and stuff
 //added saskatoon berry bush and arctic willow generation (tetch)
 //added winterwood set (tetch)
 //added some tags (tetch)
+//changed permafrosted tundra grass texture (tetch)
+//added tundra bushes (generation is kinda buggy tho, tetch)
 
 
 

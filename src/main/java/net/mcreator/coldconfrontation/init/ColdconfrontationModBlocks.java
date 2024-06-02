@@ -14,6 +14,7 @@ import net.mcreator.coldconfrontation.block.WinterwoodWoodBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodTrapdoorBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodStairsBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodSlabBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodSapplingBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodPressurePlateBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodPlanksBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodLogBlock;
@@ -59,6 +60,8 @@ public class ColdconfrontationModBlocks {
 	public static final RegistryObject<Block> PERMAFROSTED_TUNDRA_GRASS = REGISTRY.register("permafrosted_tundra_grass", () -> new PermafrostedTundraGrassBlock());
 	public static final RegistryObject<Block> PERMAFROSTED_SOIL = REGISTRY.register("permafrosted_soil", () -> new PermafrostedSoilBlock());
 	public static final RegistryObject<Block> TUNDRA_SHORT_GRASS = REGISTRY.register("tundra_short_grass", () -> new TundraShortGrassBlock());
+	public static final RegistryObject<Block> TALL_TUNDRA_GRASS = REGISTRY.register("tall_tundra_grass", () -> new TallTundraGrassBlock());
+	public static final RegistryObject<Block> ARCTIC_WILLOW = REGISTRY.register("arctic_willow", () -> new ArcticWillowBlock());
 	public static final RegistryObject<Block> PINE_LEAVES = REGISTRY.register("pine_leaves", () -> new PineLeavesBlock());
 	public static final RegistryObject<Block> PINE_SAPLING = REGISTRY.register("pine_sapling", () -> new PineSaplingBlock());
 	public static final RegistryObject<Block> PINE_LOG = REGISTRY.register("pine_log", () -> new PineLogBlock());
@@ -82,9 +85,6 @@ public class ColdconfrontationModBlocks {
 	public static final RegistryObject<Block> PINE_PALISADE_BLOCK = REGISTRY.register("pine_palisade_block", () -> new PinePalisadeBlockBlock());
 	public static final RegistryObject<Block> PINE_PALISADE_ROOF_STAIRS = REGISTRY.register("pine_palisade_roof_stairs", () -> new PinePalisadeRoofStairsBlock());
 	public static final RegistryObject<Block> PINE_PALISADE_ROOF_SLAB = REGISTRY.register("pine_palisade_roof_slab", () -> new PinePalisadeRoofSlabBlock());
-	public static final RegistryObject<Block> TALL_TUNDRA_GRASS = REGISTRY.register("tall_tundra_grass", () -> new TallTundraGrassBlock());
-	public static final RegistryObject<Block> SASKATOON_BERRY_BUSH = REGISTRY.register("saskatoon_berry_bush", () -> new SaskatoonBerryBushBlock());
-	public static final RegistryObject<Block> ARCTIC_WILLOW = REGISTRY.register("arctic_willow", () -> new ArcticWillowBlock());
 	public static final RegistryObject<Block> WINTERWOOD_WOOD = REGISTRY.register("winterwood_wood", () -> new WinterwoodWoodBlock());
 	public static final RegistryObject<Block> WINTERWOOD_LOG = REGISTRY.register("winterwood_log", () -> new WinterwoodLogBlock());
 	public static final RegistryObject<Block> WINTERWOOD_PLANKS = REGISTRY.register("winterwood_planks", () -> new WinterwoodPlanksBlock());
@@ -98,4 +98,6 @@ public class ColdconfrontationModBlocks {
 	public static final RegistryObject<Block> STRIPPED_WINTERWOOD_LOG = REGISTRY.register("stripped_winterwood_log", () -> new StrippedWinterwoodLogBlock());
 	public static final RegistryObject<Block> WINTERWOOD_DOOR = REGISTRY.register("winterwood_door", () -> new WinterwoodDoorBlock());
 	public static final RegistryObject<Block> WINTERWOOD_TRAPDOOR = REGISTRY.register("winterwood_trapdoor", () -> new WinterwoodTrapdoorBlock());
+	public static final RegistryObject<Block> WINTERWOOD_SAPPLING = REGISTRY.register("winterwood_sappling", () -> new WinterwoodSapplingBlock());
+	public static final RegistryObject<Block> SASKATOON_BERRY_BUSH = REGISTRY.register("saskatoon_berry_bush", () -> new SaskatoonBerryBushBlock());
 }
