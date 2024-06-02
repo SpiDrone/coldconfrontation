@@ -58,7 +58,7 @@
           "src/main/java/net/mcreator/coldconfrontation/block/PineLogBlock.java"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PineWood",
@@ -75,7 +75,7 @@
           "src/main/java/net/mcreator/coldconfrontation/block/PineWoodBlock.java"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "StrippedPineLog",
@@ -92,7 +92,7 @@
           "src/main/resources/assets/coldconfrontation/models/block/stripped_pine_log.json"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "StrippedPineWood",
@@ -109,7 +109,7 @@
           "src/main/resources/assets/coldconfrontation/models/item/stripped_pine_wood.json"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PinePlanks",
@@ -126,7 +126,7 @@
           "src/main/resources/assets/coldconfrontation/models/item/pine_planks.json"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PineStairs",
@@ -145,7 +145,7 @@
           "src/main/resources/assets/coldconfrontation/models/block/pine_stairs.json"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PineSlab",
@@ -164,7 +164,7 @@
           "src/main/resources/assets/coldconfrontation/models/block/pine_slab_full.json"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PineFence",
@@ -183,7 +183,7 @@
           "src/main/resources/assets/coldconfrontation/models/block/pine_fence.json"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PineFenceGate",
@@ -203,7 +203,7 @@
           "src/main/java/net/mcreator/coldconfrontation/block/PineFenceGateBlock.java"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PineDoor",
@@ -227,7 +227,7 @@
           "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_left_open.json"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PineTrapdoor",
@@ -246,7 +246,7 @@
           "src/main/resources/assets/coldconfrontation/models/block/pine_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PinePressurePlate",
@@ -264,7 +264,7 @@
           "src/main/resources/assets/coldconfrontation/models/block/pine_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PineButton",
@@ -283,7 +283,7 @@
           "src/main/resources/assets/coldconfrontation/models/block/pine_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PineLeaves",
@@ -300,7 +300,7 @@
           "src/main/resources/assets/coldconfrontation/models/item/pine_leaves.json"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "PineSapling",
@@ -317,7 +317,7 @@
           "src/main/java/net/mcreator/coldconfrontation/block/PineSaplingBlock.java"
         ]
       },
-      "path": "~/Blocks/Wood"
+      "path": "~/Blocks/Wood/Pine"
     },
     {
       "name": "RecPineWood",
@@ -331,7 +331,7 @@
           "src/main/resources/data/coldconfrontation/recipes/pine_wood.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pine Wood"
     },
     {
       "name": "RecStrippedPineWood",
@@ -345,7 +345,7 @@
           "src/main/resources/data/coldconfrontation/recipes/stripped_pine_wood.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pine Wood"
     },
     {
       "name": "TBPineLogs",
@@ -373,7 +373,7 @@
           "src/main/resources/data/coldconfrontation/recipes/pine_planks.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pine Wood"
     },
     {
       "name": "RecPineStairs",
@@ -387,7 +387,7 @@
           "src/main/resources/data/coldconfrontation/recipes/pine_stairs.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pine Wood"
     },
     {
       "name": "RecPineSlab",
@@ -401,7 +401,7 @@
           "src/main/resources/data/coldconfrontation/recipes/pine_slab.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pine Wood"
     },
     {
       "name": "RecPineFence",
@@ -415,7 +415,7 @@
           "src/main/resources/data/coldconfrontation/recipes/pine_fence.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pine Wood"
     },
     {
       "name": "RecPineFenceGate",
@@ -429,7 +429,7 @@
           "src/main/resources/data/coldconfrontation/recipes/pine_fence_gate.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pine Wood"
     },
     {
       "name": "RecPineDoor",
@@ -443,7 +443,7 @@
           "src/main/resources/data/coldconfrontation/recipes/pine_door.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pine Wood"
     },
     {
       "name": "RecPineTrapdoor",
@@ -457,7 +457,7 @@
           "src/main/resources/data/coldconfrontation/recipes/pine_trapdoor.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pine Wood"
     },
     {
       "name": "RecPinePressurePlate",
@@ -471,7 +471,7 @@
           "src/main/resources/data/coldconfrontation/recipes/pine_pressure_plate.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pine Wood"
     },
     {
       "name": "RecPineButton",
@@ -485,7 +485,7 @@
           "src/main/resources/data/coldconfrontation/recipes/pine_button.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Pine Wood"
     },
     {
       "name": "TIPineLogs",
@@ -832,10 +832,10 @@
       "registry_name": "tundra_short_grass",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/TundraShortGrassBlock.java",
           "src/main/resources/assets/coldconfrontation/models/block/tundra_short_grass.json",
           "src/main/resources/assets/coldconfrontation/blockstates/tundra_short_grass.json",
-          "src/main/resources/assets/coldconfrontation/models/item/tundra_short_grass.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/TundraShortGrassBlock.java"
+          "src/main/resources/assets/coldconfrontation/models/item/tundra_short_grass.json"
         ]
       },
       "path": "~/Blocks/Plants/Tundra Grass"
@@ -1374,6 +1374,524 @@
         ]
       },
       "path": "~/Blocks/Plants/Saskatoon Berry"
+    },
+    {
+      "name": "WinterwoodWood",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodWoodBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_wood.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_wood.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_wood.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodLog",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_log.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodLogBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_log.json",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_log.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodPlanks",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_planks.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_planks.json",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_planks.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodPlanksBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodLeaves",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_leaves.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodLeavesBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_leaves.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_leaves.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodStairs",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_stairs.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_stairs.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_stairs_outer.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodStairsBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_stairs_inner.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodSlab",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_slab.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_slab_full.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_slab_top.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodSlabBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_slab.json",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodFence",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_fence.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_post.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodFenceBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_fence.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_inventory.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodFenceGate",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_gate.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodFenceGateBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_gate_wall.json",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_fence_gate.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_fence_gate.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_gate_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodPressurePlate",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodPressurePlateBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_pressure_plate.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_pressure_plate.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_pressure_plate.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodButton",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_button_inventory.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_button_pressed.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_button.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodButtonBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_button.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_button.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/winterwood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Winterwood"
+    },
+    {
+      "name": "WinterwoodPlanksLogRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/winterwood_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Winterwood"
+    },
+    {
+      "name": "WinterwoodPlanksWoodRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/winterwood_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Winterwood"
+    },
+    {
+      "name": "WinterwoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/winterwood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Winterwood"
+    },
+    {
+      "name": "WinterwoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/winterwood_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Winterwood"
+    },
+    {
+      "name": "WinterwoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/winterwood_fence_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Winterwood"
+    },
+    {
+      "name": "WinterwoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/winterwood_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Winterwood"
+    },
+    {
+      "name": "WinterwoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/winterwood_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Winterwood"
+    },
+    {
+      "name": "WinterwoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/winterwood_button_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Winterwood"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fences.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "LeavesTag",
+      "type": "tag",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaves_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/leaves.json"
+        ]
+      },
+      "path": "~/Tags/Blocks"
+    },
+    {
+      "name": "StrippedWinterwoodLog",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_winterwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/stripped_winterwood_log.json",
+          "src/main/resources/assets/coldconfrontation/models/block/stripped_winterwood_log.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/StrippedWinterwoodLogBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/stripped_winterwood_log.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "StrippWinterwoodLog",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripp_winterwood_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/StrippWinterwoodLogProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodDoor",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_left_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_bottom_left.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_bottom_right_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_right.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_bottom_right.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_right_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_bottom_left_open.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodDoorBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_door.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_door.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_left.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodDoorRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/winterwood_door_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Winterwood"
+    },
+    {
+      "name": "WinterwoodTrapdoor",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_trapdoor.json",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_trapdoor.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodTrapdoorBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_trapdoor_open.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_trapdoor.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_trapdoor_top.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/recipes/winterwood_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Winterwood"
+    },
+    {
+      "name": "SaskatoonBerryBushBoneMealSuccessCondition",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saskatoon_berry_bush_bone_meal_success_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SaskatoonBerryBushBoneMealSuccessConditionProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Blocks/Plants/Saskatoon Berry"
     }
   ],
   "variable_elements": [
@@ -1393,13 +1911,19 @@
       "block.coldconfrontation.pine_slab": "Pine Slab",
       "block.coldconfrontation.pine_palisade_roof_stairs": "Pine Palisade Roof Stairs",
       "block.coldconfrontation.permafrosted_tundra_grass": "Permafrosted Tundra Grass",
-      "block.coldconfrontation.pine_leaves": "Pine Leaves",
       "block.coldconfrontation.pine_sapling": "Pine Sapling",
+      "block.coldconfrontation.pine_leaves": "Pine Leaves",
+      "block.coldconfrontation.winterwood_pressure_plate": "Winterwood Pressure Plate",
+      "block.coldconfrontation.winterwood_trapdoor": "Winterwood Trapdoor",
+      "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
+      "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
       "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
       "block.coldconfrontation.pine_palisade_roof_slab": "Pine Palisade Roof Slab",
       "block.coldconfrontation.spruce_palisade_block": "Spruce Palisade Block",
       "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
+      "block.coldconfrontation.winterwood_button": "Winterwood Button",
+      "block.coldconfrontation.winterwood_stairs": "Winterwood Stairs",
       "block.coldconfrontation.permafrosted_soil": "Permafrosted Soil",
       "block.coldconfrontation.spruce_palisade_roof_stairs": "Spruce Palisade Roof Stairs",
       "block.coldconfrontation.pine_pressure_plate": "Pine Pressure Plate",
@@ -1407,18 +1931,25 @@
       "block.coldconfrontation.stripped_pine_log": "Stripped Pine Log",
       "block.coldconfrontation.pine_fence": "Pine Fence",
       "block.coldconfrontation.pine_stairs": "Pine Stairs",
+      "block.coldconfrontation.winterwood_planks": "Winterwood Planks",
       "item_group.coldconfrontation.tab_cold_confrontation": "Cold Confrontation",
       "block.coldconfrontation.spruce_palisades": "Spruce Palisades",
+      "block.coldconfrontation.stripped_winterwood_log": "Stripped Winterwood Log",
       "biome.coldconfrontation.decaying_tundra": "Decaying Tundra",
+      "block.coldconfrontation.winterwood_wood": "Winterwood Wood",
+      "block.coldconfrontation.winterwood_leaves": "Winterwood Leaves",
       "block.coldconfrontation.pine_fence_gate": "Pine Fence Gate",
       "item.coldconfrontation.saskatoon_berry": "Saskatoon Berry",
       "block.coldconfrontation.arctic_willow": "Arctic Willow",
       "block.coldconfrontation.pine_wood": "Pine Wood",
       "block.coldconfrontation.spruce_palisade_roof_slab": "Spruce Palisade Roof Slab",
       "block.coldconfrontation.pine_planks": "Pine Planks",
+      "block.coldconfrontation.winterwood_door": "Winterwood Door",
       "block.coldconfrontation.pine_button": "Pine Button",
+      "block.coldconfrontation.winterwood_fence_gate": "Winterwood Fence Gate",
       "block.coldconfrontation.tall_tundra_grass": "Tall Tundra Grass",
-      "block.coldconfrontation.tundra_short_grass": "Tundra Short Grass"
+      "block.coldconfrontation.tundra_short_grass": "Tundra Short Grass",
+      "block.coldconfrontation.winterwood_log": "Winterwood Log"
     }
   },
   "foldersRoot": {
@@ -1434,7 +1965,16 @@
       },
       {
         "name": "Recipes",
-        "children": []
+        "children": [
+          {
+            "name": "Pine Wood",
+            "children": []
+          },
+          {
+            "name": "Winterwood",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Tags",
@@ -1462,7 +2002,16 @@
         "children": [
           {
             "name": "Wood",
-            "children": []
+            "children": [
+              {
+                "name": "Pine",
+                "children": []
+              },
+              {
+                "name": "Winterwood",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Earth",

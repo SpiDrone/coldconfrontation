@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "wooden_trapdoor",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WinterwoodTrapdoor"
+    },
+    "name": "winterwood_trapdoor_recipe",
+    "namespace": "mod"
+  }
+}

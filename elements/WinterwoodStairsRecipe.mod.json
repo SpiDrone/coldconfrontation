@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WinterwoodStairs"
+    },
+    "name": "winterwood_stairs_recipe",
+    "namespace": "mod"
+  }
+}

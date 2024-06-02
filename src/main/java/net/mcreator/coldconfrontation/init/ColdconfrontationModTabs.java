@@ -47,6 +47,19 @@ public class ColdconfrontationModTabs {
 				tabData.accept(ColdconfrontationModBlocks.TALL_TUNDRA_GRASS.get().asItem());
 				tabData.accept(ColdconfrontationModItems.SASKATOON_BERRY.get());
 				tabData.accept(ColdconfrontationModBlocks.ARCTIC_WILLOW.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_WOOD.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_LOG.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_PLANKS.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_LEAVES.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_STAIRS.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_SLAB.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_FENCE.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_FENCE_GATE.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_PRESSURE_PLATE.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_BUTTON.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.STRIPPED_WINTERWOOD_LOG.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_DOOR.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_TRAPDOOR.get().asItem());
 			})
 
 					.build());

@@ -21,6 +21,12 @@
     "coldconfrontation:pine_palisades",
     "coldconfrontation:pine_palisade_block",
     "coldconfrontation:pine_palisade_roof_stairs",
-    "coldconfrontation:pine_palisade_roof_slab"
+    "coldconfrontation:pine_palisade_roof_slab",
+    "coldconfrontation:winterwood_wood",
+    "coldconfrontation:winterwood_log",
+    "coldconfrontation:winterwood_planks",
+    "coldconfrontation:stripped_winterwood_log",
+    "coldconfrontation:winterwood_door",
+    "coldconfrontation:winterwood_trapdoor"
   ]
 }

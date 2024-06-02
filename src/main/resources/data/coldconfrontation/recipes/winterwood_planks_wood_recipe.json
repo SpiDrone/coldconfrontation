@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "coldconfrontation:winterwood_wood"
+    }
+  ],
+  "result": {
+    "item": "coldconfrontation:winterwood_planks",
+    "count": 4
+  }
+}

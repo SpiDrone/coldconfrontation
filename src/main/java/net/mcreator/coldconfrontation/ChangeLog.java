@@ -28,7 +28,9 @@ neither tetch, because he's cool and stuff
 //added saskatoon berry bush (tetch)
 //added saskatoon berry (tetch)
 //added arctic willow (tetch)
-//added saskatoon berry bush and arctic willow generation
+//added saskatoon berry bush and arctic willow generation (tetch)
+//added winterwood set (tetch)
+//added some tags (tetch)
 
 
 

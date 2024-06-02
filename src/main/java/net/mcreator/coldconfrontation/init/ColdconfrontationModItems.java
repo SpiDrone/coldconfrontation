@@ -48,6 +48,19 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> SASKATOON_BERRY_BUSH = block(ColdconfrontationModBlocks.SASKATOON_BERRY_BUSH);
 	public static final RegistryObject<Item> SASKATOON_BERRY = REGISTRY.register("saskatoon_berry", () -> new SaskatoonBerryItem());
 	public static final RegistryObject<Item> ARCTIC_WILLOW = block(ColdconfrontationModBlocks.ARCTIC_WILLOW);
+	public static final RegistryObject<Item> WINTERWOOD_WOOD = block(ColdconfrontationModBlocks.WINTERWOOD_WOOD);
+	public static final RegistryObject<Item> WINTERWOOD_LOG = block(ColdconfrontationModBlocks.WINTERWOOD_LOG);
+	public static final RegistryObject<Item> WINTERWOOD_PLANKS = block(ColdconfrontationModBlocks.WINTERWOOD_PLANKS);
+	public static final RegistryObject<Item> WINTERWOOD_LEAVES = block(ColdconfrontationModBlocks.WINTERWOOD_LEAVES);
+	public static final RegistryObject<Item> WINTERWOOD_STAIRS = block(ColdconfrontationModBlocks.WINTERWOOD_STAIRS);
+	public static final RegistryObject<Item> WINTERWOOD_SLAB = block(ColdconfrontationModBlocks.WINTERWOOD_SLAB);
+	public static final RegistryObject<Item> WINTERWOOD_FENCE = block(ColdconfrontationModBlocks.WINTERWOOD_FENCE);
+	public static final RegistryObject<Item> WINTERWOOD_FENCE_GATE = block(ColdconfrontationModBlocks.WINTERWOOD_FENCE_GATE);
+	public static final RegistryObject<Item> WINTERWOOD_PRESSURE_PLATE = block(ColdconfrontationModBlocks.WINTERWOOD_PRESSURE_PLATE);
+	public static final RegistryObject<Item> WINTERWOOD_BUTTON = block(ColdconfrontationModBlocks.WINTERWOOD_BUTTON);
+	public static final RegistryObject<Item> STRIPPED_WINTERWOOD_LOG = block(ColdconfrontationModBlocks.STRIPPED_WINTERWOOD_LOG);
+	public static final RegistryObject<Item> WINTERWOOD_DOOR = doubleBlock(ColdconfrontationModBlocks.WINTERWOOD_DOOR);
+	public static final RegistryObject<Item> WINTERWOOD_TRAPDOOR = block(ColdconfrontationModBlocks.WINTERWOOD_TRAPDOOR);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "coldconfrontation:block/winterwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "coldconfrontation:block/winterwood_log"
+    },
+    "axis=z": {
+      "model": "coldconfrontation:block/winterwood_log",
+      "x": 90
+    }
+  }
+}

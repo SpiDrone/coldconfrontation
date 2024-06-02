@@ -60,7 +60,7 @@
     },
     "tickRate": 0,
     "tickRandomly": true,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
@@ -102,6 +102,9 @@
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": true,
+    "bonemealSuccessCondition": {
+      "name": "SaskatoonBerryBushBoneMealSuccessCondition"
+    },
     "onBonemealSuccess": {
       "name": "SaskatoonBerryBushUpdateTick"
     },

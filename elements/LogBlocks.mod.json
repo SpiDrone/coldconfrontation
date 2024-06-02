@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:WinterwoodWood"
+      },
+      {
+        "value": "CUSTOM:WinterwoodLog"
+      },
+      {
+        "value": "CUSTOM:PineLog"
+      },
+      {
+        "value": "CUSTOM:PineWood"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

@@ -10,8 +10,21 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.coldconfrontation.block.WinterwoodWoodBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodTrapdoorBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodStairsBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodSlabBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodPressurePlateBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodPlanksBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodLogBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodLeavesBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodFenceGateBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodFenceBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodDoorBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodButtonBlock;
 import net.mcreator.coldconfrontation.block.TundraShortGrassBlock;
 import net.mcreator.coldconfrontation.block.TallTundraGrassBlock;
+import net.mcreator.coldconfrontation.block.StrippedWinterwoodLogBlock;
 import net.mcreator.coldconfrontation.block.StrippedPineWoodBlock;
 import net.mcreator.coldconfrontation.block.StrippedPineLogBlock;
 import net.mcreator.coldconfrontation.block.SprucePalisadesBlock;
@@ -72,4 +85,17 @@ public class ColdconfrontationModBlocks {
 	public static final RegistryObject<Block> TALL_TUNDRA_GRASS = REGISTRY.register("tall_tundra_grass", () -> new TallTundraGrassBlock());
 	public static final RegistryObject<Block> SASKATOON_BERRY_BUSH = REGISTRY.register("saskatoon_berry_bush", () -> new SaskatoonBerryBushBlock());
 	public static final RegistryObject<Block> ARCTIC_WILLOW = REGISTRY.register("arctic_willow", () -> new ArcticWillowBlock());
+	public static final RegistryObject<Block> WINTERWOOD_WOOD = REGISTRY.register("winterwood_wood", () -> new WinterwoodWoodBlock());
+	public static final RegistryObject<Block> WINTERWOOD_LOG = REGISTRY.register("winterwood_log", () -> new WinterwoodLogBlock());
+	public static final RegistryObject<Block> WINTERWOOD_PLANKS = REGISTRY.register("winterwood_planks", () -> new WinterwoodPlanksBlock());
+	public static final RegistryObject<Block> WINTERWOOD_LEAVES = REGISTRY.register("winterwood_leaves", () -> new WinterwoodLeavesBlock());
+	public static final RegistryObject<Block> WINTERWOOD_STAIRS = REGISTRY.register("winterwood_stairs", () -> new WinterwoodStairsBlock());
+	public static final RegistryObject<Block> WINTERWOOD_SLAB = REGISTRY.register("winterwood_slab", () -> new WinterwoodSlabBlock());
+	public static final RegistryObject<Block> WINTERWOOD_FENCE = REGISTRY.register("winterwood_fence", () -> new WinterwoodFenceBlock());
+	public static final RegistryObject<Block> WINTERWOOD_FENCE_GATE = REGISTRY.register("winterwood_fence_gate", () -> new WinterwoodFenceGateBlock());
+	public static final RegistryObject<Block> WINTERWOOD_PRESSURE_PLATE = REGISTRY.register("winterwood_pressure_plate", () -> new WinterwoodPressurePlateBlock());
+	public static final RegistryObject<Block> WINTERWOOD_BUTTON = REGISTRY.register("winterwood_button", () -> new WinterwoodButtonBlock());
+	public static final RegistryObject<Block> STRIPPED_WINTERWOOD_LOG = REGISTRY.register("stripped_winterwood_log", () -> new StrippedWinterwoodLogBlock());
+	public static final RegistryObject<Block> WINTERWOOD_DOOR = REGISTRY.register("winterwood_door", () -> new WinterwoodDoorBlock());
+	public static final RegistryObject<Block> WINTERWOOD_TRAPDOOR = REGISTRY.register("winterwood_trapdoor", () -> new WinterwoodTrapdoorBlock());
 }

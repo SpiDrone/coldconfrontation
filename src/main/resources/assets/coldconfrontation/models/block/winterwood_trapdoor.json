@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "coldconfrontation:block/winterwood_trapdoor",
+    "particle": "coldconfrontation:block/winterwood_trapdoor"
+  },
+  "render_type": "translucent"
+}

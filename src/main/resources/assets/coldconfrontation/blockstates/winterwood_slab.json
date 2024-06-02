@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "coldconfrontation:block/winterwood_slab"
+    },
+    "type=top": {
+      "model": "coldconfrontation:block/winterwood_slab_top"
+    },
+    "type=double": {
+      "model": "coldconfrontation:block/winterwood_slab_full"
+    }
+  }
+}

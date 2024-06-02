@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_door",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WinterwoodPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WinterwoodDoor"
+    },
+    "name": "winterwood_door_recipe",
+    "namespace": "mod"
+  }
+}

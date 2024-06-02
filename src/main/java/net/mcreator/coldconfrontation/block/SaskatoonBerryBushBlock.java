@@ -44,6 +44,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.coldconfrontation.procedures.SaskatoonBerryBushUpdateTickProcedure;
 import net.mcreator.coldconfrontation.procedures.SaskatoonBerryBushOnBlockRightClickedProcedure;
 import net.mcreator.coldconfrontation.procedures.SaskatoonBerryBushEntityWalksOnTheBlockProcedure;
+import net.mcreator.coldconfrontation.procedures.SaskatoonBerryBushBoneMealSuccessConditionProcedure;
 
 import java.util.List;
 import java.util.Collections;
@@ -131,6 +132,11 @@ public class SaskatoonBerryBushBlock extends Block implements SimpleWaterloggedB
 	}
 
 	@Override
+	public boolean canBeReplaced(BlockState state, BlockPlaceContext context) {
+		return context.getItemInHand().getItem() != this.asItem();
+	}
+
+	@Override
 	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
@@ -174,7 +180,10 @@ public class SaskatoonBerryBushBlock extends Block implements SimpleWaterloggedB
 
 	@Override
 	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		return true;
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		return SaskatoonBerryBushBoneMealSuccessConditionProcedure.execute();
 	}
 
 	@Override

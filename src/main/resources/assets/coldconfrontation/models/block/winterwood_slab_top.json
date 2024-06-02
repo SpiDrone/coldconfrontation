@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "coldconfrontation:block/winterwood_planks",
+    "top": "coldconfrontation:block/winterwood_planks",
+    "side": "coldconfrontation:block/winterwood_planks"
+  },
+  "render_type": "solid"
+}
