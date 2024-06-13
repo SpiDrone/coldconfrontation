@@ -34,8 +34,10 @@ neither tetch, because he's cool and stuff
 //changed permafrosted tundra grass texture (tetch)
 //added tundra bushes (generation is kinda buggy tho, tetch)
 
-
-
+//Spi's Doing
++ spawn/respawn in frosted tundra
++ fuck you
++ fixed bush generation
 
 
 

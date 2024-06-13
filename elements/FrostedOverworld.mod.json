@@ -4,13 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "snowy_tundra"
-      },
-      {
-        "value": "taiga_cold"
-      },
-      {
-        "value": "frozen_ocean"
+        "value": "CUSTOM:DecayingTundra"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -24,7 +18,7 @@
       "value": -6893847,
       "falpha": 0.0
     },
-    "canRespawnHere": true,
+    "canRespawnHere": false,
     "hasFog": true,
     "isDark": true,
     "doesWaterVaporize": false,
