@@ -7,6 +7,7 @@ package net.mcreator.coldconfrontation.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -62,6 +63,7 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> WINTERWOOD_TRAPDOOR = block(ColdconfrontationModBlocks.WINTERWOOD_TRAPDOOR);
 	public static final RegistryObject<Item> WINTERWOOD_SAPPLING = block(ColdconfrontationModBlocks.WINTERWOOD_SAPPLING);
 	public static final RegistryObject<Item> SASKATOON_BERRY_BUSH = block(ColdconfrontationModBlocks.SASKATOON_BERRY_BUSH);
+	public static final RegistryObject<Item> MUTANT_FOX_SPAWN_EGG = REGISTRY.register("mutant_fox_spawn_egg", () -> new ForgeSpawnEggItem(ColdconfrontationModEntities.MUTANT_FOX, -1, -1, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -52,10 +52,10 @@
       "registry_name": "pine_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/pine_log.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/pine_log.json",
           "src/main/resources/assets/coldconfrontation/models/item/pine_log.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/PineLogBlock.java"
+          "src/main/java/net/mcreator/coldconfrontation/block/PineLogBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_log.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_log.json"
         ]
       },
       "path": "~/Blocks/Wood/Pine"
@@ -70,9 +70,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/coldconfrontation/models/block/pine_wood.json",
-          "src/main/resources/assets/coldconfrontation/models/item/pine_wood.json",
           "src/main/java/net/mcreator/coldconfrontation/block/PineWoodBlock.java",
-          "src/main/resources/assets/coldconfrontation/blockstates/pine_wood.json"
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_wood.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_wood.json"
         ]
       },
       "path": "~/Blocks/Wood/Pine"
@@ -86,10 +86,10 @@
       "registry_name": "stripped_pine_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/stripped_pine_log.json",
           "src/main/java/net/mcreator/coldconfrontation/block/StrippedPineLogBlock.java",
           "src/main/resources/assets/coldconfrontation/models/item/stripped_pine_log.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/stripped_pine_log.json"
+          "src/main/resources/assets/coldconfrontation/blockstates/stripped_pine_log.json",
+          "src/main/resources/assets/coldconfrontation/models/block/stripped_pine_log.json"
         ]
       },
       "path": "~/Blocks/Wood/Pine"
@@ -103,10 +103,10 @@
       "registry_name": "stripped_pine_wood",
       "metadata": {
         "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/stripped_pine_wood.json",
           "src/main/java/net/mcreator/coldconfrontation/block/StrippedPineWoodBlock.java",
-          "src/main/resources/assets/coldconfrontation/blockstates/stripped_pine_wood.json",
           "src/main/resources/assets/coldconfrontation/models/item/stripped_pine_wood.json",
-          "src/main/resources/assets/coldconfrontation/models/block/stripped_pine_wood.json"
+          "src/main/resources/assets/coldconfrontation/blockstates/stripped_pine_wood.json"
         ]
       },
       "path": "~/Blocks/Wood/Pine"
@@ -137,12 +137,12 @@
       "registry_name": "pine_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/pine_stairs_outer.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_stairs.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_stairs_inner.json",
           "src/main/resources/assets/coldconfrontation/models/item/pine_stairs.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_stairs.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_stairs_outer.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/PineStairsBlock.java",
-          "src/main/resources/assets/coldconfrontation/blockstates/pine_stairs.json"
+          "src/main/java/net/mcreator/coldconfrontation/block/PineStairsBlock.java"
         ]
       },
       "path": "~/Blocks/Wood/Pine"
@@ -156,11 +156,11 @@
       "registry_name": "pine_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/pine_slab_full.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_slab.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_slab_top.json",
           "src/main/java/net/mcreator/coldconfrontation/block/PineSlabBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_slab_full.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_slab.json",
-          "src/main/resources/assets/coldconfrontation/models/item/pine_slab.json",
           "src/main/resources/assets/coldconfrontation/blockstates/pine_slab.json"
         ]
       },
@@ -175,12 +175,12 @@
       "registry_name": "pine_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_post.json",
           "src/main/java/net/mcreator/coldconfrontation/block/PineFenceBlock.java",
-          "src/main/resources/assets/coldconfrontation/models/item/pine_fence.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/pine_fence.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_fence.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_inventory.json"
+          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_post.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_inventory.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_fence.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_fence.json"
         ]
       },
       "path": "~/Blocks/Wood/Pine"
@@ -195,11 +195,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/coldconfrontation/models/item/pine_fence_gate.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_gate_open.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_gate_wall_open.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/PineFenceGateBlock.java",
-          "src/main/resources/assets/coldconfrontation/blockstates/pine_fence_gate.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_fence_gate_wall.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineFenceGateBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_gate_open.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_fence_gate.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_fence_gate_wall_open.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_fence_gate.json"
         ]
       },
@@ -215,16 +215,16 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/coldconfrontation/models/item/pine_door.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_right_open.json",
           "src/main/java/net/mcreator/coldconfrontation/block/PineDoorBlock.java",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_left.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_left_open.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_right.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_left_open.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_right.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_right_open.json",
           "src/main/resources/assets/coldconfrontation/blockstates/pine_door.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_left.json"
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_left_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_right_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_right.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_left.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_right.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_right_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_top_left_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_door_bottom_left.json"
         ]
       },
       "path": "~/Blocks/Wood/Pine"
@@ -257,10 +257,10 @@
       "registry_name": "pine_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/blockstates/pine_pressure_plate.json",
+          "src/main/resources/assets/coldconfrontation/models/block/pine_pressure_plate.json",
           "src/main/resources/assets/coldconfrontation/models/item/pine_pressure_plate.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_pressure_plate_down.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_pressure_plate.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_pressure_plate.json",
           "src/main/java/net/mcreator/coldconfrontation/block/PinePressurePlateBlock.java"
         ]
       },
@@ -275,12 +275,12 @@
       "registry_name": "pine_button",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/coldconfrontation/block/PineButtonBlock.java",
           "src/main/resources/assets/coldconfrontation/models/item/pine_button.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_button_inventory.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_button.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/pine_button.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_button_pressed.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/PineButtonBlock.java"
+          "src/main/resources/assets/coldconfrontation/models/block/pine_button_inventory.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_button.json"
         ]
       },
       "path": "~/Blocks/Wood/Pine"
@@ -294,8 +294,8 @@
       "registry_name": "pine_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/coldconfrontation/block/PineLeavesBlock.java",
           "src/main/resources/assets/coldconfrontation/blockstates/pine_leaves.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineLeavesBlock.java",
           "src/main/resources/assets/coldconfrontation/models/item/pine_leaves.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_leaves.json"
         ]
@@ -312,9 +312,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/coldconfrontation/models/item/pine_sapling.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/PineSaplingBlock.java",
           "src/main/resources/assets/coldconfrontation/blockstates/pine_sapling.json",
-          "src/main/resources/assets/coldconfrontation/models/block/pine_sapling.json"
+          "src/main/resources/assets/coldconfrontation/models/block/pine_sapling.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/PineSaplingBlock.java"
         ]
       },
       "path": "~/Blocks/Wood/Pine"
@@ -798,10 +798,10 @@
       "registry_name": "permafrosted_soil",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/permafrosted_soil.json",
           "src/main/java/net/mcreator/coldconfrontation/block/PermafrostedSoilBlock.java",
-          "src/main/resources/assets/coldconfrontation/models/item/permafrosted_soil.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/permafrosted_soil.json"
+          "src/main/resources/assets/coldconfrontation/blockstates/permafrosted_soil.json",
+          "src/main/resources/assets/coldconfrontation/models/block/permafrosted_soil.json",
+          "src/main/resources/assets/coldconfrontation/models/item/permafrosted_soil.json"
         ]
       },
       "path": "~/Blocks/Earth"
@@ -815,10 +815,10 @@
       "registry_name": "permafrosted_tundra_grass",
       "metadata": {
         "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/permafrosted_tundra_grass.json",
           "src/main/java/net/mcreator/coldconfrontation/block/PermafrostedTundraGrassBlock.java",
-          "src/main/resources/assets/coldconfrontation/blockstates/permafrosted_tundra_grass.json",
           "src/main/resources/assets/coldconfrontation/models/block/permafrosted_tundra_grass.json",
-          "src/main/resources/assets/coldconfrontation/models/item/permafrosted_tundra_grass.json"
+          "src/main/resources/assets/coldconfrontation/blockstates/permafrosted_tundra_grass.json"
         ]
       },
       "path": "~/Blocks/Earth"
@@ -832,10 +832,10 @@
       "registry_name": "tundra_short_grass",
       "metadata": {
         "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/tundra_short_grass.json",
           "src/main/java/net/mcreator/coldconfrontation/block/TundraShortGrassBlock.java",
-          "src/main/resources/assets/coldconfrontation/models/block/tundra_short_grass.json",
           "src/main/resources/assets/coldconfrontation/blockstates/tundra_short_grass.json",
-          "src/main/resources/assets/coldconfrontation/models/item/tundra_short_grass.json"
+          "src/main/resources/assets/coldconfrontation/models/block/tundra_short_grass.json"
         ]
       },
       "path": "~/Blocks/Plants/Tundra Grass"
@@ -866,7 +866,7 @@
           "src/main/resources/data/coldconfrontation/worldgen/biome/decaying_tundra.json"
         ]
       },
-      "path": "~/Biomes/Decaying Tundra"
+      "path": "~/DimensionSpecific/Biomes/Decaying Tundra"
     },
     {
       "name": "SprucePalisades",
@@ -894,10 +894,10 @@
       "registry_name": "spruce_palisade_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/item/spruce_palisade_block.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/spruce_palisade_block.json",
           "src/main/resources/assets/coldconfrontation/models/block/spruce_palisade_block.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/SprucePalisadeBlockBlock.java"
+          "src/main/resources/assets/coldconfrontation/models/item/spruce_palisade_block.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/SprucePalisadeBlockBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/spruce_palisade_block.json"
         ]
       },
       "path": "~/Blocks/Palisades"
@@ -998,9 +998,9 @@
       "registry_name": "pine_palisade_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/item/pine_palisade_block.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/pine_palisade_block.json",
           "src/main/java/net/mcreator/coldconfrontation/block/PinePalisadeBlockBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/pine_palisade_block.json",
+          "src/main/resources/assets/coldconfrontation/models/item/pine_palisade_block.json",
           "src/main/resources/assets/coldconfrontation/models/block/pine_palisade_block.json"
         ]
       },
@@ -1057,7 +1057,8 @@
           "src/main/java/net/mcreator/coldconfrontation/world/dimension/FrostedOverworldDimension.java",
           "src/main/resources/data/coldconfrontation/dimension_type/frosted_overworld.json"
         ]
-      }
+      },
+      "path": "~/DimensionSpecific"
     },
     {
       "name": "Notes",
@@ -1081,12 +1082,12 @@
       "registry_name": "tundra_short_grass_gen",
       "metadata": {
         "files": [
-          "src/main/resources/data/coldconfrontation/forge/biome_modifier/tundra_short_grass_gen_biome_modifier.json",
+          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/tundra_short_grass_gen.json",
           "src/main/resources/data/coldconfrontation/worldgen/configured_feature/tundra_short_grass_gen.json",
-          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/tundra_short_grass_gen.json"
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/tundra_short_grass_gen_biome_modifier.json"
         ]
       },
-      "path": "~/Features/Decaying Tundra"
+      "path": "~/DimensionSpecific/Features/Decaying Tundra"
     },
     {
       "name": "TallTundraGrassPatch",
@@ -1097,12 +1098,12 @@
       "registry_name": "tall_tundra_grass_patch",
       "metadata": {
         "files": [
-          "src/main/resources/data/coldconfrontation/forge/biome_modifier/tall_tundra_grass_patch_biome_modifier.json",
           "src/main/resources/data/coldconfrontation/worldgen/configured_feature/tall_tundra_grass_patch.json",
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/tall_tundra_grass_patch_biome_modifier.json",
           "src/main/resources/data/coldconfrontation/worldgen/placed_feature/tall_tundra_grass_patch.json"
         ]
       },
-      "path": "~/Features/Decaying Tundra"
+      "path": "~/DimensionSpecific/Features/Decaying Tundra"
     },
     {
       "name": "TallTundraGrass",
@@ -1113,10 +1114,10 @@
       "registry_name": "tall_tundra_grass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/item/tall_tundra_grass.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/tall_tundra_grass.json",
-          "src/main/resources/assets/coldconfrontation/models/block/tall_tundra_grass.json",
           "src/main/java/net/mcreator/coldconfrontation/block/TallTundraGrassBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/tall_tundra_grass.json",
+          "src/main/resources/assets/coldconfrontation/models/item/tall_tundra_grass.json",
+          "src/main/resources/assets/coldconfrontation/models/block/tall_tundra_grass.json",
           "src/main/resources/assets/coldconfrontation/models/block/tall_tundra_grass_bottom.json"
         ]
       },
@@ -1164,8 +1165,8 @@
       "registry_name": "saskatoon_berry",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/item/saskatoon_berry.json",
-          "src/main/java/net/mcreator/coldconfrontation/item/SaskatoonBerryItem.java"
+          "src/main/java/net/mcreator/coldconfrontation/item/SaskatoonBerryItem.java",
+          "src/main/resources/assets/coldconfrontation/models/item/saskatoon_berry.json"
         ]
       },
       "path": "~/Items/Saskatoon Berry"
@@ -1311,10 +1312,10 @@
       "registry_name": "arctic_willow",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/coldconfrontation/block/ArcticWillowBlock.java",
-          "src/main/resources/assets/coldconfrontation/models/item/arctic_willow.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/arctic_willow.json",
           "src/main/resources/assets/coldconfrontation/models/block/arctic_willow.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/arctic_willow.json"
+          "src/main/java/net/mcreator/coldconfrontation/block/ArcticWillowBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/arctic_willow.json"
         ]
       },
       "path": "~/Blocks/Plants/Arctic Willow"
@@ -1328,12 +1329,12 @@
       "registry_name": "arctic_willow_patch_gen",
       "metadata": {
         "files": [
-          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/arctic_willow_patch_gen.json",
           "src/main/resources/data/coldconfrontation/worldgen/placed_feature/arctic_willow_patch_gen.json",
-          "src/main/resources/data/coldconfrontation/forge/biome_modifier/arctic_willow_patch_gen_biome_modifier.json"
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/arctic_willow_patch_gen_biome_modifier.json",
+          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/arctic_willow_patch_gen.json"
         ]
       },
-      "path": "~/Features/Decaying Tundra"
+      "path": "~/DimensionSpecific/Features/Decaying Tundra"
     },
     {
       "name": "SaskatoonBerryBushPatch",
@@ -1344,12 +1345,12 @@
       "registry_name": "saskatoon_berry_bush_patch",
       "metadata": {
         "files": [
-          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/saskatoon_berry_bush_patch.json",
           "src/main/resources/data/coldconfrontation/forge/biome_modifier/saskatoon_berry_bush_patch_biome_modifier.json",
-          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/saskatoon_berry_bush_patch.json"
+          "src/main/resources/data/coldconfrontation/worldgen/configured_feature/saskatoon_berry_bush_patch.json",
+          "src/main/resources/data/coldconfrontation/worldgen/placed_feature/saskatoon_berry_bush_patch.json"
         ]
       },
-      "path": "~/Features/Decaying Tundra"
+      "path": "~/DimensionSpecific/Features/Decaying Tundra"
     },
     {
       "name": "SaskatoonBerryBushEntityWalksOnTheBlock",
@@ -1384,9 +1385,9 @@
       "registry_name": "winterwood_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodWoodBlock.java",
           "src/main/resources/assets/coldconfrontation/models/item/winterwood_wood.json",
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_wood.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodWoodBlock.java",
           "src/main/resources/assets/coldconfrontation/blockstates/winterwood_wood.json"
         ]
       },
@@ -1402,9 +1403,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_log.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodLogBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_log.json",
           "src/main/resources/assets/coldconfrontation/blockstates/winterwood_log.json",
-          "src/main/resources/assets/coldconfrontation/models/item/winterwood_log.json"
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodLogBlock.java"
         ]
       },
       "path": "~/Blocks/Wood/Winterwood"
@@ -1419,8 +1420,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/coldconfrontation/blockstates/winterwood_planks.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_planks.json",
           "src/main/resources/assets/coldconfrontation/models/item/winterwood_planks.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_planks.json",
           "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodPlanksBlock.java"
         ]
       },
@@ -1435,10 +1436,10 @@
       "registry_name": "winterwood_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_leaves.json",
           "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodLeavesBlock.java",
           "src/main/resources/assets/coldconfrontation/models/item/winterwood_leaves.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_leaves.json"
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_leaves.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_leaves.json"
         ]
       },
       "path": "~/Blocks/Wood/Winterwood"
@@ -1452,12 +1453,12 @@
       "registry_name": "winterwood_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/item/winterwood_stairs.json",
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_stairs.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_stairs_outer.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodStairsBlock.java",
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_stairs_inner.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_stairs.json"
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodStairsBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_stairs.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_stairs.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_stairs_outer.json"
         ]
       },
       "path": "~/Blocks/Wood/Winterwood"
@@ -1471,12 +1472,12 @@
       "registry_name": "winterwood_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_slab.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_slab_full.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_slab_top.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodSlabBlock.java",
           "src/main/resources/assets/coldconfrontation/blockstates/winterwood_slab.json",
-          "src/main/resources/assets/coldconfrontation/models/item/winterwood_slab.json"
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_slab_full.json",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_slab.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_slab_top.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_slab.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodSlabBlock.java"
         ]
       },
       "path": "~/Blocks/Wood/Winterwood"
@@ -1490,11 +1491,11 @@
       "registry_name": "winterwood_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/item/winterwood_fence.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_post.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodFenceBlock.java",
           "src/main/resources/assets/coldconfrontation/blockstates/winterwood_fence.json",
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_inventory.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodFenceBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_post.json",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_fence.json",
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence.json"
         ]
       },
@@ -1511,11 +1512,11 @@
         "files": [
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_gate.json",
           "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodFenceGateBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_gate_wall_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_gate_open.json",
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_gate_wall.json",
           "src/main/resources/assets/coldconfrontation/models/item/winterwood_fence_gate.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_fence_gate.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_gate_open.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_fence_gate_wall_open.json"
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_fence_gate.json"
         ]
       },
       "path": "~/Blocks/Wood/Winterwood"
@@ -1529,11 +1530,11 @@
       "registry_name": "winterwood_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodPressurePlateBlock.java",
-          "src/main/resources/assets/coldconfrontation/models/item/winterwood_pressure_plate.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_pressure_plate_down.json",
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_pressure_plate.json",
           "src/main/resources/assets/coldconfrontation/blockstates/winterwood_pressure_plate.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_pressure_plate_down.json"
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodPressurePlateBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_pressure_plate.json"
         ]
       },
       "path": "~/Blocks/Wood/Winterwood"
@@ -1547,11 +1548,11 @@
       "registry_name": "winterwood_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_button_inventory.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_button_pressed.json",
-          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_button.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodButtonBlock.java",
           "src/main/resources/assets/coldconfrontation/models/item/winterwood_button.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_button.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_button_pressed.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodButtonBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_button_inventory.json",
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_button.json"
         ]
       },
@@ -1763,9 +1764,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/coldconfrontation/models/item/stripped_winterwood_log.json",
-          "src/main/resources/assets/coldconfrontation/models/block/stripped_winterwood_log.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/stripped_winterwood_log.json",
           "src/main/java/net/mcreator/coldconfrontation/block/StrippedWinterwoodLogBlock.java",
-          "src/main/resources/assets/coldconfrontation/blockstates/stripped_winterwood_log.json"
+          "src/main/resources/assets/coldconfrontation/models/block/stripped_winterwood_log.json"
         ]
       },
       "path": "~/Blocks/Wood/Winterwood"
@@ -1815,17 +1816,17 @@
       "registry_name": "winterwood_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_left_open.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_bottom_left.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_bottom_right_open.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_right.json",
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_bottom_right.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_right_open.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_bottom_left_open.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodDoorBlock.java",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_right.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_left.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_bottom_left.json",
           "src/main/resources/assets/coldconfrontation/models/item/winterwood_door.json",
           "src/main/resources/assets/coldconfrontation/blockstates/winterwood_door.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_left.json"
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_bottom_right_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_right_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_top_left_open.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_door_bottom_left_open.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodDoorBlock.java"
         ]
       },
       "path": "~/Blocks/Wood/Winterwood"
@@ -1853,12 +1854,12 @@
       "registry_name": "winterwood_trapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_trapdoor.json",
-          "src/main/resources/assets/coldconfrontation/models/item/winterwood_trapdoor.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodTrapdoorBlock.java",
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_trapdoor_open.json",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_trapdoor.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_trapdoor.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_trapdoor_top.json",
           "src/main/resources/assets/coldconfrontation/blockstates/winterwood_trapdoor.json",
-          "src/main/resources/assets/coldconfrontation/models/block/winterwood_trapdoor_top.json"
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodTrapdoorBlock.java"
         ]
       },
       "path": "~/Blocks/Wood/Winterwood"
@@ -1940,8 +1941,8 @@
         "files": [
           "src/main/resources/assets/coldconfrontation/models/block/winterwood_sappling.json",
           "src/main/resources/assets/coldconfrontation/models/item/winterwood_sappling.json",
-          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodSapplingBlock.java",
-          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_sappling.json"
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_sappling.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodSapplingBlock.java"
         ]
       },
       "path": "~/Blocks/Wood/Winterwood"
@@ -2007,7 +2008,7 @@
         ],
         "has_nbt_structure": true
       },
-      "path": "~/Features/Decaying Tundra"
+      "path": "~/DimensionSpecific/Features/Decaying Tundra"
     },
     {
       "name": "PlayerInitialJoin",
@@ -2080,6 +2081,24 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "MutantFox",
+      "type": "animatedentity",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutant_fox",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/mutant_fox_spawn_egg.json",
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/mutant_fox_biome_modifier.json",
+          "src/main/java/net/mcreator/coldconfrontation/client/renderer/MutantFoxRenderer.java",
+          "src/main/java/net/mcreator/coldconfrontation/entity/MutantFoxEntity.java",
+          "src/main/java/net/mcreator/coldconfrontation/entity/model/MutantFoxModel.java"
+        ]
+      },
+      "path": "~/MutantFox"
     }
   ],
   "variable_elements": [
@@ -2100,63 +2119,66 @@
   "language_map": {
     "en_us": {
       "block.coldconfrontation.stripped_pine_wood": "Stripped Pine Wood",
-      "block.coldconfrontation.pine_door": "Pine Door",
-      "block.coldconfrontation.pine_palisade_block": "Pine Palisade Block",
-      "block.coldconfrontation.pine_slab": "Pine Slab",
       "block.coldconfrontation.pine_palisade_roof_stairs": "Pine Palisade Roof Stairs",
-      "block.coldconfrontation.permafrosted_tundra_grass": "Permafrosted Tundra Grass",
-      "block.coldconfrontation.pine_sapling": "Pine Sapling",
       "block.coldconfrontation.pine_leaves": "Pine Leaves",
-      "block.coldconfrontation.winterwood_pressure_plate": "Winterwood Pressure Plate",
       "block.coldconfrontation.winterwood_trapdoor": "Winterwood Trapdoor",
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
-      "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
-      "block.coldconfrontation.pine_palisade_roof_slab": "Pine Palisade Roof Slab",
-      "block.coldconfrontation.spruce_palisade_block": "Spruce Palisade Block",
       "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
-      "block.coldconfrontation.winterwood_stairs": "Winterwood Stairs",
       "block.coldconfrontation.permafrosted_soil": "Permafrosted Soil",
       "block.coldconfrontation.spruce_palisade_roof_stairs": "Spruce Palisade Roof Stairs",
       "block.coldconfrontation.pine_pressure_plate": "Pine Pressure Plate",
-      "block.coldconfrontation.pine_log": "Pine Log",
-      "block.coldconfrontation.stripped_pine_log": "Stripped Pine Log",
       "block.coldconfrontation.pine_fence": "Pine Fence",
-      "block.coldconfrontation.pine_stairs": "Pine Stairs",
-      "block.coldconfrontation.winterwood_planks": "Winterwood Planks",
       "item_group.coldconfrontation.tab_cold_confrontation": "Cold Confrontation",
-      "block.coldconfrontation.spruce_palisades": "Spruce Palisades",
-      "block.coldconfrontation.stripped_winterwood_log": "Stripped Winterwood Log",
       "biome.coldconfrontation.decaying_tundra": "Decaying Tundra",
       "block.coldconfrontation.winterwood_wood": "Winterwood Wood",
       "block.coldconfrontation.winterwood_leaves": "Winterwood Leaves",
-      "block.coldconfrontation.winterwood_sappling": "Winterwood Sappling",
       "block.coldconfrontation.pine_fence_gate": "Pine Fence Gate",
-      "item.coldconfrontation.saskatoon_berry": "Saskatoon Berry",
       "block.coldconfrontation.arctic_willow": "Arctic Willow",
+      "block.coldconfrontation.winterwood_door": "Winterwood Door",
+      "block.coldconfrontation.tall_tundra_grass": "Tall Tundra Grass",
+      "block.coldconfrontation.tundra_short_grass": "Tundra Short Grass",
+      "block.coldconfrontation.pine_door": "Pine Door",
+      "block.coldconfrontation.pine_palisade_block": "Pine Palisade Block",
+      "block.coldconfrontation.pine_slab": "Pine Slab",
+      "block.coldconfrontation.permafrosted_tundra_grass": "Permafrosted Tundra Grass",
+      "block.coldconfrontation.pine_sapling": "Pine Sapling",
+      "block.coldconfrontation.winterwood_pressure_plate": "Winterwood Pressure Plate",
+      "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
+      "block.coldconfrontation.pine_palisade_roof_slab": "Pine Palisade Roof Slab",
+      "block.coldconfrontation.spruce_palisade_block": "Spruce Palisade Block",
+      "block.coldconfrontation.winterwood_stairs": "Winterwood Stairs",
+      "block.coldconfrontation.stripped_pine_log": "Stripped Pine Log",
+      "block.coldconfrontation.pine_log": "Pine Log",
+      "block.coldconfrontation.pine_stairs": "Pine Stairs",
+      "block.coldconfrontation.winterwood_planks": "Winterwood Planks",
+      "block.coldconfrontation.spruce_palisades": "Spruce Palisades",
+      "block.coldconfrontation.stripped_winterwood_log": "Stripped Winterwood Log",
+      "block.coldconfrontation.winterwood_sappling": "Winterwood Sappling",
+      "item.coldconfrontation.saskatoon_berry": "Saskatoon Berry",
+      "entity.coldconfrontation.mutant_fox": "Mutant Fox",
       "block.coldconfrontation.pine_wood": "Pine Wood",
       "block.coldconfrontation.spruce_palisade_roof_slab": "Spruce Palisade Roof Slab",
       "block.coldconfrontation.pine_planks": "Pine Planks",
-      "block.coldconfrontation.winterwood_door": "Winterwood Door",
       "block.coldconfrontation.pine_button": "Pine Button",
       "block.coldconfrontation.winterwood_fence_gate": "Winterwood Fence Gate",
-      "block.coldconfrontation.tall_tundra_grass": "Tall Tundra Grass",
-      "block.coldconfrontation.tundra_short_grass": "Tundra Short Grass",
-      "block.coldconfrontation.winterwood_log": "Winterwood Log"
+      "block.coldconfrontation.winterwood_log": "Winterwood Log",
+      "item.coldconfrontation.mutant_fox_spawn_egg": "Mutant Fox Spawn Egg"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "Conditions",
-        "children": []
-      },
-      {
         "name": "Procedures",
-        "children": []
+        "children": [
+          {
+            "name": "Conditions",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Recipes",
@@ -2249,29 +2271,38 @@
         "children": []
       },
       {
-        "name": "Biomes",
-        "children": [
-          {
-            "name": "Decaying Tundra",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Features",
-        "children": [
-          {
-            "name": "Decaying Tundra",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Structures",
+        "name": "spisfolderfuckyou",
         "children": []
       },
       {
-        "name": "spisfolderfuckyou",
+        "name": "DimensionSpecific",
+        "children": [
+          {
+            "name": "Biomes",
+            "children": [
+              {
+                "name": "Decaying Tundra",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Features",
+            "children": [
+              {
+                "name": "Decaying Tundra",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Structures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "MutantFox",
         "children": []
       }
     ]

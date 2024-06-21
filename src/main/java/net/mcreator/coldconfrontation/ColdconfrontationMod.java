@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.coldconfrontation.world.features.StructureFeature;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModTabs;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModItems;
+import net.mcreator.coldconfrontation.init.ColdconfrontationModEntities;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModBlocks;
 
 import java.util.function.Supplier;
@@ -55,6 +56,7 @@ public class ColdconfrontationMod {
 		ColdconfrontationModBlocks.REGISTRY.register(bus);
 
 		ColdconfrontationModItems.REGISTRY.register(bus);
+		ColdconfrontationModEntities.REGISTRY.register(bus);
 
 		ColdconfrontationModTabs.REGISTRY.register(bus);
 

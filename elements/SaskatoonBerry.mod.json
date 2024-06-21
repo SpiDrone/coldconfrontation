@@ -44,7 +44,7 @@
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
-      "value": "ProjectileBlood"
+      "value": "Arrow"
     },
     "isFood": true,
     "nutritionalValue": 2,
