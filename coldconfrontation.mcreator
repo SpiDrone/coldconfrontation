@@ -2184,7 +2184,7 @@
       "type": "livingentity",
       "sortid": 124,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "spear_entity",
       "metadata": {
         "files": [
@@ -2246,6 +2246,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2274,6 +2290,64 @@
         ]
       },
       "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "Event",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/EventProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "SpearPickup",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_pickup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SpearPickupProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "EmptyGui",
+      "type": "gui",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/world/inventory/EmptyGuiMenu.java",
+          "src/main/java/net/mcreator/coldconfrontation/client/gui/EmptyGuiScreen.java"
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
     }
   ],
   "variable_elements": [
@@ -2299,8 +2373,8 @@
       "block.coldconfrontation.winterwood_trapdoor": "Winterwood Trapdoor",
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
-      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
+      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "block.coldconfrontation.permafrosted_soil": "Permafrosted Soil",
       "block.coldconfrontation.spruce_palisade_roof_stairs": "Spruce Palisade Roof Stairs",

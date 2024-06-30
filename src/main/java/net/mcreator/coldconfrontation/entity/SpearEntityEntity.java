@@ -3,16 +3,21 @@ package net.mcreator.coldconfrontation.entity;
 
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.items.wrapper.EntityHandsInvWrapper;
+import net.minecraftforge.items.wrapper.EntityArmorInvWrapper;
+import net.minecraftforge.items.wrapper.CombinedInvWrapper;
+import net.minecraftforge.items.ItemStackHandler;
+import net.minecraftforge.common.util.LazyOptional;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
+import net.minecraftforge.common.capabilities.Capability;
 
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.enchantment.EnchantmentHelper;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.ai.navigation.PathNavigation;
-import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
-import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnGroupData;
@@ -32,13 +37,15 @@ import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 
 import net.mcreator.coldconfrontation.procedures.SpearTickProcedure;
 import net.mcreator.coldconfrontation.procedures.SpearSpawnProcedure;
+import net.mcreator.coldconfrontation.procedures.SpearPickupProcedure;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModEntities;
 
 import javax.annotation.Nullable;
+import javax.annotation.Nonnull;
 
 public class SpearEntityEntity extends PathfinderMob {
 	public static final EntityDataAccessor<String> DATA_owner = SynchedEntityData.defineId(SpearEntityEntity.class, EntityDataSerializers.STRING);
@@ -52,6 +59,8 @@ public class SpearEntityEntity extends PathfinderMob {
 	public static final EntityDataAccessor<String> DATA_z = SynchedEntityData.defineId(SpearEntityEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> DATA_x = SynchedEntityData.defineId(SpearEntityEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> DATA_y = SynchedEntityData.defineId(SpearEntityEntity.class, EntityDataSerializers.STRING);
+	public static final EntityDataAccessor<Integer> DATA_spearstate = SynchedEntityData.defineId(SpearEntityEntity.class, EntityDataSerializers.INT);
+	public static final EntityDataAccessor<String> DATA_damageduuids = SynchedEntityData.defineId(SpearEntityEntity.class, EntityDataSerializers.STRING);
 
 	public SpearEntityEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(ColdconfrontationModEntities.SPEAR_ENTITY.get(), world);
@@ -63,7 +72,6 @@ public class SpearEntityEntity extends PathfinderMob {
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
-		this.moveControl = new FlyingMoveControl(this, 10, true);
 	}
 
 	@Override
@@ -75,7 +83,7 @@ public class SpearEntityEntity extends PathfinderMob {
 	protected void defineSynchedData() {
 		super.defineSynchedData();
 		this.entityData.define(DATA_owner, "");
-		this.entityData.define(DATA_pierce, 0);
+		this.entityData.define(DATA_pierce, 1);
 		this.entityData.define(DATA_loyalty, 0);
 		this.entityData.define(DATA_explosive, 0);
 		this.entityData.define(DATA_weight, 0);
@@ -85,17 +93,13 @@ public class SpearEntityEntity extends PathfinderMob {
 		this.entityData.define(DATA_z, "0");
 		this.entityData.define(DATA_x, "0");
 		this.entityData.define(DATA_y, "0");
-	}
-
-	@Override
-	protected PathNavigation createNavigation(Level world) {
-		return new FlyingPathNavigation(this, world);
+		this.entityData.define(DATA_spearstate, 0);
+		this.entityData.define(DATA_damageduuids, "");
 	}
 
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-
 	}
 
 	@Override
@@ -105,11 +109,6 @@ public class SpearEntityEntity extends PathfinderMob {
 
 	@Override
 	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
-	}
-
-	@Override
-	public boolean causeFallDamage(float l, float d, DamageSource source) {
 		return false;
 	}
 
@@ -153,6 +152,32 @@ public class SpearEntityEntity extends PathfinderMob {
 		return retval;
 	}
 
+	private final ItemStackHandler inventory = new ItemStackHandler(1) {
+		@Override
+		public int getSlotLimit(int slot) {
+			return 64;
+		}
+	};
+	private final CombinedInvWrapper combined = new CombinedInvWrapper(inventory, new EntityHandsInvWrapper(this), new EntityArmorInvWrapper(this));
+
+	@Override
+	public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> capability, @Nullable Direction side) {
+		if (this.isAlive() && capability == ForgeCapabilities.ITEM_HANDLER && side == null)
+			return LazyOptional.of(() -> combined).cast();
+		return super.getCapability(capability, side);
+	}
+
+	@Override
+	protected void dropEquipment() {
+		super.dropEquipment();
+		for (int i = 0; i < inventory.getSlots(); ++i) {
+			ItemStack itemstack = inventory.getStackInSlot(i);
+			if (!itemstack.isEmpty() && !EnchantmentHelper.hasVanishingCurse(itemstack)) {
+				this.spawnAtLocation(itemstack);
+			}
+		}
+	}
+
 	@Override
 	public void addAdditionalSaveData(CompoundTag compound) {
 		super.addAdditionalSaveData(compound);
@@ -167,6 +192,9 @@ public class SpearEntityEntity extends PathfinderMob {
 		compound.putString("Dataz", this.entityData.get(DATA_z));
 		compound.putString("Datax", this.entityData.get(DATA_x));
 		compound.putString("Datay", this.entityData.get(DATA_y));
+		compound.putInt("Dataspearstate", this.entityData.get(DATA_spearstate));
+		compound.putString("Datadamageduuids", this.entityData.get(DATA_damageduuids));
+		compound.put("InventoryCustom", inventory.serializeNBT());
 	}
 
 	@Override
@@ -194,12 +222,24 @@ public class SpearEntityEntity extends PathfinderMob {
 			this.entityData.set(DATA_x, compound.getString("Datax"));
 		if (compound.contains("Datay"))
 			this.entityData.set(DATA_y, compound.getString("Datay"));
+		if (compound.contains("Dataspearstate"))
+			this.entityData.set(DATA_spearstate, compound.getInt("Dataspearstate"));
+		if (compound.contains("Datadamageduuids"))
+			this.entityData.set(DATA_damageduuids, compound.getString("Datadamageduuids"));
+		if (compound.get("InventoryCustom") instanceof CompoundTag inventoryTag)
+			inventory.deserializeNBT(inventoryTag);
 	}
 
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		SpearTickProcedure.execute(this);
+		SpearTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
+	}
+
+	@Override
+	public void playerTouch(Player sourceentity) {
+		super.playerTouch(sourceentity);
+		SpearPickupProcedure.execute(this.level(), this, sourceentity);
 	}
 
 	@Override
@@ -210,33 +250,6 @@ public class SpearEntityEntity extends PathfinderMob {
 		Level world = this.level();
 		Entity entity = this;
 		return false;
-	}
-
-	@Override
-	public boolean isPushable() {
-		return false;
-	}
-
-	@Override
-	protected void doPush(Entity entityIn) {
-	}
-
-	@Override
-	protected void pushEntities() {
-	}
-
-	@Override
-	protected void checkFallDamage(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
-	}
-
-	@Override
-	public void setNoGravity(boolean ignored) {
-		super.setNoGravity(true);
-	}
-
-	public void aiStep() {
-		super.aiStep();
-		this.setNoGravity(true);
 	}
 
 	public static void init() {
@@ -250,7 +263,6 @@ public class SpearEntityEntity extends PathfinderMob {
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 0);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 0);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 1000);
-		builder = builder.add(Attributes.FLYING_SPEED, 0);
 		return builder;
 	}
 }

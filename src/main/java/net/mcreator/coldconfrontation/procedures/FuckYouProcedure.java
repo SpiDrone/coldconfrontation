@@ -19,6 +19,8 @@ import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.coldconfrontation.ColdconfrontationMod;
+
 import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
@@ -65,6 +67,8 @@ public class FuckYouProcedure {
 					_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
+		} else if ((text).equals("Look")) {
+			ColdconfrontationMod.LOGGER.info(entity.getXRot());
 		}
 	}
 }

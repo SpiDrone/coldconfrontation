@@ -40,6 +40,8 @@ neither tetch, because he's cool and stuff
 + fixed bush generation
 + fuck you
 + spear
++ more spear
+
 
 
 

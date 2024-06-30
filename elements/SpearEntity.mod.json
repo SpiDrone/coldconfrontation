@@ -78,11 +78,11 @@
     "pushedByFluids": {
       "fixedValue": false
     },
-    "flyingMob": true,
-    "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
+    "flyingMob": false,
+    "guiBoundTo": "EmptyGui",
+    "inventorySize": 1,
     "inventoryStackSize": 64,
-    "disableCollisions": true,
+    "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
@@ -125,7 +125,7 @@
         "max": 2147483647,
         "name": "pierce",
         "type": "integer",
-        "value": 0
+        "value": 1
       },
       {
         "min": -2147483648,
@@ -177,10 +177,25 @@
         "name": "y",
         "type": "string",
         "value": "0"
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "spearstate",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "name": "damageduuids",
+        "type": "string",
+        "value": ""
       }
     ],
     "onMobTickUpdate": {
       "name": "SpearTick"
+    },
+    "onPlayerCollidesWith": {
+      "name": "SpearPickup"
     },
     "onInitialSpawn": {
       "name": "SpearSpawn"

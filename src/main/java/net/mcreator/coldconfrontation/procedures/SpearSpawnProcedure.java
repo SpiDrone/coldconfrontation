@@ -16,6 +16,7 @@ public class SpearSpawnProcedure {
 		if (entity == null)
 			return;
 		if (!world.isClientSide()) {
+			entity.setNoGravity(true);
 			{
 				Entity _ent = entity;
 				_ent.setYRot(((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
