@@ -2099,6 +2099,181 @@
         ]
       },
       "path": "~/MutantFox"
+    },
+    {
+      "name": "SpearRightClick",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SpearRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "SpearShoot",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SpearShootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "Spear",
+      "type": "tool",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/item/SpearItem.java",
+          "src/main/resources/assets/coldconfrontation/models/item/spear.json"
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "SpearEntity",
+      "type": "livingentity",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/entity/SpearEntityEntity.java",
+          "src/main/java/net/mcreator/coldconfrontation/client/renderer/SpearEntityRenderer.java",
+          "src/main/resources/assets/coldconfrontation/models/item/spear_entity_spawn_egg.json"
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "SpearSpawn",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SpearSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "SpearTick",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SpearTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "FuckYou",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuck_you",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/FuckYouProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "text",
+            "type": "string"
+          }
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
     }
   ],
   "variable_elements": [
@@ -2132,6 +2307,7 @@
       "block.coldconfrontation.pine_pressure_plate": "Pine Pressure Plate",
       "block.coldconfrontation.pine_fence": "Pine Fence",
       "item_group.coldconfrontation.tab_cold_confrontation": "Cold Confrontation",
+      "entity.coldconfrontation.spear_entity": "Spear",
       "biome.coldconfrontation.decaying_tundra": "Decaying Tundra",
       "block.coldconfrontation.winterwood_wood": "Winterwood Wood",
       "block.coldconfrontation.winterwood_leaves": "Winterwood Leaves",
@@ -2150,6 +2326,8 @@
       "block.coldconfrontation.pine_palisade_roof_slab": "Pine Palisade Roof Slab",
       "block.coldconfrontation.spruce_palisade_block": "Spruce Palisade Block",
       "block.coldconfrontation.winterwood_stairs": "Winterwood Stairs",
+      "item.coldconfrontation.spear_entity_spawn_egg": "Spear Spawn Egg",
+      "item.coldconfrontation.spear": "Spear",
       "block.coldconfrontation.stripped_pine_log": "Stripped Pine Log",
       "block.coldconfrontation.pine_log": "Pine Log",
       "block.coldconfrontation.pine_stairs": "Pine Stairs",
@@ -2303,6 +2481,10 @@
       },
       {
         "name": "MutantFox",
+        "children": []
+      },
+      {
+        "name": "Weapons",
         "children": []
       }
     ]

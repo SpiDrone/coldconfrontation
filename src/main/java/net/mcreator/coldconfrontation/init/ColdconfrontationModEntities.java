@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.coldconfrontation.entity.SpearEntityEntity;
 import net.mcreator.coldconfrontation.entity.MutantFoxEntity;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
@@ -26,6 +27,8 @@ public class ColdconfrontationModEntities {
 			EntityType.Builder.<MutantFoxEntity>of(MutantFoxEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MutantFoxEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SpearEntityEntity>> SPEAR_ENTITY = register("spear_entity", EntityType.Builder.<SpearEntityEntity>of(SpearEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(SpearEntityEntity::new).fireImmune().sized(0.3f, 0.3f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -35,11 +38,13 @@ public class ColdconfrontationModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			MutantFoxEntity.init();
+			SpearEntityEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(MUTANT_FOX.get(), MutantFoxEntity.createAttributes().build());
+		event.put(SPEAR_ENTITY.get(), SpearEntityEntity.createAttributes().build());
 	}
 }

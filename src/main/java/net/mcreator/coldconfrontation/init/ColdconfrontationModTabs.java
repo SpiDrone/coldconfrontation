@@ -75,6 +75,11 @@ public class ColdconfrontationModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(ColdconfrontationModItems.MUTANT_FOX_SPAWN_EGG.get());
+			tabData.accept(ColdconfrontationModItems.SPEAR_ENTITY_SPAWN_EGG.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(ColdconfrontationModItems.SPEAR.get());
 		}
 	}
 }

@@ -38,6 +38,8 @@ neither tetch, because he's cool and stuff
 + spawn/respawn in frosted tundra
 + fuck you
 + fixed bush generation
++ fuck you
++ spear
 
 
 

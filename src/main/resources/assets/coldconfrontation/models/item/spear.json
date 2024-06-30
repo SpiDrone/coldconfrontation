@@ -1,0 +1,7 @@
+{
+  "parent": "coldconfrontation:custom/spear_item",
+  "textures": {
+    "0": "coldconfrontation:block/spear1",
+    "particle": "coldconfrontation:item/wooden_spear"
+  }
+}

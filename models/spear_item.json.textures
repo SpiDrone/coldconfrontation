@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spear1"
+      },
+      "name": "default"
+    }
+  }
+}

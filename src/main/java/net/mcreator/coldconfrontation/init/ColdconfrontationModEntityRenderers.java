@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.coldconfrontation.client.renderer.SpearEntityRenderer;
 import net.mcreator.coldconfrontation.client.renderer.MutantFoxRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -16,5 +17,6 @@ public class ColdconfrontationModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ColdconfrontationModEntities.MUTANT_FOX.get(), MutantFoxRenderer::new);
+		event.registerEntityRenderer(ColdconfrontationModEntities.SPEAR_ENTITY.get(), SpearEntityRenderer::new);
 	}
 }
