@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coldconfrontation:block/pine_trapdoor",
+    "up": "coldconfrontation:block/pine_trapdoor",
+    "north": "coldconfrontation:block/pine_trapdoor",
+    "east": "coldconfrontation:block/pine_trapdoor",
+    "south": "coldconfrontation:block/pine_trapdoor",
+    "west": "coldconfrontation:block/pine_trapdoor",
+    "particle": "coldconfrontation:block/pine_trapdoor"
+  },
+  "render_type": "solid"
+}

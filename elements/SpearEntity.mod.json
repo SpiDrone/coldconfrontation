@@ -189,6 +189,13 @@
         "name": "damageduuids",
         "type": "string",
         "value": ""
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "strength",
+        "type": "integer",
+        "value": 0
       }
     ],
     "onMobTickUpdate": {

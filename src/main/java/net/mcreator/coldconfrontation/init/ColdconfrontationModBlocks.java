@@ -52,6 +52,7 @@ import net.mcreator.coldconfrontation.block.PineDoorBlock;
 import net.mcreator.coldconfrontation.block.PineButtonBlock;
 import net.mcreator.coldconfrontation.block.PermafrostedTundraGrassBlock;
 import net.mcreator.coldconfrontation.block.PermafrostedSoilBlock;
+import net.mcreator.coldconfrontation.block.CampfireBlock;
 import net.mcreator.coldconfrontation.block.ArcticWillowBlock;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
@@ -100,4 +101,5 @@ public class ColdconfrontationModBlocks {
 	public static final RegistryObject<Block> WINTERWOOD_TRAPDOOR = REGISTRY.register("winterwood_trapdoor", () -> new WinterwoodTrapdoorBlock());
 	public static final RegistryObject<Block> WINTERWOOD_SAPPLING = REGISTRY.register("winterwood_sappling", () -> new WinterwoodSapplingBlock());
 	public static final RegistryObject<Block> SASKATOON_BERRY_BUSH = REGISTRY.register("saskatoon_berry_bush", () -> new SaskatoonBerryBushBlock());
+	public static final RegistryObject<Block> CAMPFIRE = REGISTRY.register("campfire", () -> new CampfireBlock());
 }

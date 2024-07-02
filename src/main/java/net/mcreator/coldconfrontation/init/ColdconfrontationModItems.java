@@ -67,6 +67,7 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> MUTANT_FOX_SPAWN_EGG = REGISTRY.register("mutant_fox_spawn_egg", () -> new ForgeSpawnEggItem(ColdconfrontationModEntities.MUTANT_FOX, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> SPEAR = REGISTRY.register("spear", () -> new SpearItem());
 	public static final RegistryObject<Item> SPEAR_ENTITY_SPAWN_EGG = REGISTRY.register("spear_entity_spawn_egg", () -> new ForgeSpawnEggItem(ColdconfrontationModEntities.SPEAR_ENTITY, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> CAMPFIRE = block(ColdconfrontationModBlocks.CAMPFIRE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

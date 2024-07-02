@@ -55,7 +55,28 @@ public class SpearTickProcedure {
 					_entity.yHeadRotO = _entity.getYRot();
 				}
 			}
-			modifier = 1.2;
+			modifier = 1.12;
+			if (new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert(entity instanceof SpearEntityEntity _datEntS ? _datEntS.getEntityData().get(SpearEntityEntity.DATA_pitch) : "") > 40) {
+				modifier = modifier - 0.2;
+			} else if (new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert(entity instanceof SpearEntityEntity _datEntS ? _datEntS.getEntityData().get(SpearEntityEntity.DATA_pitch) : "") < -40) {
+				modifier = modifier + 0.1;
+			}
 			if (!(entity.horizontalCollision || entity.verticalCollision || entity.onGround())) {
 				if ((entity instanceof SpearEntityEntity _datEntI ? _datEntI.getEntityData().get(SpearEntityEntity.DATA_spearstate) : 0) == 0) {
 					entity.setDeltaMovement(new Vec3((new Object() {
@@ -146,6 +167,8 @@ public class SpearTickProcedure {
 									return null;
 								}
 							}).get(world, (entity instanceof SpearEntityEntity _datEntS ? _datEntS.getEntityData().get(SpearEntityEntity.DATA_owner) : "")))), 6);
+							Vec3 motion = entity.getDeltaMovement().scale(0);
+							entity.setDeltaMovement(motion);
 							entity.setNoGravity(false);
 							if (entity instanceof SpearEntityEntity _datEntSetI)
 								_datEntSetI.getEntityData().set(SpearEntityEntity.DATA_spearstate, 2);

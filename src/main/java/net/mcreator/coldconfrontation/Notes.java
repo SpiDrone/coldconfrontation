@@ -11,8 +11,12 @@ Palisade roof slabs don't have horizontal directions
 
 
 
+-----For Later-----
+EntityToEntityPathfinding is going to be used on heat sources, so they can only
+give heat if there is a path to the player.
 
-
+I dont know how to replace Entity entity with a static/fake entity that is capable of pathfinding in that
+tick that it exists :(
 
 
 

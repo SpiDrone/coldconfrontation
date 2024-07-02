@@ -8,6 +8,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.coldconfrontation.entity.SpearEntityEntity;
+import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
 import java.util.Comparator;
 
@@ -56,6 +57,13 @@ public class SpearSpawnProcedure {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
 				}.compareDistOf(x, y, z)).findFirst().orElse(null)).getXRot()));
+			ColdconfrontationMod.queueServerWork(1, () -> {
+				ColdconfrontationMod.queueServerWork((int) (entity instanceof SpearEntityEntity _datEntI ? _datEntI.getEntityData().get(SpearEntityEntity.DATA_strength) : 0), () -> {
+					entity.setNoGravity(false);
+					if (entity instanceof SpearEntityEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(SpearEntityEntity.DATA_spearstate, 1);
+				});
+			});
 		}
 	}
 }

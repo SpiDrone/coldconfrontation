@@ -40,6 +40,8 @@ public class SpearShootProcedure {
 							_modHandler.setStackInSlot(_slotid, _setstack);
 					});
 				}
+				if ((entitytospawn) instanceof SpearEntityEntity _datEntSetI)
+					_datEntSetI.getEntityData().set(SpearEntityEntity.DATA_strength, 40);
 				if ((entitytospawn) instanceof SpearEntityEntity _datEntSetS)
 					_datEntSetS.getEntityData().set(SpearEntityEntity.DATA_owner, (entity.getStringUUID()));
 			}
