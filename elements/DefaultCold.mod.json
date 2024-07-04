@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "coldValue",
+    "description": "how much heat the player loses on tick",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 4
+  }
+}

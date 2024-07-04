@@ -1,0 +1,16 @@
+{
+  "_fv": 57,
+  "_type": "attribute",
+  "definition": {
+    "description": "Cold Resistance",
+    "minValue": 0.0,
+    "maxValue": 250.0,
+    "defaultValue": 5.0,
+    "isPersistent": false,
+    "entities": [
+      {
+        "value": "EntityPlayer"
+      }
+    ]
+  }
+}

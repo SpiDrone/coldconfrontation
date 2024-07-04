@@ -74,6 +74,13 @@ public class ColdconfrontationModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(ColdconfrontationModItems.WOOL_ARMOR_HELMET.get());
+			tabData.accept(ColdconfrontationModItems.WOOL_ARMOR_CHESTPLATE.get());
+			tabData.accept(ColdconfrontationModItems.WOOL_ARMOR_LEGGINGS.get());
+			tabData.accept(ColdconfrontationModItems.WOOL_ARMOR_BOOTS.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(ColdconfrontationModItems.MUTANT_FOX_SPAWN_EGG.get());
 			tabData.accept(ColdconfrontationModItems.SPEAR_ENTITY_SPAWN_EGG.get());

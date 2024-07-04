@@ -84,6 +84,7 @@ public class ColdconfrontationModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.hasJoined = original.hasJoined;
 			if (!event.isWasDeath()) {
+				clone.PlayerHeat = original.PlayerHeat;
 			}
 			if (!event.getEntity().level().isClientSide()) {
 				for (Entity entityiterator : new ArrayList<>(event.getEntity().level().players())) {
@@ -258,6 +259,7 @@ public class ColdconfrontationModVariables {
 
 	public static class PlayerVariables {
 		public boolean hasJoined = false;
+		public double PlayerHeat = 3000.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -267,12 +269,14 @@ public class ColdconfrontationModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putBoolean("hasJoined", hasJoined);
+			nbt.putDouble("PlayerHeat", PlayerHeat);
 			return nbt;
 		}
 
 		public void readNBT(Tag Tag) {
 			CompoundTag nbt = (CompoundTag) Tag;
 			hasJoined = nbt.getBoolean("hasJoined");
+			PlayerHeat = nbt.getDouble("PlayerHeat");
 		}
 	}
 
@@ -307,6 +311,7 @@ public class ColdconfrontationModVariables {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.level().getEntity(message.target).getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.hasJoined = message.data.hasJoined;
+					variables.PlayerHeat = message.data.PlayerHeat;
 				}
 			});
 			context.setPacketHandled(true);

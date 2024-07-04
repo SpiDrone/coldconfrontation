@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.coldconfrontation.item.WoolArmorItem;
 import net.mcreator.coldconfrontation.item.SpearItem;
 import net.mcreator.coldconfrontation.item.SaskatoonBerryItem;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
@@ -68,6 +69,10 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> SPEAR = REGISTRY.register("spear", () -> new SpearItem());
 	public static final RegistryObject<Item> SPEAR_ENTITY_SPAWN_EGG = REGISTRY.register("spear_entity_spawn_egg", () -> new ForgeSpawnEggItem(ColdconfrontationModEntities.SPEAR_ENTITY, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> CAMPFIRE = block(ColdconfrontationModBlocks.CAMPFIRE);
+	public static final RegistryObject<Item> WOOL_ARMOR_HELMET = REGISTRY.register("wool_armor_helmet", () -> new WoolArmorItem.Helmet());
+	public static final RegistryObject<Item> WOOL_ARMOR_CHESTPLATE = REGISTRY.register("wool_armor_chestplate", () -> new WoolArmorItem.Chestplate());
+	public static final RegistryObject<Item> WOOL_ARMOR_LEGGINGS = REGISTRY.register("wool_armor_leggings", () -> new WoolArmorItem.Leggings());
+	public static final RegistryObject<Item> WOOL_ARMOR_BOOTS = REGISTRY.register("wool_armor_boots", () -> new WoolArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
