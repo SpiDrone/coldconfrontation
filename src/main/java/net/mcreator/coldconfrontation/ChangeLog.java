@@ -41,7 +41,10 @@ neither tetch, because he's cool and stuff
 + fuck you
 + spear
 + more spear
-
++ fuck you
++ Implemented Temperature
++ Fuck You
++ Campfire model/works
 
 
 
