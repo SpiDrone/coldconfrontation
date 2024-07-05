@@ -64,6 +64,7 @@ public class PlayerTickProcedure {
 		if (entity instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal(("" + (entity.getCapability(ColdconfrontationModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ColdconfrontationModVariables.PlayerVariables())).PlayerHeat)), true);
 		if ((entity.getCapability(ColdconfrontationModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ColdconfrontationModVariables.PlayerVariables())).PlayerHeat <= 0) {
+			entity.setTicksFrozen((int) (entity.getTicksFrozen() + 5));
 			if (entity instanceof LivingEntity _entity)
 				_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
 					@Override
@@ -85,6 +86,7 @@ public class PlayerTickProcedure {
 					}
 				}, 4);
 		} else if ((entity.getCapability(ColdconfrontationModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ColdconfrontationModVariables.PlayerVariables())).PlayerHeat <= 500) {
+			entity.setTicksFrozen((int) (entity.getTicksFrozen() + 3));
 			if (Math.random() < 0.01) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {

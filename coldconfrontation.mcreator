@@ -2383,26 +2383,6 @@
       "path": "~/Temperature"
     },
     {
-      "name": "Bigballs",
-      "type": "procedure",
-      "sortid": 134,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bigballs",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coldconfrontation/procedures/BigballsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/spisfolderfuckyou"
-    },
-    {
       "name": "EntityToEntityPathfinding",
       "type": "procedure",
       "sortid": 135,
@@ -2442,6 +2422,9 @@
       "locked_code": false,
       "registry_name": "player_tick",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/PlayerTickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2604,6 +2587,20 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/coldconfrontation/potion/FrostBiteMobEffect.java"
+        ]
+      },
+      "path": "~/Temperature"
+    },
+    {
+      "name": "ColdOverlay",
+      "type": "overlay",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cold_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/client/screens/ColdOverlayOverlay.java"
         ]
       },
       "path": "~/Temperature"

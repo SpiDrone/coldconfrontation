@@ -28,6 +28,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
+import net.mcreator.coldconfrontation.network.ColdconfrontationModVariables;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModItems;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
@@ -88,6 +89,30 @@ public class SendChatProcedure {
 				ItemStack _setstack = new ItemStack(ColdconfrontationModItems.SPEAR.get());
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+		} else if ((text).equals("ice")) {
+			{
+				double _setval = 0;
+				entity.getCapability(ColdconfrontationModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.PlayerHeat = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+		} else if ((text).equals("cold")) {
+			{
+				double _setval = 2500;
+				entity.getCapability(ColdconfrontationModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.PlayerHeat = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+		} else if ((text).equals("hot")) {
+			{
+				double _setval = 10000;
+				entity.getCapability(ColdconfrontationModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.PlayerHeat = _setval;
+					capability.syncPlayerVariables(entity);
+				});
 			}
 		}
 	}
