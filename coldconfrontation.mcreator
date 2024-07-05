@@ -2703,6 +2703,21 @@
         ]
       },
       "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "WolfPelt",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_pelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/wolf_pelt.json",
+          "src/main/java/net/mcreator/coldconfrontation/item/WolfPeltItem.java"
+        ]
+      },
+      "path": "~/Mutated Wolf"
     }
   ],
   "variable_elements": [
@@ -2771,8 +2786,8 @@
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
       "item.coldconfrontation.mutated_wolf_spawn_egg": "Mutated Wolf Spawn Egg",
-      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
+      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "gamerule.defaultCold.description": "how much heat the player loses on tick",
       "block.coldconfrontation.campfire": "Campfire",
@@ -2794,6 +2809,7 @@
       "block.coldconfrontation.pine_door": "Pine Door",
       "block.coldconfrontation.pine_palisade_block": "Pine Palisade Block",
       "block.coldconfrontation.pine_slab": "Pine Slab",
+      "item.coldconfrontation.wolf_pelt": "Wolf Pelt",
       "attribute.coldconfrontation.cold_resistance": "Cold Resistance",
       "block.coldconfrontation.permafrosted_tundra_grass": "Permafrosted Tundra Grass",
       "block.coldconfrontation.pine_sapling": "Pine Sapling",
