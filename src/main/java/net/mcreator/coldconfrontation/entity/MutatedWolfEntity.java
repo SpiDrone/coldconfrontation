@@ -42,6 +42,7 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
+import net.mcreator.coldconfrontation.procedures.MutatedWolfEntityDiesProcedure;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModEntities;
 
 public class MutatedWolfEntity extends Monster implements GeoEntity {
@@ -113,6 +114,12 @@ public class MutatedWolfEntity extends Monster implements GeoEntity {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		MutatedWolfEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override

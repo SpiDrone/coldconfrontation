@@ -2718,6 +2718,64 @@
         ]
       },
       "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "WolfFurExtension",
+      "type": "itemextension",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_fur_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "MutatedWolfLootTable",
+      "type": "loottable",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_wolf_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/loot_tables/entities/mutated_wolf.json"
+        ]
+      },
+      "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "MutatedWolfEntityDies",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_wolf_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/MutatedWolfEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mutated Wolf"
     }
   ],
   "variable_elements": [
@@ -2786,8 +2844,8 @@
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
       "item.coldconfrontation.mutated_wolf_spawn_egg": "Mutated Wolf Spawn Egg",
-      "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
       "block.coldconfrontation.pine_palisades": "Pine Palisades",
+      "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "gamerule.defaultCold.description": "how much heat the player loses on tick",
       "block.coldconfrontation.campfire": "Campfire",
