@@ -73,6 +73,7 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> WOOL_ARMOR_CHESTPLATE = REGISTRY.register("wool_armor_chestplate", () -> new WoolArmorItem.Chestplate());
 	public static final RegistryObject<Item> WOOL_ARMOR_LEGGINGS = REGISTRY.register("wool_armor_leggings", () -> new WoolArmorItem.Leggings());
 	public static final RegistryObject<Item> WOOL_ARMOR_BOOTS = REGISTRY.register("wool_armor_boots", () -> new WoolArmorItem.Boots());
+	public static final RegistryObject<Item> MUTATED_WOLF_SPAWN_EGG = REGISTRY.register("mutated_wolf_spawn_egg", () -> new ForgeSpawnEggItem(ColdconfrontationModEntities.MUTATED_WOLF, -1, -1, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

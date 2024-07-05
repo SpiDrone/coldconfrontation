@@ -2670,6 +2670,24 @@
         ]
       },
       "path": "~/Commands"
+    },
+    {
+      "name": "MutatedWolf",
+      "type": "animatedentity",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_wolf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/mutated_wolf_biome_modifier.json",
+          "src/main/java/net/mcreator/coldconfrontation/client/renderer/MutatedWolfRenderer.java",
+          "src/main/java/net/mcreator/coldconfrontation/entity/model/MutatedWolfModel.java",
+          "src/main/resources/assets/coldconfrontation/models/item/mutated_wolf_spawn_egg.json",
+          "src/main/java/net/mcreator/coldconfrontation/entity/MutatedWolfEntity.java"
+        ]
+      },
+      "path": "~/Mutated Wolf"
     }
   ],
   "variable_elements": [
@@ -2737,8 +2755,9 @@
       "block.coldconfrontation.winterwood_trapdoor": "Winterwood Trapdoor",
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
-      "block.coldconfrontation.pine_palisades": "Pine Palisades",
+      "item.coldconfrontation.mutated_wolf_spawn_egg": "Mutated Wolf Spawn Egg",
       "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
+      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "gamerule.defaultCold.description": "how much heat the player loses on tick",
       "block.coldconfrontation.campfire": "Campfire",
@@ -2767,6 +2786,7 @@
       "effect.coldconfrontation.wet": "wet",
       "effect.coldconfrontation.frost_bite": "frostbite",
       "item.coldconfrontation.wool_armor_helmet": "Wool Helmet",
+      "entity.coldconfrontation.mutated_wolf": "Mutated Wolf",
       "effect.coldconfrontation.warm": "warm",
       "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
       "block.coldconfrontation.pine_palisade_roof_slab": "Pine Palisade Roof Slab",
@@ -2946,6 +2966,10 @@
       },
       {
         "name": "Commands",
+        "children": []
+      },
+      {
+        "name": "Mutated Wolf",
         "children": []
       }
     ]

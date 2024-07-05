@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.coldconfrontation.entity.SpearEntityEntity;
+import net.mcreator.coldconfrontation.entity.MutatedWolfEntity;
 import net.mcreator.coldconfrontation.entity.MutantFoxEntity;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
@@ -29,6 +30,10 @@ public class ColdconfrontationModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SpearEntityEntity>> SPEAR_ENTITY = register("spear_entity", EntityType.Builder.<SpearEntityEntity>of(SpearEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(SpearEntityEntity::new).fireImmune().sized(0.3f, 0.3f));
+	public static final RegistryObject<EntityType<MutatedWolfEntity>> MUTATED_WOLF = register("mutated_wolf",
+			EntityType.Builder.<MutatedWolfEntity>of(MutatedWolfEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MutatedWolfEntity::new)
+
+					.sized(1.8f, 1.6f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -39,6 +44,7 @@ public class ColdconfrontationModEntities {
 		event.enqueueWork(() -> {
 			MutantFoxEntity.init();
 			SpearEntityEntity.init();
+			MutatedWolfEntity.init();
 		});
 	}
 
@@ -46,5 +52,6 @@ public class ColdconfrontationModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(MUTANT_FOX.get(), MutantFoxEntity.createAttributes().build());
 		event.put(SPEAR_ENTITY.get(), SpearEntityEntity.createAttributes().build());
+		event.put(MUTATED_WOLF.get(), MutatedWolfEntity.createAttributes().build());
 	}
 }
