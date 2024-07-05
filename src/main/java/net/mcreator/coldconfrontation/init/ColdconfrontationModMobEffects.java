@@ -12,10 +12,12 @@ import net.minecraft.world.effect.MobEffect;
 
 import net.mcreator.coldconfrontation.potion.WetMobEffect;
 import net.mcreator.coldconfrontation.potion.WarmMobEffect;
+import net.mcreator.coldconfrontation.potion.FrostBiteMobEffect;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
 public class ColdconfrontationModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, ColdconfrontationMod.MODID);
 	public static final RegistryObject<MobEffect> WARM = REGISTRY.register("warm", () -> new WarmMobEffect());
 	public static final RegistryObject<MobEffect> WET = REGISTRY.register("wet", () -> new WetMobEffect());
+	public static final RegistryObject<MobEffect> FROST_BITE = REGISTRY.register("frost_bite", () -> new FrostBiteMobEffect());
 }

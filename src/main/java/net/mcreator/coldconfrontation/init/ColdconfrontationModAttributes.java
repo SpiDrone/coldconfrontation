@@ -21,7 +21,7 @@ import net.mcreator.coldconfrontation.ColdconfrontationMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ColdconfrontationModAttributes {
 	public static final DeferredRegister<Attribute> ATTRIBUTES = DeferredRegister.create(ForgeRegistries.ATTRIBUTES, ColdconfrontationMod.MODID);
-	public static final RegistryObject<Attribute> COLDRESISTANCE = ATTRIBUTES.register("cold_resistance", () -> (new RangedAttribute("attribute." + ColdconfrontationMod.MODID + ".cold_resistance", 5, 0, 250)).setSyncable(true));
+	public static final RegistryObject<Attribute> COLDRESISTANCE = ATTRIBUTES.register("cold_resistance", () -> (new RangedAttribute("attribute." + ColdconfrontationMod.MODID + ".cold_resistance", 0, 0, 250)).setSyncable(true));
 
 	@SubscribeEvent
 	public static void register(FMLConstructModEvent event) {

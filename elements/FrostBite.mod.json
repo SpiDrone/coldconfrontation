@@ -1,0 +1,17 @@
+{
+  "_fv": 57,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "frostbite",
+    "icon": "wet.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": true
+  }
+}

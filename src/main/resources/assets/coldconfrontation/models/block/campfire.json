@@ -1,13 +1,9 @@
 {
-  "parent": "block/cube",
+  "parent": "coldconfrontation:custom/campfire",
   "textures": {
-    "down": "coldconfrontation:block/pine_trapdoor",
-    "up": "coldconfrontation:block/pine_trapdoor",
-    "north": "coldconfrontation:block/pine_trapdoor",
-    "east": "coldconfrontation:block/pine_trapdoor",
-    "south": "coldconfrontation:block/pine_trapdoor",
-    "west": "coldconfrontation:block/pine_trapdoor",
-    "particle": "coldconfrontation:block/pine_trapdoor"
+    "all": "coldconfrontation:block/pine_trapdoor",
+    "particle": "coldconfrontation:block/pine_trapdoor",
+    "0": "coldconfrontation:block/campfire"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }

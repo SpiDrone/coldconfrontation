@@ -3,14 +3,14 @@
   "_type": "block",
   "definition": {
     "texture": "pine_trapdoor",
-    "textureTop": "pine_trapdoor",
-    "textureLeft": "pine_trapdoor",
-    "textureFront": "pine_trapdoor",
-    "textureRight": "pine_trapdoor",
-    "textureBack": "pine_trapdoor",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 0,
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "campfire:default",
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -28,7 +28,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 4.0,
+        "My": 3.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -44,7 +44,7 @@
     "creativeTab": {
       "value": "CUSTOM:TabColdConfrontation"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
@@ -54,7 +54,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
@@ -98,9 +98,9 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 15,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

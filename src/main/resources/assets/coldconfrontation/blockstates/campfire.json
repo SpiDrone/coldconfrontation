@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "coldconfrontation:block/campfire"
+    },
+    "facing=east": {
+      "model": "coldconfrontation:block/campfire",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "coldconfrontation:block/campfire",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "coldconfrontation:block/campfire",
+      "y": 270
     }
   }
 }

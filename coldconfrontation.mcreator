@@ -2442,9 +2442,6 @@
       "locked_code": false,
       "registry_name": "player_tick",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coldconfrontation/procedures/PlayerTickProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2596,6 +2593,20 @@
         ]
       },
       "path": "~/Temperature"
+    },
+    {
+      "name": "FrostBite",
+      "type": "potioneffect",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_bite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/potion/FrostBiteMobEffect.java"
+        ]
+      },
+      "path": "~/Temperature"
     }
   ],
   "variable_elements": [
@@ -2627,8 +2638,8 @@
       "block.coldconfrontation.winterwood_trapdoor": "Winterwood Trapdoor",
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
-      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
+      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "gamerule.defaultCold.description": "how much heat the player loses on tick",
       "block.coldconfrontation.campfire": "Campfire",
@@ -2655,6 +2666,7 @@
       "block.coldconfrontation.pine_sapling": "Pine Sapling",
       "block.coldconfrontation.winterwood_pressure_plate": "Winterwood Pressure Plate",
       "effect.coldconfrontation.wet": "wet",
+      "effect.coldconfrontation.frost_bite": "frostbite",
       "item.coldconfrontation.wool_armor_helmet": "Wool Helmet",
       "effect.coldconfrontation.warm": "warm",
       "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",

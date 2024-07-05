@@ -7,11 +7,15 @@ import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.damagesource.DamageTypes;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.coldconfrontation.network.ColdconfrontationModVariables;
@@ -59,5 +63,73 @@ public class PlayerTickProcedure {
 		}
 		if (entity instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal(("" + (entity.getCapability(ColdconfrontationModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ColdconfrontationModVariables.PlayerVariables())).PlayerHeat)), true);
+		if ((entity.getCapability(ColdconfrontationModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ColdconfrontationModVariables.PlayerVariables())).PlayerHeat <= 0) {
+			if (entity instanceof LivingEntity _entity)
+				_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
+					@Override
+					public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
+						String _translatekey = "death.attack." + "frozen";
+						if (this.getEntity() == null && this.getDirectEntity() == null) {
+							return _msgEntity.getKillCredit() != null
+									? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
+									: Component.translatable(_translatekey, _msgEntity.getDisplayName());
+						} else {
+							Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
+							ItemStack _itemstack = ItemStack.EMPTY;
+							if (this.getEntity() instanceof LivingEntity _livingentity)
+								_itemstack = _livingentity.getMainHandItem();
+							return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
+									? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
+									: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+						}
+					}
+				}, 4);
+		} else if ((entity.getCapability(ColdconfrontationModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ColdconfrontationModVariables.PlayerVariables())).PlayerHeat <= 500) {
+			if (Math.random() < 0.01) {
+				if (entity instanceof LivingEntity _entity)
+					_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
+						@Override
+						public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
+							String _translatekey = "death.attack." + "cold";
+							if (this.getEntity() == null && this.getDirectEntity() == null) {
+								return _msgEntity.getKillCredit() != null
+										? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
+										: Component.translatable(_translatekey, _msgEntity.getDisplayName());
+							} else {
+								Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
+								ItemStack _itemstack = ItemStack.EMPTY;
+								if (this.getEntity() instanceof LivingEntity _livingentity)
+									_itemstack = _livingentity.getMainHandItem();
+								return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
+										? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
+										: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+							}
+						}
+					}, 2);
+			}
+		} else if ((entity.getCapability(ColdconfrontationModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ColdconfrontationModVariables.PlayerVariables())).PlayerHeat <= 1000) {
+			if (Math.random() < 0.005) {
+				if (entity instanceof LivingEntity _entity)
+					_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
+						@Override
+						public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
+							String _translatekey = "death.attack." + "cold";
+							if (this.getEntity() == null && this.getDirectEntity() == null) {
+								return _msgEntity.getKillCredit() != null
+										? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
+										: Component.translatable(_translatekey, _msgEntity.getDisplayName());
+							} else {
+								Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
+								ItemStack _itemstack = ItemStack.EMPTY;
+								if (this.getEntity() instanceof LivingEntity _livingentity)
+									_itemstack = _livingentity.getMainHandItem();
+								return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
+										? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
+										: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+							}
+						}
+					}, 1);
+			}
+		}
 	}
 }
