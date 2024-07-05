@@ -45,8 +45,12 @@ neither tetch, because he's cool and stuff
 + Implemented Temperature
 + Fuck You
 + Campfire model/works
-
-
++ Fuck You
++ Respawn at Campfire
++ Added Cold Overlay
++ Added various textures
++ Added /coldadmin command to move worldspawn
+//someone else do something please :)
 
 
 

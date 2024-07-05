@@ -83,6 +83,12 @@ public class ColdconfrontationModVariables {
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.hasJoined = original.hasJoined;
+			clone.campfireX = original.campfireX;
+			clone.campfireY = original.campfireY;
+			clone.campfireZ = original.campfireZ;
+			clone.frostspawnX = original.frostspawnX;
+			clone.frostspawnY = original.frostspawnY;
+			clone.frostspawnZ = original.frostspawnZ;
 			if (!event.isWasDeath()) {
 				clone.PlayerHeat = original.PlayerHeat;
 			}
@@ -260,6 +266,12 @@ public class ColdconfrontationModVariables {
 	public static class PlayerVariables {
 		public boolean hasJoined = false;
 		public double PlayerHeat = 3000.0;
+		public double campfireX = 0;
+		public double campfireY = 0;
+		public double campfireZ = 0;
+		public double frostspawnX = 0;
+		public double frostspawnY = 0;
+		public double frostspawnZ = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -270,6 +282,12 @@ public class ColdconfrontationModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putBoolean("hasJoined", hasJoined);
 			nbt.putDouble("PlayerHeat", PlayerHeat);
+			nbt.putDouble("campfireX", campfireX);
+			nbt.putDouble("campfireY", campfireY);
+			nbt.putDouble("campfireZ", campfireZ);
+			nbt.putDouble("frostspawnX", frostspawnX);
+			nbt.putDouble("frostspawnY", frostspawnY);
+			nbt.putDouble("frostspawnZ", frostspawnZ);
 			return nbt;
 		}
 
@@ -277,6 +295,12 @@ public class ColdconfrontationModVariables {
 			CompoundTag nbt = (CompoundTag) Tag;
 			hasJoined = nbt.getBoolean("hasJoined");
 			PlayerHeat = nbt.getDouble("PlayerHeat");
+			campfireX = nbt.getDouble("campfireX");
+			campfireY = nbt.getDouble("campfireY");
+			campfireZ = nbt.getDouble("campfireZ");
+			frostspawnX = nbt.getDouble("frostspawnX");
+			frostspawnY = nbt.getDouble("frostspawnY");
+			frostspawnZ = nbt.getDouble("frostspawnZ");
 		}
 	}
 
@@ -312,6 +336,12 @@ public class ColdconfrontationModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.level().getEntity(message.target).getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.hasJoined = message.data.hasJoined;
 					variables.PlayerHeat = message.data.PlayerHeat;
+					variables.campfireX = message.data.campfireX;
+					variables.campfireY = message.data.campfireY;
+					variables.campfireZ = message.data.campfireZ;
+					variables.frostspawnX = message.data.frostspawnX;
+					variables.frostspawnY = message.data.frostspawnY;
+					variables.frostspawnZ = message.data.frostspawnZ;
 				}
 			});
 			context.setPacketHandled(true);

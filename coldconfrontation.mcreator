@@ -2063,18 +2063,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -2363,7 +2351,7 @@
           }
         ]
       },
-      "path": "~/spisfolderfuckyou"
+      "path": "~/Commands"
     },
     {
       "name": "Campfire",
@@ -2604,6 +2592,84 @@
         ]
       },
       "path": "~/Temperature"
+    },
+    {
+      "name": "CampfireInteract",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_interact",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/CampfireInteractProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Temperature"
+    },
+    {
+      "name": "ColdAdmin",
+      "type": "command",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cold_admin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/command/ColdAdminCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "WorldSpawn",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/WorldSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Commands"
     }
   ],
   "variable_elements": [
@@ -2624,6 +2690,42 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "3000.0"
+    },
+    {
+      "name": "campfireX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "campfireY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "campfireZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "frostspawnX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "frostspawnY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "frostspawnZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -2840,6 +2942,10 @@
       },
       {
         "name": "Temperature",
+        "children": []
+      },
+      {
+        "name": "Commands",
         "children": []
       }
     ]
