@@ -2688,6 +2688,21 @@
         ]
       },
       "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "WolfFur",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_fur",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/wolf_fur.json",
+          "src/main/java/net/mcreator/coldconfrontation/item/WolfFurItem.java"
+        ]
+      },
+      "path": "~/Mutated Wolf"
     }
   ],
   "variable_elements": [
@@ -2756,8 +2771,8 @@
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
       "item.coldconfrontation.mutated_wolf_spawn_egg": "Mutated Wolf Spawn Egg",
-      "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
       "block.coldconfrontation.pine_palisades": "Pine Palisades",
+      "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "gamerule.defaultCold.description": "how much heat the player loses on tick",
       "block.coldconfrontation.campfire": "Campfire",
@@ -2801,6 +2816,7 @@
       "block.coldconfrontation.pine_log": "Pine Log",
       "block.coldconfrontation.pine_stairs": "Pine Stairs",
       "block.coldconfrontation.winterwood_planks": "Winterwood Planks",
+      "item.coldconfrontation.wolf_fur": "Wolf Fur",
       "block.coldconfrontation.spruce_palisades": "Spruce Palisades",
       "block.coldconfrontation.stripped_winterwood_log": "Stripped Winterwood Log",
       "block.coldconfrontation.winterwood_sappling": "Winterwood Sappling",

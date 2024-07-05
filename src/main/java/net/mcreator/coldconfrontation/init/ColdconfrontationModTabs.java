@@ -67,6 +67,7 @@ public class ColdconfrontationModTabs {
 				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_TRAPDOOR.get().asItem());
 				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_SAPPLING.get().asItem());
 				tabData.accept(ColdconfrontationModBlocks.CAMPFIRE.get().asItem());
+				tabData.accept(ColdconfrontationModItems.WOLF_FUR.get());
 			})
 
 					.build());
