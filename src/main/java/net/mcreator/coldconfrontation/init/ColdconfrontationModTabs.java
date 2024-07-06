@@ -67,6 +67,8 @@ public class ColdconfrontationModTabs {
 				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_TRAPDOOR.get().asItem());
 				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_SAPPLING.get().asItem());
 				tabData.accept(ColdconfrontationModBlocks.CAMPFIRE.get().asItem());
+				tabData.accept(ColdconfrontationModItems.WOLF_FUR.get());
+				tabData.accept(ColdconfrontationModItems.WOLF_PELT.get());
 			})
 
 					.build());
@@ -84,6 +86,7 @@ public class ColdconfrontationModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(ColdconfrontationModItems.MUTANT_FOX_SPAWN_EGG.get());
 			tabData.accept(ColdconfrontationModItems.SPEAR_ENTITY_SPAWN_EGG.get());
+			tabData.accept(ColdconfrontationModItems.MUTATED_WOLF_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
