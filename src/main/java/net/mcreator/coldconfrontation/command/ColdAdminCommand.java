@@ -49,7 +49,7 @@ public class ColdAdminCommand {
 					if (entity != null)
 						direction = entity.getDirection();
 
-					SetPersistCreativeProcedure.execute(arguments, entity);
+					SetPersistCreativeProcedure.execute();
 					return 0;
 				}))));
 	}
