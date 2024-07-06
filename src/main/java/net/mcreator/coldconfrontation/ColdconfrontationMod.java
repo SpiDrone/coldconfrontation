@@ -37,6 +37,7 @@ import net.mcreator.coldconfrontation.init.ColdconfrontationModMenus;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModItems;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModEntities;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModBlocks;
+import net.mcreator.coldconfrontation.init.ColdconfrontationModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -57,7 +58,7 @@ public class ColdconfrontationMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		ColdconfrontationModBlocks.REGISTRY.register(bus);
-
+		ColdconfrontationModBlockEntities.REGISTRY.register(bus);
 		ColdconfrontationModItems.REGISTRY.register(bus);
 		ColdconfrontationModEntities.REGISTRY.register(bus);
 

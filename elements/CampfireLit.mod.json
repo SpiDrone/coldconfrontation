@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "blockstates",
+  "definition": {
+    "block": "Campfire",
+    "blockstateList": [
+      {
+        "texture": "pine_door_top",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "campfire:default",
+        "luminance": 15,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

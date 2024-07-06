@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.FLINT_AND_STEEL"
+      },
+      {
+        "value": "Items.FIRE_CHARGE"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "ignition_source",
+    "namespace": "forge"
+  }
+}

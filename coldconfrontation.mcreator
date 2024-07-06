@@ -2350,7 +2350,8 @@
           "src/main/resources/assets/coldconfrontation/blockstates/campfire.json",
           "src/main/java/net/mcreator/coldconfrontation/block/CampfireBlock.java",
           "src/main/resources/assets/coldconfrontation/models/block/campfire.json",
-          "src/main/resources/assets/coldconfrontation/models/item/campfire.json"
+          "src/main/resources/assets/coldconfrontation/models/item/campfire.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/entity/CampfireBlockEntity.java"
         ]
       },
       "path": "~/Temperature"
@@ -2605,6 +2606,10 @@
           {
             "name": "z",
             "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2735,8 +2740,8 @@
       "registry_name": "campfire_flame",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/coldconfrontation/client/particle/CampfireFlameParticle.java",
-          "src/main/resources/assets/coldconfrontation/particles/campfire_flame.json"
+          "src/main/resources/assets/coldconfrontation/particles/campfire_flame.json",
+          "src/main/java/net/mcreator/coldconfrontation/client/particle/CampfireFlameParticle.java"
         ]
       },
       "path": "~/Temperature"
@@ -2750,11 +2755,11 @@
       "registry_name": "mutated_wolf",
       "metadata": {
         "files": [
-          "src/main/resources/data/coldconfrontation/forge/biome_modifier/mutated_wolf_biome_modifier.json",
+          "src/main/java/net/mcreator/coldconfrontation/client/renderer/MutatedWolfRenderer.java",
           "src/main/resources/assets/coldconfrontation/models/item/mutated_wolf_spawn_egg.json",
-          "src/main/java/net/mcreator/coldconfrontation/entity/MutatedWolfEntity.java",
           "src/main/java/net/mcreator/coldconfrontation/entity/model/MutatedWolfModel.java",
-          "src/main/java/net/mcreator/coldconfrontation/client/renderer/MutatedWolfRenderer.java"
+          "src/main/java/net/mcreator/coldconfrontation/entity/MutatedWolfEntity.java",
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/mutated_wolf_biome_modifier.json"
         ]
       },
       "path": "~/Mutated Wolf"
@@ -2768,8 +2773,8 @@
       "registry_name": "wolf_pelt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/coldconfrontation/item/WolfPeltItem.java",
-          "src/main/resources/assets/coldconfrontation/models/item/wolf_pelt.json"
+          "src/main/resources/assets/coldconfrontation/models/item/wolf_pelt.json",
+          "src/main/java/net/mcreator/coldconfrontation/item/WolfPeltItem.java"
         ]
       },
       "path": "~/Mutated Wolf"
@@ -2800,6 +2805,65 @@
         "files": []
       },
       "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "Fuckyou",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuckyou",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/FuckyouProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IgnitionSource",
+      "type": "tag",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignition_source",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ignition_source.json"
+        ]
+      },
+      "path": "~/Tags/Items"
+    },
+    {
+      "name": "CampfireLit",
+      "type": "blockstates",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_lit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/campfire_lit_blockstate_0.json"
+        ]
+      },
+      "path": "~/Temperature"
     }
   ],
   "variable_elements": [

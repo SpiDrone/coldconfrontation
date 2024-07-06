@@ -1,0 +1,9 @@
+{
+  "parent": "coldconfrontation:custom/campfire",
+  "textures": {
+    "all": "coldconfrontation:block/pine_door_top",
+    "particle": "coldconfrontation:block/pine_trapdoor",
+    "0": "coldconfrontation:block/campfire"
+  },
+  "render_type": "translucent"
+}
