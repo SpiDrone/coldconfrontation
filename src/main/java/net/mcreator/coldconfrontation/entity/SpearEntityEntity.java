@@ -15,11 +15,9 @@ import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnGroupData;
@@ -32,22 +30,15 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.MenuProvider;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.world.DifficultyInstance;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.Direction;
 
-import net.mcreator.coldconfrontation.world.inventory.EmptyGuiMenu;
 import net.mcreator.coldconfrontation.procedures.SpearTickProcedure;
 import net.mcreator.coldconfrontation.procedures.SpearSpawnProcedure;
 import net.mcreator.coldconfrontation.procedures.SpearPickupProcedure;
@@ -55,8 +46,6 @@ import net.mcreator.coldconfrontation.init.ColdconfrontationModEntities;
 
 import javax.annotation.Nullable;
 import javax.annotation.Nonnull;
-
-import io.netty.buffer.Unpooled;
 
 public class SpearEntityEntity extends PathfinderMob {
 	public static final EntityDataAccessor<String> DATA_owner = SynchedEntityData.defineId(SpearEntityEntity.class, EntityDataSerializers.STRING);
@@ -113,7 +102,6 @@ public class SpearEntityEntity extends PathfinderMob {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-
 	}
 
 	@Override
@@ -245,35 +233,6 @@ public class SpearEntityEntity extends PathfinderMob {
 			this.entityData.set(DATA_strength, compound.getInt("Datastrength"));
 		if (compound.get("InventoryCustom") instanceof CompoundTag inventoryTag)
 			inventory.deserializeNBT(inventoryTag);
-	}
-
-	@Override
-	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
-		ItemStack itemstack = sourceentity.getItemInHand(hand);
-		InteractionResult retval = InteractionResult.sidedSuccess(this.level().isClientSide());
-		if (sourceentity instanceof ServerPlayer serverPlayer) {
-			NetworkHooks.openScreen(serverPlayer, new MenuProvider() {
-				@Override
-				public Component getDisplayName() {
-					return Component.literal("Spear");
-				}
-
-				@Override
-				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-					FriendlyByteBuf packetBuffer = new FriendlyByteBuf(Unpooled.buffer());
-					packetBuffer.writeBlockPos(sourceentity.blockPosition());
-					packetBuffer.writeByte(0);
-					packetBuffer.writeVarInt(SpearEntityEntity.this.getId());
-					return new EmptyGuiMenu(id, inventory, packetBuffer);
-				}
-			}, buf -> {
-				buf.writeBlockPos(sourceentity.blockPosition());
-				buf.writeByte(0);
-				buf.writeVarInt(this.getId());
-			});
-		}
-		super.mobInteract(sourceentity, hand);
-		return retval;
 	}
 
 	@Override

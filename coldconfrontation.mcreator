@@ -2172,7 +2172,7 @@
       "type": "livingentity",
       "sortid": 124,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "spear_entity",
       "metadata": {
         "files": [
@@ -2252,21 +2252,6 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/spisfolderfuckyou"
-    },
-    {
-      "name": "Event",
-      "type": "procedure",
-      "sortid": 128,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "event",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coldconfrontation/procedures/EventProcedure.java"
-        ],
-        "dependencies": []
       },
       "path": "~/spisfolderfuckyou"
     },
@@ -2672,26 +2657,6 @@
       "path": "~/Commands"
     },
     {
-      "name": "Fuckyou",
-      "type": "procedure",
-      "sortid": 149,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fuckyou",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coldconfrontation/procedures/FuckyouProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Temperature"
-    },
-    {
       "name": "SetPersistCreative",
       "type": "procedure",
       "sortid": 150,
@@ -2787,8 +2752,8 @@
       "block.coldconfrontation.winterwood_trapdoor": "Winterwood Trapdoor",
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
-      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
+      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "gamerule.defaultCold.description": "how much heat the player loses on tick",
       "block.coldconfrontation.campfire": "Campfire",
@@ -2884,10 +2849,6 @@
         ]
       },
       {
-        "name": "Loot Tables",
-        "children": []
-      },
-      {
         "name": "Advancements",
         "children": []
       },
@@ -2942,10 +2903,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Tools and Armor",
-        "children": []
       },
       {
         "name": "spisfolderfuckyou",
