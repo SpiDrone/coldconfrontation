@@ -13,6 +13,9 @@ import net.minecraft.core.Direction;
 import net.minecraft.commands.Commands;
 
 import net.mcreator.coldconfrontation.procedures.WorldSpawnProcedure;
+import net.mcreator.coldconfrontation.procedures.SetPersistCreativeProcedure;
+
+import com.mojang.brigadier.arguments.BoolArgumentType;
 
 @Mod.EventBusSubscriber
 public class ColdAdminCommand {
@@ -34,6 +37,20 @@ public class ColdAdminCommand {
 
 					WorldSpawnProcedure.execute(x, y, z, entity);
 					return 0;
-				})));
+				})).then(Commands.literal("CreativeTemperature").then(Commands.argument("logic", BoolArgumentType.bool()).executes(arguments -> {
+					Level world = arguments.getSource().getUnsidedLevel();
+					double x = arguments.getSource().getPosition().x();
+					double y = arguments.getSource().getPosition().y();
+					double z = arguments.getSource().getPosition().z();
+					Entity entity = arguments.getSource().getEntity();
+					if (entity == null && world instanceof ServerLevel _servLevel)
+						entity = FakePlayerFactory.getMinecraft(_servLevel);
+					Direction direction = Direction.DOWN;
+					if (entity != null)
+						direction = entity.getDirection();
+
+					SetPersistCreativeProcedure.execute(arguments, entity);
+					return 0;
+				}))));
 	}
 }

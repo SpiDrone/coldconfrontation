@@ -89,6 +89,7 @@ public class ColdconfrontationModVariables {
 			clone.frostspawnX = original.frostspawnX;
 			clone.frostspawnY = original.frostspawnY;
 			clone.frostspawnZ = original.frostspawnZ;
+			clone.persistCreative = original.persistCreative;
 			if (!event.isWasDeath()) {
 				clone.PlayerHeat = original.PlayerHeat;
 			}
@@ -272,6 +273,7 @@ public class ColdconfrontationModVariables {
 		public double frostspawnX = 0;
 		public double frostspawnY = 0;
 		public double frostspawnZ = 0;
+		public boolean persistCreative = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -288,6 +290,7 @@ public class ColdconfrontationModVariables {
 			nbt.putDouble("frostspawnX", frostspawnX);
 			nbt.putDouble("frostspawnY", frostspawnY);
 			nbt.putDouble("frostspawnZ", frostspawnZ);
+			nbt.putBoolean("persistCreative", persistCreative);
 			return nbt;
 		}
 
@@ -301,6 +304,7 @@ public class ColdconfrontationModVariables {
 			frostspawnX = nbt.getDouble("frostspawnX");
 			frostspawnY = nbt.getDouble("frostspawnY");
 			frostspawnZ = nbt.getDouble("frostspawnZ");
+			persistCreative = nbt.getBoolean("persistCreative");
 		}
 	}
 
@@ -342,6 +346,7 @@ public class ColdconfrontationModVariables {
 					variables.frostspawnX = message.data.frostspawnX;
 					variables.frostspawnY = message.data.frostspawnY;
 					variables.frostspawnZ = message.data.frostspawnZ;
+					variables.persistCreative = message.data.persistCreative;
 				}
 			});
 			context.setPacketHandled(true);

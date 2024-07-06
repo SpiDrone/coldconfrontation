@@ -24,7 +24,7 @@ import net.mcreator.coldconfrontation.ColdconfrontationMod;
 public class ColdconfrontationModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, ColdconfrontationMod.MODID);
 	public static final RegistryObject<EntityType<MutantFoxEntity>> MUTANT_FOX = register("mutant_fox",
-			EntityType.Builder.<MutantFoxEntity>of(MutantFoxEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MutantFoxEntity::new)
+			EntityType.Builder.<MutantFoxEntity>of(MutantFoxEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MutantFoxEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SpearEntityEntity>> SPEAR_ENTITY = register("spear_entity", EntityType.Builder.<SpearEntityEntity>of(SpearEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
