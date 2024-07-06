@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.coldconfrontation.world.features.StructureFeature;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModTabs;
+import net.mcreator.coldconfrontation.init.ColdconfrontationModParticleTypes;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModMobEffects;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModMenus;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModItems;
@@ -64,6 +65,8 @@ public class ColdconfrontationMod {
 
 		StructureFeature.REGISTRY.register(bus);
 		ColdconfrontationModMobEffects.REGISTRY.register(bus);
+
+		ColdconfrontationModParticleTypes.REGISTRY.register(bus);
 
 		ColdconfrontationModMenus.REGISTRY.register(bus);
 	}

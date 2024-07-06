@@ -13,10 +13,12 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.coldconfrontation.network.ColdconfrontationModVariables;
+import net.mcreator.coldconfrontation.init.ColdconfrontationModParticleTypes;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModMobEffects;
 
 import java.util.List;
@@ -59,7 +61,9 @@ public class CampfireTickProcedure {
 			}
 		}
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles(ParticleTypes.FLAME, (x + 0.5), (y + 0.4), (z + 0.5), 2, 0, 0.12, 0, 0.025);
+			_level.sendParticles((SimpleParticleType) (ColdconfrontationModParticleTypes.CAMPFIRE_FLAME.get()), (x + 0.5), (y + 0.4), (z + 0.5), 2, 0, 0.14, 0, 0.025);
+		if (world instanceof ServerLevel _level)
+			_level.sendParticles(ParticleTypes.SMALL_FLAME, (x + 0.5), (y + 0.4), (z + 0.5), 1, 0, 0.12, 0, 0.025);
 		if (Math.random() < 0.1) {
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, (x + 0.5), (y + 0.7), (z + 0.5), 1, 0, 0.3, 0, 0.04);

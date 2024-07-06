@@ -2679,6 +2679,21 @@
         ]
       },
       "path": "~/Commands"
+    },
+    {
+      "name": "CampfireFlame",
+      "type": "particle",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_flame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/particles/campfire_flame.json",
+          "src/main/java/net/mcreator/coldconfrontation/client/particle/CampfireFlameParticle.java"
+        ]
+      },
+      "path": "~/Temperature"
     }
   ],
   "variable_elements": [
