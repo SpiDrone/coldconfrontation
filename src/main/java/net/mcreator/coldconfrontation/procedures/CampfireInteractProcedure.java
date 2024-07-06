@@ -1,6 +1,8 @@
 package net.mcreator.coldconfrontation.procedures;
 
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.Component;
 
 import net.mcreator.coldconfrontation.network.ColdconfrontationModVariables;
 
@@ -29,5 +31,7 @@ public class CampfireInteractProcedure {
 				capability.syncPlayerVariables(entity);
 			});
 		}
+		if (entity instanceof Player _player && !_player.level().isClientSide())
+			_player.displayClientMessage(Component.literal("[Spawn Point Set]"), false);
 	}
 }

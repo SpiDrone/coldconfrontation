@@ -5,8 +5,8 @@
   },
   "spawners": {
     "type": "coldconfrontation:mutant_fox",
-    "weight": 20,
+    "weight": 25,
     "minCount": 4,
-    "maxCount": 4
+    "maxCount": 5
   }
 }

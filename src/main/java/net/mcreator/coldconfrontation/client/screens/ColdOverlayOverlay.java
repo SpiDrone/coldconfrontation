@@ -49,6 +49,10 @@ public class ColdOverlayOverlay {
 				float alpha = 1 - (heat / 2500);
 				RenderSystem.setShaderColor(1, 1, 1, alpha);
 				event.getGuiGraphics().blit(new ResourceLocation("coldconfrontation:textures/screens/cold_overlay.png"), 0, 0, 0, 0, w, h, w, h);
+			} else if (heat > 7500) {
+				float alpha = (heat - 7500) / 2500;
+				RenderSystem.setShaderColor(.85F, .2F, 0, alpha);
+				event.getGuiGraphics().blit(new ResourceLocation("coldconfrontation:textures/screens/cold_overlay.png"), 0, 0, 0, 0, w, h, w, h);
 			}
 		}
 		RenderSystem.depthMask(true);

@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "coldconfrontation:wolf_fur",
+          "name": "coldconfrontation:deleted_mod_element",
           "weight": 1,
           "functions": [
             {
@@ -31,7 +31,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "coldconfrontation:wolf_pelt",
+          "name": "coldconfrontation:deleted_mod_element",
           "weight": 1,
           "functions": [
             {

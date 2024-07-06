@@ -2256,21 +2256,6 @@
       "path": "~/spisfolderfuckyou"
     },
     {
-      "name": "Event",
-      "type": "procedure",
-      "sortid": 128,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "event",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coldconfrontation/procedures/EventProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/spisfolderfuckyou"
-    },
-    {
       "name": "SpearPickup",
       "type": "procedure",
       "sortid": 129,
@@ -2672,80 +2657,6 @@
       "path": "~/Commands"
     },
     {
-      "name": "MutatedWolf",
-      "type": "animatedentity",
-      "sortid": 149,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mutated_wolf",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/coldconfrontation/forge/biome_modifier/mutated_wolf_biome_modifier.json",
-          "src/main/java/net/mcreator/coldconfrontation/client/renderer/MutatedWolfRenderer.java",
-          "src/main/java/net/mcreator/coldconfrontation/entity/model/MutatedWolfModel.java",
-          "src/main/resources/assets/coldconfrontation/models/item/mutated_wolf_spawn_egg.json",
-          "src/main/java/net/mcreator/coldconfrontation/entity/MutatedWolfEntity.java"
-        ]
-      },
-      "path": "~/Mutated Wolf"
-    },
-    {
-      "name": "WolfFur",
-      "type": "item",
-      "sortid": 150,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wolf_fur",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/coldconfrontation/models/item/wolf_fur.json",
-          "src/main/java/net/mcreator/coldconfrontation/item/WolfFurItem.java"
-        ]
-      },
-      "path": "~/Mutated Wolf"
-    },
-    {
-      "name": "WolfPelt",
-      "type": "item",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wolf_pelt",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/coldconfrontation/models/item/wolf_pelt.json",
-          "src/main/java/net/mcreator/coldconfrontation/item/WolfPeltItem.java"
-        ]
-      },
-      "path": "~/Mutated Wolf"
-    },
-    {
-      "name": "WolfFurExtension",
-      "type": "itemextension",
-      "sortid": 152,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wolf_fur_extension",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Mutated Wolf"
-    },
-    {
-      "name": "MutatedWolfLootTable",
-      "type": "loottable",
-      "sortid": 153,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mutated_wolf_loot_table",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/coldconfrontation/loot_tables/entities/mutated_wolf.json"
-        ]
-      },
-      "path": "~/Mutated Wolf"
-    },
-    {
       "name": "MutatedWolfEntityDies",
       "type": "procedure",
       "sortid": 154,
@@ -2776,6 +2687,95 @@
         ]
       },
       "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "MutatedWolfLootTable",
+      "type": "loottable",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_wolf_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/loot_tables/entities/mutated_wolf.json"
+        ]
+      },
+      "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "MutatedWolf",
+      "type": "animatedentity",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_wolf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/coldconfrontation/forge/biome_modifier/mutated_wolf_biome_modifier.json",
+          "src/main/java/net/mcreator/coldconfrontation/client/renderer/MutatedWolfRenderer.java",
+          "src/main/java/net/mcreator/coldconfrontation/entity/model/MutatedWolfModel.java",
+          "src/main/resources/assets/coldconfrontation/models/item/mutated_wolf_spawn_egg.json",
+          "src/main/java/net/mcreator/coldconfrontation/entity/MutatedWolfEntity.java"
+        ]
+      },
+      "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "WolfPelt",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_pelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/wolf_pelt.json",
+          "src/main/java/net/mcreator/coldconfrontation/item/WolfPeltItem.java"
+        ]
+      },
+      "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "WolfFur",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_fur",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/wolf_fur.json",
+          "src/main/java/net/mcreator/coldconfrontation/item/WolfFurItem.java"
+        ]
+      },
+      "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "WolfFurExtension",
+      "type": "itemextension",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_fur_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Mutated Wolf"
+    },
+    {
+      "name": "SetPersistCreative",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_persist_creative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/SetPersistCreativeProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Commands"
     }
   ],
   "variable_elements": [
@@ -2832,6 +2832,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "persistCreative",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -2843,9 +2849,8 @@
       "block.coldconfrontation.winterwood_trapdoor": "Winterwood Trapdoor",
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
-      "item.coldconfrontation.mutated_wolf_spawn_egg": "Mutated Wolf Spawn Egg",
-      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
+      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "gamerule.defaultCold.description": "how much heat the player loses on tick",
       "block.coldconfrontation.campfire": "Campfire",
@@ -2867,7 +2872,6 @@
       "block.coldconfrontation.pine_door": "Pine Door",
       "block.coldconfrontation.pine_palisade_block": "Pine Palisade Block",
       "block.coldconfrontation.pine_slab": "Pine Slab",
-      "item.coldconfrontation.wolf_pelt": "Wolf Pelt",
       "attribute.coldconfrontation.cold_resistance": "Cold Resistance",
       "block.coldconfrontation.permafrosted_tundra_grass": "Permafrosted Tundra Grass",
       "block.coldconfrontation.pine_sapling": "Pine Sapling",
@@ -2875,7 +2879,6 @@
       "effect.coldconfrontation.wet": "wet",
       "effect.coldconfrontation.frost_bite": "frostbite",
       "item.coldconfrontation.wool_armor_helmet": "Wool Helmet",
-      "entity.coldconfrontation.mutated_wolf": "Mutated Wolf",
       "effect.coldconfrontation.warm": "warm",
       "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
       "block.coldconfrontation.pine_palisade_roof_slab": "Pine Palisade Roof Slab",
@@ -2890,7 +2893,6 @@
       "block.coldconfrontation.pine_log": "Pine Log",
       "block.coldconfrontation.pine_stairs": "Pine Stairs",
       "block.coldconfrontation.winterwood_planks": "Winterwood Planks",
-      "item.coldconfrontation.wolf_fur": "Wolf Fur",
       "block.coldconfrontation.spruce_palisades": "Spruce Palisades",
       "block.coldconfrontation.stripped_winterwood_log": "Stripped Winterwood Log",
       "block.coldconfrontation.winterwood_sappling": "Winterwood Sappling",
@@ -2909,6 +2911,37 @@
     "name": "~",
     "children": [
       {
+        "name": "FOR LATER",
+        "children": []
+      },
+      {
+        "name": "DimensionSpecific",
+        "children": [
+          {
+            "name": "Features",
+            "children": [
+              {
+                "name": "Decaying Tundra",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Structures",
+            "children": []
+          },
+          {
+            "name": "Biomes",
+            "children": [
+              {
+                "name": "Decaying Tundra",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Procedures",
         "children": [
           {
@@ -2918,33 +2951,7 @@
         ]
       },
       {
-        "name": "Recipes",
-        "children": [
-          {
-            "name": "Pine Wood",
-            "children": []
-          },
-          {
-            "name": "Winterwood",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Tags",
-        "children": [
-          {
-            "name": "Blocks",
-            "children": []
-          },
-          {
-            "name": "Items",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Loot Tables",
+        "name": "MutantFox",
         "children": []
       },
       {
@@ -2972,6 +2979,10 @@
             "children": []
           },
           {
+            "name": "Palisades",
+            "children": []
+          },
+          {
             "name": "Plants",
             "children": [
               {
@@ -2987,12 +2998,29 @@
                 "children": []
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Tags",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
           },
           {
-            "name": "Palisades",
+            "name": "Items",
             "children": []
           }
         ]
+      },
+      {
+        "name": "Mutated Wolf",
+        "children": []
+      },
+      {
+        "name": "Weapons",
+        "children": []
       },
       {
         "name": "Items",
@@ -3004,62 +3032,28 @@
         ]
       },
       {
-        "name": "Tools and Armor",
+        "name": "Temperature",
         "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "Winterwood",
+            "children": []
+          },
+          {
+            "name": "Pine Wood",
+            "children": []
+          }
+        ]
       },
       {
         "name": "spisfolderfuckyou",
         "children": []
       },
       {
-        "name": "DimensionSpecific",
-        "children": [
-          {
-            "name": "Biomes",
-            "children": [
-              {
-                "name": "Decaying Tundra",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Features",
-            "children": [
-              {
-                "name": "Decaying Tundra",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Structures",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "MutantFox",
-        "children": []
-      },
-      {
-        "name": "Weapons",
-        "children": []
-      },
-      {
-        "name": "FOR LATER",
-        "children": []
-      },
-      {
-        "name": "Temperature",
-        "children": []
-      },
-      {
         "name": "Commands",
-        "children": []
-      },
-      {
-        "name": "Mutated Wolf",
         "children": []
       }
     ]

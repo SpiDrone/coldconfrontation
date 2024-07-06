@@ -140,10 +140,10 @@
     "height": 1.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
-    "mobSpawningType": "monster",
+    "spawningProbability": 25,
+    "mobSpawningType": "ambient",
     "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 5,
     "restrictionBiomes": [],
     "spawnInDungeons": false
   }
