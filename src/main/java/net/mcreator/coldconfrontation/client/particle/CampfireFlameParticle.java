@@ -1,6 +1,17 @@
 
 package net.mcreator.coldconfrontation.client.particle;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.core.particles.SimpleParticleType;
+import net.minecraft.client.particle.TextureSheetParticle;
+import net.minecraft.client.particle.SpriteSet;
+import net.minecraft.client.particle.ParticleRenderType;
+import net.minecraft.client.particle.ParticleProvider;
+import net.minecraft.client.particle.Particle;
+import net.minecraft.client.multiplayer.ClientLevel;
+
 @OnlyIn(Dist.CLIENT)
 public class CampfireFlameParticle extends TextureSheetParticle {
 	public static CampfireFlameParticleProvider provider(SpriteSet spriteSet) {
@@ -26,15 +37,16 @@ public class CampfireFlameParticle extends TextureSheetParticle {
 	protected CampfireFlameParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
-		this.setSize(0.2f, 0.2f);
-		this.lifetime = 7;
-		this.gravity = -0.2f;
-		this.hasPhysics = true;
-		this.xd = vx * 1.2;
-		this.yd = vy * 1.2;
-		this.zd = vz * 1.2;
-		this.angularVelocity = 0f;
-		this.angularAcceleration = 0.1f;
+		this.setSize(0.5f, 0.5f);
+		this.quadSize *= 1.6f;
+		this.lifetime = 15;
+		this.gravity = -0.1f;
+		this.hasPhysics = false;
+		this.xd = vx * 0.1;
+		this.yd = vy * 0.1;
+		this.zd = vz * 0.1;
+		this.angularVelocity = 0.005f;
+		this.angularAcceleration = -0.01f;
 		this.setSpriteFromAge(spriteSet);
 	}
 

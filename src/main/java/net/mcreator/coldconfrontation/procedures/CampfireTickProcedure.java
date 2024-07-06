@@ -10,6 +10,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -61,9 +63,10 @@ public class CampfireTickProcedure {
 			}
 		}
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (ColdconfrontationModParticleTypes.CAMPFIRE_FLAME.get()), (x + 0.5), (y + 0.4), (z + 0.5), 2, 0, 0.14, 0, 0.025);
+			_level.sendParticles((SimpleParticleType) (ColdconfrontationModParticleTypes.CAMPFIRE_FLAME.get()), (x + Mth.nextDouble(RandomSource.create(), 0.46, 0.54)), (y + Mth.nextDouble(RandomSource.create(), 0.38, 0.44)),
+					(z + Mth.nextDouble(RandomSource.create(), 0.46, 0.54)), 2, 0, 0, 0, 0.025);
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles(ParticleTypes.SMALL_FLAME, (x + 0.5), (y + 0.4), (z + 0.5), 1, 0, 0.12, 0, 0.025);
+			_level.sendParticles(ParticleTypes.SMALL_FLAME, (x + Mth.nextDouble(RandomSource.create(), 0.46, 0.54)), (y + Mth.nextDouble(RandomSource.create(), 0.38, 0.44)), (z + Mth.nextDouble(RandomSource.create(), 0.46, 0.54)), 1, 0, 0, 0, 0.025);
 		if (Math.random() < 0.1) {
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, (x + 0.5), (y + 0.7), (z + 0.5), 1, 0, 0.3, 0, 0.04);
