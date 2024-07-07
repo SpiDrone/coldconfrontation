@@ -69,6 +69,7 @@ public class ColdconfrontationModTabs {
 				tabData.accept(ColdconfrontationModBlocks.CAMPFIRE.get().asItem());
 				tabData.accept(ColdconfrontationModItems.WOLF_FUR.get());
 				tabData.accept(ColdconfrontationModItems.WOLF_PELT.get());
+				tabData.accept(ColdconfrontationModItems.TORCH.get());
 			})
 
 					.build());

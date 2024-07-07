@@ -2864,6 +2864,45 @@
         ]
       },
       "path": "~/Temperature"
+    },
+    {
+      "name": "Torch",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "torch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/torch.json",
+          "src/main/java/net/mcreator/coldconfrontation/item/TorchItem.java"
+        ]
+      },
+      "path": "~/Temperature"
+    },
+    {
+      "name": "HandTorch",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand_torch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/HandTorchProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Temperature"
     }
   ],
   "variable_elements": [
@@ -2938,8 +2977,8 @@
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
       "item.coldconfrontation.mutated_wolf_spawn_egg": "Mutated Wolf Spawn Egg",
-      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
+      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "gamerule.defaultCold.description": "how much heat the player loses on tick",
       "block.coldconfrontation.campfire": "Campfire",
@@ -2954,6 +2993,7 @@
       "block.coldconfrontation.winterwood_leaves": "Winterwood Leaves",
       "block.coldconfrontation.pine_fence_gate": "Pine Fence Gate",
       "block.coldconfrontation.arctic_willow": "Arctic Willow",
+      "item.coldconfrontation.torch": "Torch",
       "block.coldconfrontation.winterwood_door": "Winterwood Door",
       "block.coldconfrontation.tall_tundra_grass": "Tall Tundra Grass",
       "block.coldconfrontation.tundra_short_grass": "Tundra Short Grass",

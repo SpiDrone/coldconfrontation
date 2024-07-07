@@ -17,6 +17,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.coldconfrontation.item.WoolArmorItem;
 import net.mcreator.coldconfrontation.item.WolfPeltItem;
 import net.mcreator.coldconfrontation.item.WolfFurItem;
+import net.mcreator.coldconfrontation.item.TorchItem;
 import net.mcreator.coldconfrontation.item.SpearItem;
 import net.mcreator.coldconfrontation.item.SaskatoonBerryItem;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
@@ -78,6 +79,7 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> MUTATED_WOLF_SPAWN_EGG = REGISTRY.register("mutated_wolf_spawn_egg", () -> new ForgeSpawnEggItem(ColdconfrontationModEntities.MUTATED_WOLF, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> WOLF_FUR = REGISTRY.register("wolf_fur", () -> new WolfFurItem());
 	public static final RegistryObject<Item> WOLF_PELT = REGISTRY.register("wolf_pelt", () -> new WolfPeltItem());
+	public static final RegistryObject<Item> TORCH = REGISTRY.register("torch", () -> new TorchItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

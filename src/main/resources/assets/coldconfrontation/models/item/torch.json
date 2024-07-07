@@ -1,0 +1,7 @@
+{
+  "parent": "coldconfrontation:custom/torch",
+  "textures": {
+    "0": "coldconfrontation:block/torch",
+    "particle": "coldconfrontation:item/saskatoon_berry"
+  }
+}
