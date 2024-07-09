@@ -1,0 +1,43 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "wooden_spear",
+    "customModelName": "spear_item:wooden",
+    "blockingModelName": "Normal blocking",
+    "name": "Wooden Spear",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.8,
+    "enchantability": 2,
+    "damageVsEntity": 3.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.PLANKS"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SpearRightClick"
+    },
+    "onEntitySwing": {
+      "name": "SpearShoot"
+    }
+  }
+}

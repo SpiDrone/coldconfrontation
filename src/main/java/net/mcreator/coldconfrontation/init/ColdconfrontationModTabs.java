@@ -91,7 +91,9 @@ public class ColdconfrontationModTabs {
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(ColdconfrontationModItems.SPEAR.get());
+			tabData.accept(ColdconfrontationModItems.WOODEN_SPEAR.get());
+			tabData.accept(ColdconfrontationModItems.STONE_SPEAR.get());
+			tabData.accept(ColdconfrontationModItems.IRON_SPEAR.get());
 		}
 	}
 }

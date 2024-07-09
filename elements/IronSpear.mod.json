@@ -5,10 +5,10 @@
     "toolType": "MultiTool",
     "renderType": 1,
     "blockingRenderType": 0,
-    "texture": "wooden_spear",
+    "texture": "iron_spear",
     "customModelName": "spear_item:default",
     "blockingModelName": "Normal blocking",
-    "name": "Spear",
+    "name": "Iron Spear",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,9 +17,9 @@
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 0.8,
     "enchantability": 2,
-    "damageVsEntity": 4.0,
+    "damageVsEntity": 7.0,
     "usageCount": 100,
     "blocksAffected": [],
     "glowCondition": {
@@ -27,7 +27,7 @@
     },
     "repairItems": [
       {
-        "value": "Blocks.PLANKS"
+        "value": "Items.IRON_INGOT"
       }
     ],
     "immuneToFire": false,

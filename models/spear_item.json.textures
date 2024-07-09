@@ -5,6 +5,18 @@
         "0": "spear1"
       },
       "name": "default"
+    },
+    "wooden": {
+      "map": {
+        "0": "spear_wood"
+      },
+      "name": "wooden"
+    },
+    "stone": {
+      "map": {
+        "0": "spear_stone"
+      },
+      "name": "stone"
     }
   }
 }

@@ -1071,7 +1071,8 @@
         "files": [
           "src/main/java/net/mcreator/coldconfrontation/Notes.java"
         ]
-      }
+      },
+      "path": "~/FOR LATER"
     },
     {
       "name": "TundraShortGrassGen",
@@ -2153,21 +2154,6 @@
       "path": "~/spisfolderfuckyou"
     },
     {
-      "name": "Spear",
-      "type": "tool",
-      "sortid": 123,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spear",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coldconfrontation/item/SpearItem.java",
-          "src/main/resources/assets/coldconfrontation/models/item/spear.json"
-        ]
-      },
-      "path": "~/spisfolderfuckyou"
-    },
-    {
       "name": "SpearEntity",
       "type": "livingentity",
       "sortid": 124,
@@ -2941,6 +2927,51 @@
         ]
       },
       "path": "~/Weapons"
+    },
+    {
+      "name": "WoodenSpear",
+      "type": "tool",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/wooden_spear.json",
+          "src/main/java/net/mcreator/coldconfrontation/item/WoodenSpearItem.java"
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "StoneSpear",
+      "type": "tool",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/stone_spear.json",
+          "src/main/java/net/mcreator/coldconfrontation/item/StoneSpearItem.java"
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "IronSpear",
+      "type": "tool",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/item/IronSpearItem.java",
+          "src/main/resources/assets/coldconfrontation/models/item/iron_spear.json"
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
     }
   ],
   "variable_elements": [
@@ -3048,6 +3079,7 @@
       "effect.coldconfrontation.frost_bite": "frostbite",
       "item.coldconfrontation.wool_armor_helmet": "Wool Helmet",
       "entity.coldconfrontation.mutated_wolf": "Mutated Wolf",
+      "item.coldconfrontation.wooden_spear": "Wooden Spear",
       "effect.coldconfrontation.warm": "warm",
       "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
       "block.coldconfrontation.pine_palisade_roof_slab": "Pine Palisade Roof Slab",
@@ -3057,14 +3089,15 @@
       "item.coldconfrontation.wool_armor_boots": "Uggs",
       "gamerule.defaultCold": "coldValue",
       "item.coldconfrontation.wool_armor_chestplate": "Wool Chestplate",
-      "item.coldconfrontation.spear": "Spear",
       "block.coldconfrontation.stripped_pine_log": "Stripped Pine Log",
       "block.coldconfrontation.pine_log": "Pine Log",
+      "item.coldconfrontation.stone_spear": "Stone Spear",
       "block.coldconfrontation.pine_stairs": "Pine Stairs",
       "block.coldconfrontation.winterwood_planks": "Winterwood Planks",
       "item.coldconfrontation.wolf_fur": "Wolf Fur",
       "block.coldconfrontation.spruce_palisades": "Spruce Palisades",
       "block.coldconfrontation.stripped_winterwood_log": "Stripped Winterwood Log",
+      "item.coldconfrontation.iron_spear": "Iron Spear",
       "block.coldconfrontation.winterwood_sappling": "Winterwood Sappling",
       "item.coldconfrontation.saskatoon_berry": "Saskatoon Berry",
       "entity.coldconfrontation.mutant_fox": "Mutant Fox",

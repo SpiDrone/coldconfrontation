@@ -1,0 +1,43 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "stone_spear",
+    "customModelName": "spear_item:stone",
+    "blockingModelName": "Normal blocking",
+    "name": "Stone Spear",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.8,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SpearRightClick"
+    },
+    "onEntitySwing": {
+      "name": "SpearShoot"
+    }
+  }
+}

@@ -15,11 +15,13 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.coldconfrontation.item.WoolArmorItem;
+import net.mcreator.coldconfrontation.item.WoodenSpearItem;
 import net.mcreator.coldconfrontation.item.WolfPeltItem;
 import net.mcreator.coldconfrontation.item.WolfFurItem;
 import net.mcreator.coldconfrontation.item.TorchItem;
-import net.mcreator.coldconfrontation.item.SpearItem;
+import net.mcreator.coldconfrontation.item.StoneSpearItem;
 import net.mcreator.coldconfrontation.item.SaskatoonBerryItem;
+import net.mcreator.coldconfrontation.item.IronSpearItem;
 import net.mcreator.coldconfrontation.ColdconfrontationMod;
 
 public class ColdconfrontationModItems {
@@ -69,7 +71,6 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> WINTERWOOD_SAPPLING = block(ColdconfrontationModBlocks.WINTERWOOD_SAPPLING);
 	public static final RegistryObject<Item> SASKATOON_BERRY_BUSH = block(ColdconfrontationModBlocks.SASKATOON_BERRY_BUSH);
 	public static final RegistryObject<Item> MUTANT_FOX_SPAWN_EGG = REGISTRY.register("mutant_fox_spawn_egg", () -> new ForgeSpawnEggItem(ColdconfrontationModEntities.MUTANT_FOX, -1, -1, new Item.Properties()));
-	public static final RegistryObject<Item> SPEAR = REGISTRY.register("spear", () -> new SpearItem());
 	public static final RegistryObject<Item> SPEAR_ENTITY_SPAWN_EGG = REGISTRY.register("spear_entity_spawn_egg", () -> new ForgeSpawnEggItem(ColdconfrontationModEntities.SPEAR_ENTITY, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> CAMPFIRE = block(ColdconfrontationModBlocks.CAMPFIRE);
 	public static final RegistryObject<Item> WOOL_ARMOR_HELMET = REGISTRY.register("wool_armor_helmet", () -> new WoolArmorItem.Helmet());
@@ -80,6 +81,9 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> WOLF_FUR = REGISTRY.register("wolf_fur", () -> new WolfFurItem());
 	public static final RegistryObject<Item> WOLF_PELT = REGISTRY.register("wolf_pelt", () -> new WolfPeltItem());
 	public static final RegistryObject<Item> TORCH = REGISTRY.register("torch", () -> new TorchItem());
+	public static final RegistryObject<Item> WOODEN_SPEAR = REGISTRY.register("wooden_spear", () -> new WoodenSpearItem());
+	public static final RegistryObject<Item> STONE_SPEAR = REGISTRY.register("stone_spear", () -> new StoneSpearItem());
+	public static final RegistryObject<Item> IRON_SPEAR = REGISTRY.register("iron_spear", () -> new IronSpearItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

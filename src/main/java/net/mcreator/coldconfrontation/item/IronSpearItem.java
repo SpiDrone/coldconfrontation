@@ -10,6 +10,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
@@ -20,9 +21,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
@@ -34,8 +33,8 @@ import java.util.List;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
-public class SpearItem extends TieredItem {
-	public SpearItem() {
+public class IronSpearItem extends TieredItem {
+	public IronSpearItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 100;
@@ -46,7 +45,7 @@ public class SpearItem extends TieredItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 5f;
 			}
 
 			public int getLevel() {
@@ -58,7 +57,7 @@ public class SpearItem extends TieredItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(ItemTags.create(new ResourceLocation("minecraft:planks")));
+				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
 		}, new Item.Properties());
 	}
@@ -93,8 +92,8 @@ public class SpearItem extends TieredItem {
 		if (equipmentSlot == EquipmentSlot.MAINHAND) {
 			ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 			builder.putAll(super.getDefaultAttributeModifiers(equipmentSlot));
-			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Tool modifier", 2f, AttributeModifier.Operation.ADDITION));
-			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", -3, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Tool modifier", 5f, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", -3.2, AttributeModifier.Operation.ADDITION));
 			return builder.build();
 		}
 		return super.getDefaultAttributeModifiers(equipmentSlot);

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "coldconfrontation:spear"
+    "coldconfrontation:spear",
+    "coldconfrontation:wooden_spear",
+    "coldconfrontation:stone_spear",
+    "coldconfrontation:iron_spear"
   ]
 }

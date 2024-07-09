@@ -6,6 +6,15 @@
     "items": [
       {
         "value": "CUSTOM:Spear"
+      },
+      {
+        "value": "CUSTOM:WoodenSpear"
+      },
+      {
+        "value": "CUSTOM:StoneSpear"
+      },
+      {
+        "value": "CUSTOM:IronSpear"
       }
     ],
     "blocks": [],
