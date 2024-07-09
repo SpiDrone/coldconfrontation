@@ -52,6 +52,13 @@ neither tetch, because he's cool and stuff
 + Added /coldadmin command to move worldspawn
 //someone else do something please :)
 
+//Aslechi's changelogs// 
+7/8/24
++ Added "coldconfrontation:spears"
++ Added a range modifier to all spears when in stab mode
+^ Currently in " WeaponModifierOnTick "
+
+
 
 
 
