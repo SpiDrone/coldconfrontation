@@ -166,7 +166,8 @@ public class SpearTickProcedure {
 									}
 									return null;
 								}
-							}).get(world, (entity instanceof SpearEntityEntity _datEntS ? _datEntS.getEntityData().get(SpearEntityEntity.DATA_owner) : "")))), 6);
+							}).get(world, (entity instanceof SpearEntityEntity _datEntS ? _datEntS.getEntityData().get(SpearEntityEntity.DATA_owner) : "")))),
+									(float) (entity instanceof SpearEntityEntity _datEntI ? _datEntI.getEntityData().get(SpearEntityEntity.DATA_damage) : 0));
 							Vec3 motion = entity.getDeltaMovement().scale(0);
 							entity.setDeltaMovement(motion);
 							entity.setNoGravity(false);
