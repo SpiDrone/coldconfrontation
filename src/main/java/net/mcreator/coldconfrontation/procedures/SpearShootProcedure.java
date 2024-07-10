@@ -11,6 +11,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.coldconfrontation.init.ColdconfrontationModItems;
 import net.mcreator.coldconfrontation.init.ColdconfrontationModEntities;
 import net.mcreator.coldconfrontation.entity.SpearEntityEntity;
 
@@ -40,10 +41,28 @@ public class SpearShootProcedure {
 							_modHandler.setStackInSlot(_slotid, _setstack);
 					});
 				}
-				if ((entitytospawn) instanceof SpearEntityEntity _datEntSetI)
-					_datEntSetI.getEntityData().set(SpearEntityEntity.DATA_strength, 40);
 				if ((entitytospawn) instanceof SpearEntityEntity _datEntSetS)
 					_datEntSetS.getEntityData().set(SpearEntityEntity.DATA_owner, (entity.getStringUUID()));
+				if (itemstack.getItem() == ColdconfrontationModItems.WOODEN_SPEAR.get()) {
+					if ((entitytospawn) instanceof SpearEntityEntity _datEntSetS)
+						_datEntSetS.getEntityData().set(SpearEntityEntity.DATA_texture, "coldconfrontation:textures/entities/spear_wood.png");
+					if ((entitytospawn) instanceof SpearEntityEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(SpearEntityEntity.DATA_strength, 30);
+					if ((entitytospawn) instanceof SpearEntityEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(SpearEntityEntity.DATA_damage, (int) 4.5);
+				} else if (itemstack.getItem() == ColdconfrontationModItems.STONE_SPEAR.get()) {
+					if ((entitytospawn) instanceof SpearEntityEntity _datEntSetS)
+						_datEntSetS.getEntityData().set(SpearEntityEntity.DATA_texture, "coldconfrontation:textures/entities/spear_stone.png");
+					if ((entitytospawn) instanceof SpearEntityEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(SpearEntityEntity.DATA_strength, 35);
+					if ((entitytospawn) instanceof SpearEntityEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(SpearEntityEntity.DATA_damage, (int) 5.5);
+				} else if (itemstack.getItem() == ColdconfrontationModItems.IRON_SPEAR.get()) {
+					if ((entitytospawn) instanceof SpearEntityEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(SpearEntityEntity.DATA_damage, (int) 7.5);
+					if ((entitytospawn) instanceof SpearEntityEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(SpearEntityEntity.DATA_strength, 40);
+				}
 			}
 			itemstack.shrink(1);
 		}

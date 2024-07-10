@@ -2972,6 +2972,26 @@
         ]
       },
       "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "Steal",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/StealProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/spisfolderfuckyou"
     }
   ],
   "variable_elements": [

@@ -196,6 +196,18 @@
         "name": "strength",
         "type": "integer",
         "value": 0
+      },
+      {
+        "name": "texture",
+        "type": "string",
+        "value": "coldconfrontation:textures/entities/spear1.png"
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "damage",
+        "type": "integer",
+        "value": 0
       }
     ],
     "onMobTickUpdate": {

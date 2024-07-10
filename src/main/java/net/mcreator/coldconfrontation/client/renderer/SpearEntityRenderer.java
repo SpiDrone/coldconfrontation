@@ -15,6 +15,7 @@ public class SpearEntityRenderer extends MobRenderer<SpearEntityEntity, Modelspe
 
 	@Override
 	public ResourceLocation getTextureLocation(SpearEntityEntity entity) {
-		return new ResourceLocation("coldconfrontation:textures/entities/spear1.png");
+		String texture = entity.getEntityData().get(SpearEntityEntity.DATA_texture);
+		return new ResourceLocation(texture);
 	}
 }
