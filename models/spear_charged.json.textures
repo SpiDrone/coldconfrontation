@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spear_wood"
+      },
+      "name": "default"
+    },
+    "metal": {
+      "map": {
+        "0": "spear1"
+      },
+      "name": "metal"
+    },
+    "stone": {
+      "map": {
+        "0": "spear_stone"
+      },
+      "name": "stone"
+    }
+  }
+}

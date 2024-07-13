@@ -14,25 +14,6 @@
       }
     },
     {
-      "name": "Sigma",
-      "type": "procedure",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sigma",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/coldconfrontation/procedures/SigmaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "TabColdConfrontation",
       "type": "tab",
       "sortid": 47,
@@ -1071,8 +1052,7 @@
         "files": [
           "src/main/java/net/mcreator/coldconfrontation/Notes.java"
         ]
-      },
-      "path": "~/FOR LATER"
+      }
     },
     {
       "name": "TundraShortGrassGen",
@@ -2821,7 +2801,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/FOR LATER"
     },
     {
       "name": "IgnitionSource",
@@ -2933,7 +2914,7 @@
       "type": "tool",
       "sortid": 162,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "wooden_spear",
       "metadata": {
         "files": [
@@ -2948,7 +2929,7 @@
       "type": "tool",
       "sortid": 163,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "stone_spear",
       "metadata": {
         "files": [
@@ -2963,7 +2944,7 @@
       "type": "tool",
       "sortid": 164,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "iron_spear",
       "metadata": {
         "files": [
@@ -3066,8 +3047,8 @@
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
       "item.coldconfrontation.mutated_wolf_spawn_egg": "Mutated Wolf Spawn Egg",
-      "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
       "block.coldconfrontation.pine_palisades": "Pine Palisades",
+      "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "gamerule.defaultCold.description": "how much heat the player loses on tick",
       "block.coldconfrontation.campfire": "Campfire",

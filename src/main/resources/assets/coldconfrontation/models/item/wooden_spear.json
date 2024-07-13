@@ -3,5 +3,13 @@
   "textures": {
     "0": "coldconfrontation:block/spear_wood",
     "particle": "coldconfrontation:item/wooden_spear"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "coldconfrontation:item/wooden_spear_charged"
+    }
+  ]
 }
