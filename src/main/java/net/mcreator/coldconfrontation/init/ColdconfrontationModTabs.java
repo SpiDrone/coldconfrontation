@@ -70,6 +70,8 @@ public class ColdconfrontationModTabs {
 				tabData.accept(ColdconfrontationModItems.WOLF_FUR.get());
 				tabData.accept(ColdconfrontationModItems.WOLF_PELT.get());
 				tabData.accept(ColdconfrontationModItems.TORCH.get());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_LOG_SLAB.get().asItem());
+				tabData.accept(ColdconfrontationModBlocks.WINTERWOOD_LOG_STAIRS.get().asItem());
 			})
 
 					.build());

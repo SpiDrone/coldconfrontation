@@ -2973,6 +2973,44 @@
         ]
       },
       "path": "~/spisfolderfuckyou"
+    },
+    {
+      "name": "WinterwoodLogSlab",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_log_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_log_slab_top.json",
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_log_slab.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_log_slab.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_log_slab_full.json",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_log_slab.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodLogSlabBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodLogStairs",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/item/winterwood_log_stairs.json",
+          "src/main/java/net/mcreator/coldconfrontation/block/WinterwoodLogStairsBlock.java",
+          "src/main/resources/assets/coldconfrontation/blockstates/winterwood_log_stairs.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_log_stairs_outer.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_log_stairs.json",
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_log_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
     }
   ],
   "variable_elements": [
@@ -3047,8 +3085,8 @@
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
       "item.coldconfrontation.mutated_wolf_spawn_egg": "Mutated Wolf Spawn Egg",
-      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
+      "block.coldconfrontation.pine_palisades": "Pine Palisades",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "gamerule.defaultCold.description": "how much heat the player loses on tick",
       "block.coldconfrontation.campfire": "Campfire",
@@ -3056,6 +3094,7 @@
       "block.coldconfrontation.spruce_palisade_roof_stairs": "Spruce Palisade Roof Stairs",
       "block.coldconfrontation.pine_pressure_plate": "Pine Pressure Plate",
       "block.coldconfrontation.pine_fence": "Pine Fence",
+      "block.coldconfrontation.winterwood_log_stairs": "Winterwood Log Stairs",
       "item_group.coldconfrontation.tab_cold_confrontation": "Cold Confrontation",
       "entity.coldconfrontation.spear_entity": "Spear",
       "biome.coldconfrontation.decaying_tundra": "Decaying Tundra",
@@ -3082,6 +3121,7 @@
       "entity.coldconfrontation.mutated_wolf": "Mutated Wolf",
       "item.coldconfrontation.wooden_spear": "Wooden Spear",
       "effect.coldconfrontation.warm": "warm",
+      "block.coldconfrontation.winterwood_log_slab": "Winterwood Log Slab",
       "block.coldconfrontation.pine_trapdoor": "Pine Trapdoor",
       "block.coldconfrontation.pine_palisade_roof_slab": "Pine Palisade Roof Slab",
       "block.coldconfrontation.spruce_palisade_block": "Spruce Palisade Block",
@@ -3258,6 +3298,10 @@
       },
       {
         "name": "Commands",
+        "children": []
+      },
+      {
+        "name": "Tetchy folder",
         "children": []
       }
     ]

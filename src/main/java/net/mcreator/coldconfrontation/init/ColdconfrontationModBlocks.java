@@ -17,6 +17,8 @@ import net.mcreator.coldconfrontation.block.WinterwoodSlabBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodSapplingBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodPressurePlateBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodPlanksBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodLogStairsBlock;
+import net.mcreator.coldconfrontation.block.WinterwoodLogSlabBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodLogBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodLeavesBlock;
 import net.mcreator.coldconfrontation.block.WinterwoodFenceGateBlock;
@@ -102,4 +104,6 @@ public class ColdconfrontationModBlocks {
 	public static final RegistryObject<Block> WINTERWOOD_SAPPLING = REGISTRY.register("winterwood_sappling", () -> new WinterwoodSapplingBlock());
 	public static final RegistryObject<Block> SASKATOON_BERRY_BUSH = REGISTRY.register("saskatoon_berry_bush", () -> new SaskatoonBerryBushBlock());
 	public static final RegistryObject<Block> CAMPFIRE = REGISTRY.register("campfire", () -> new CampfireBlock());
+	public static final RegistryObject<Block> WINTERWOOD_LOG_SLAB = REGISTRY.register("winterwood_log_slab", () -> new WinterwoodLogSlabBlock());
+	public static final RegistryObject<Block> WINTERWOOD_LOG_STAIRS = REGISTRY.register("winterwood_log_stairs", () -> new WinterwoodLogStairsBlock());
 }

@@ -84,6 +84,8 @@ public class ColdconfrontationModItems {
 	public static final RegistryObject<Item> WOODEN_SPEAR = REGISTRY.register("wooden_spear", () -> new WoodenSpearItem());
 	public static final RegistryObject<Item> STONE_SPEAR = REGISTRY.register("stone_spear", () -> new StoneSpearItem());
 	public static final RegistryObject<Item> IRON_SPEAR = REGISTRY.register("iron_spear", () -> new IronSpearItem());
+	public static final RegistryObject<Item> WINTERWOOD_LOG_SLAB = block(ColdconfrontationModBlocks.WINTERWOOD_LOG_SLAB);
+	public static final RegistryObject<Item> WINTERWOOD_LOG_STAIRS = block(ColdconfrontationModBlocks.WINTERWOOD_LOG_STAIRS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

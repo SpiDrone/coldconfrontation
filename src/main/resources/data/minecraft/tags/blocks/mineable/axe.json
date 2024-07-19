@@ -28,6 +28,8 @@
     "coldconfrontation:stripped_winterwood_log",
     "coldconfrontation:winterwood_door",
     "coldconfrontation:winterwood_trapdoor",
-    "coldconfrontation:campfire"
+    "coldconfrontation:campfire",
+    "coldconfrontation:winterwood_log_slab",
+    "coldconfrontation:winterwood_log_stairs"
   ]
 }
