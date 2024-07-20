@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "coldconfrontation:block/winterwood_leaves"
+      "model": "coldconfrontation:custom/bushy_leaves"
     }
   }
 }

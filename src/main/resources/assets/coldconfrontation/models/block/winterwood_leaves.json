@@ -1,7 +1,10 @@
 {
-  "parent": "block/cube_all",
+  "parent": "coldconfrontation:custom/bushy_leaves",
   "textures": {
     "all": "coldconfrontation:block/winterwood_leaves",
-    "particle": "coldconfrontation:block/winterwood_leaves"
-  }
+    "particle": "coldconfrontation:block/winterwood_leaves",
+    "0": "coldconfrontation:block/winterwood_leaves",
+    "1": "coldconfrontation:block/winterwood_leaves_bush"
+  },
+  "render_type": "translucent"
 }

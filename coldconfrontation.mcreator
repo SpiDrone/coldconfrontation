@@ -1413,7 +1413,7 @@
       "type": "block",
       "sortid": 33,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "winterwood_leaves",
       "metadata": {
         "files": [
@@ -3085,8 +3085,8 @@
       "block.coldconfrontation.winterwood_fence": "Winterwood Fence",
       "block.coldconfrontation.winterwood_slab": "Winterwood Slab",
       "item.coldconfrontation.mutated_wolf_spawn_egg": "Mutated Wolf Spawn Egg",
-      "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
       "block.coldconfrontation.pine_palisades": "Pine Palisades",
+      "block.coldconfrontation.saskatoon_berry_bush": "Saskatoon Berry Bush",
       "block.coldconfrontation.winterwood_button": "Winterwood Button",
       "gamerule.defaultCold.description": "how much heat the player loses on tick",
       "block.coldconfrontation.campfire": "Campfire",

@@ -58,6 +58,12 @@ neither tetch, because he's cool and stuff
 + Added a range modifier to all spears when in stab mode
 ^ Currently in " WeaponModifierOnTick "
 
+// Tetchy's Changelog
+20/07/2024
++ Added Winterwood slabs and stairs (will be used as trees branches)
++ Added Bushy Leaves 
++ Changed Winterwood Leaves to use Bushy Leaves model instead default one
+
 
 
 
