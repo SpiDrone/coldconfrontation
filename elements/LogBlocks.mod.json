@@ -16,6 +16,12 @@
       },
       {
         "value": "CUSTOM:PineWood"
+      },
+      {
+        "value": "CUSTOM:WinterwoodLogSlab"
+      },
+      {
+        "value": "CUSTOM:WinterwoodLogStairs"
       }
     ],
     "functions": [],

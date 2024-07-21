@@ -4,6 +4,8 @@
     "coldconfrontation:winterwood_wood",
     "coldconfrontation:winterwood_log",
     "coldconfrontation:pine_log",
-    "coldconfrontation:pine_wood"
+    "coldconfrontation:pine_wood",
+    "coldconfrontation:winterwood_log_slab",
+    "coldconfrontation:winterwood_log_stairs"
   ]
 }
