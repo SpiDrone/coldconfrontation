@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "blockstates",
+  "definition": {
+    "block": "WinterwoodLeaves",
+    "blockstateList": [
+      {
+        "texture": "winterwood_leaves",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "bushy_leaves_1:default",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

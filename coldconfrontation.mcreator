@@ -3011,6 +3011,52 @@
         ]
       },
       "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodLeavesBlockstate",
+      "type": "blockstates",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_leaves_blockstate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/coldconfrontation/models/block/winterwood_leaves_blockstate_blockstate_0.json"
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
+    },
+    {
+      "name": "WinterwoodLeavesBlockAdded",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winterwood_leaves_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coldconfrontation/procedures/WinterwoodLeavesBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Wood/Winterwood"
     }
   ],
   "variable_elements": [

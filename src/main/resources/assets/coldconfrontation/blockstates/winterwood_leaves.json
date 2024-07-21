@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "blockstate=0": {
       "model": "coldconfrontation:block/winterwood_leaves"
+    },
+    "blockstate=1": {
+      "model": "coldconfrontation:block/winterwood_leaves_blockstate_blockstate_0"
     }
   }
 }
